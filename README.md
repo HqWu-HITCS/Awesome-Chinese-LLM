@@ -58,3 +58,13 @@
 * firefly-train-1.1M：
   * 地址：https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M
   * 数据集说明：23个常见的中文数据集，对于每个任务，由人工书写若干种指令模板，保证数据的高质量与丰富度，数据量为115万
+
+* BELLE-data-1.5M：
+  * 地址：https://github.com/LianjiaTech/BELLE/tree/main/data/1.5M
+  * 数据集说明：通过self-instruct生成，使用了中文种子任务，以及openai的text-davinci-003接口,涉及175个种子任务
+
+* Chinese Scientific Literature Dataset：
+  * 地址：https://github.com/ydli-ai/csl
+  * 数据集说明：中文科学文献数据集（CSL），包含 396,209 篇中文核心期刊论文元信息 （标题、摘要、关键词、学科、门类）以及简单的prompt
+
+
