@@ -47,6 +47,14 @@
 
 ##  3. <a name='Dataset'></a>Dataset
 
-* alpaca_chinese_dataset：https://github.com/hikariming/alpaca_chinese_dataset
+* alpaca_chinese_dataset：
+  * 地址：https://github.com/hikariming/alpaca_chinese_dataset
+  * 数据集说明：alpaca数据集进行中文翻译，并再制造一些对话数据
 
-* pCLUE：https://github.com/CLUEbenchmark/pCLUE
+* pCLUE：
+  * 地址：https://github.com/CLUEbenchmark/pCLUE
+  * 数据集说明：120万训练数据，73个Prompt，共包括9个任务
+
+* firefly-train-1.1M：
+  * 地址：https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M
+  * 数据集说明：23个常见的中文数据集，对于每个任务，由人工书写若干种指令模板，保证数据的高质量与丰富度，数据量为115万
