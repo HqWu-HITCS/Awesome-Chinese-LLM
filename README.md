@@ -105,6 +105,7 @@
   * 数据集说明：中文科学文献数据集（CSL），包含 396,209 篇中文核心期刊论文元信息 （标题、摘要、关键词、学科、门类）以及简单的prompt
 
 
-## 贡献者
+## 作者
 
+* [HqWu-HITCS](https://github.com/HqWu-HITCS)
 * [thinkwee](https://github.com/thinkwee)
