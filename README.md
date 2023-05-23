@@ -2,13 +2,13 @@
 
 自ChatGPT为代表的大语言模型（Large Language Model, LLM）出现以后，由于其惊人的类通用人工智能（AGI）的能力，掀起了新一轮自然语言处理领域的研究和应用的浪潮。尤其是以ChatGLM、LLaMA等平民玩家都能跑起来的较小规模的LLM开源之后，业界涌现了非常多基于LLM的二次微调或应用的案例。本项目旨在收集和梳理中文LLM相关的开源模型、应用和数据集等资料。
 
-- [Awesome-Chinese-LLM](#awesome-chinese-llm)
+## 目录
   - [1. Model](#1-model)
   - [2. Application](#2-application)
   - [3. Dataset](#3-dataset)
 
 
-##  1. <a name='Model'></a>Model
+###  1. <a name='Model'></a>Model
 
 * ChatGLM：
   * 地址：https://github.com/THUDM/ChatGLM-6B
@@ -43,7 +43,7 @@
   * 简介：元语智能发布的一个支持中英双语的功能型对话语言大模型
 
 
-##  2. <a name='Application'></a>Application
+###  2. <a name='Application'></a>Application
 
 * Chinese-LangChain：
   * 地址：https://github.com/yanqiangmiffy/Chinese-LangChain
@@ -82,7 +82,7 @@
   * 简介：中文对话式大语言模型，构造了许多与中华文化相关的数据，以提升模型这方面的表现，如对联、作诗、文言文翻译、散文、金庸小说等。
 
 
-##  3. <a name='Dataset'></a>Dataset
+###  3. <a name='Dataset'></a>Dataset
 
 * alpaca_chinese_dataset：
   * 地址：https://github.com/hikariming/alpaca_chinese_dataset
@@ -105,3 +105,6 @@
   * 数据集说明：中文科学文献数据集（CSL），包含 396,209 篇中文核心期刊论文元信息 （标题、摘要、关键词、学科、门类）以及简单的prompt
 
 
+## 贡献者
+
+* [thinkwee](https://github.com/thinkwee)
