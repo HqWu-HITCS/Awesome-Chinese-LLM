@@ -34,6 +34,10 @@
   * 地址：https://github.com/LC1332/Luotuo-Chinese-LLM
   * 简介：中文大语言模型开源项目，包含了一系列语言模型
 
+* Linly：
+  * 地址：https://github.com/CVI-SZU/Linly
+  * 简介：提供中文对话模型 Linly-ChatFlow 、中文基础模型 Linly-Chinese-LLaMA 及其训练数据。 中文基础模型以 LLaMA 为底座，利用中文和中英平行增量预训练。项目汇总了目前公开的多语言指令数据，对中文模型进行了大规模指令跟随训练，实现了 Linly-ChatFlow 对话模型。
+
 
 ##  2. <a name='Application'></a>Application
 
