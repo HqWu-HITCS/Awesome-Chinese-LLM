@@ -1,11 +1,12 @@
 # Awesome-Chinese-LLM
 
-自ChatGPT为代表的大语言模型（Large Language Model, LLM）出现以后，由于其惊人的类通用人工智能（AGI）的能力，掀起了新一轮自然语言处理领域的研究和应用的浪潮。尤其是以ChatGLM、LLaMA等平民玩家都能跑起来的较小规模的LLM开源之后，业界涌现了非常多基于LLM的二次微调或应用的案例。本项目旨在收集和梳理中文LLM相关的开源模型、应用和数据集等资料。
+自ChatGPT为代表的大语言模型（Large Language Model, LLM）出现以后，由于其惊人的类通用人工智能（AGI）的能力，掀起了新一轮自然语言处理领域的研究和应用的浪潮。尤其是以ChatGLM、LLaMA等平民玩家都能跑起来的较小规模的LLM开源之后，业界涌现了非常多基于LLM的二次微调或应用的案例。本项目旨在收集和梳理中文LLM相关的开源模型、应用、数据集及教程等资料。
 
 ## 目录
   - [1. Model](#1-model)
   - [2. Application](#2-application)
   - [3. Dataset](#3-dataset)
+  - [4. Tutorial](#4-tutorial)
 
 
 ###  1. <a name='Model'></a>Model
@@ -104,6 +105,12 @@
   * 地址：https://github.com/ydli-ai/csl
   * 数据集说明：中文科学文献数据集（CSL），包含 396,209 篇中文核心期刊论文元信息 （标题、摘要、关键词、学科、门类）以及简单的prompt
 
+###  4. <a name='Tutorial'></a>Tutorial
+
+* LangChain 🦜️🔗 中文网，跟着LangChain一起学LLM/GPT开发：
+  * 地址：https://github.com/ydli-ai/csl
+  * 简介：Langchain的中文文档，由是两个在LLM创业者维护，希望帮助到从刚进入AI应用开发的朋友们。
+ 
 
 ## 作者
 
