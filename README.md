@@ -6,7 +6,8 @@
   - [1. Model](#1-model)
   - [2. Application](#2-application)
   - [3. Dataset](#3-dataset)
-  - [4. Tutorial](#4-tutorial)
+  - [4. Evaluation](#4-evaluation)
+  - [5. Tutorial](#5-tutorial)
 
 
 ###  1. <a name='Model'></a>Model
@@ -105,7 +106,13 @@
   * 地址：https://github.com/ydli-ai/csl
   * 数据集说明：中文科学文献数据集（CSL），包含 396,209 篇中文核心期刊论文元信息 （标题、摘要、关键词、学科、门类）以及简单的prompt
 
-###  4. <a name='Tutorial'></a>Tutorial
+###  4. <a name='Evaluation'></a>Evaluation
+
+* C-Eval: 构造中文大模型的知识评估基准：
+  * 地址：https://yaofu.notion.site/C-Eval-6b79edd91b454e3d8ea41c59ea2af873
+  * 简介：构造了一个覆盖人文，社科，理工，其他专业四个大方向，52 个学科（微积分，线代 …），从中学到大学研究生以及职业考试，一共 13948 道题目的中文知识和推理型测试集
+
+###  5. <a name='Tutorial'></a>Tutorial
 
 * LangChain 🦜️🔗 中文网，跟着LangChain一起学LLM/GPT开发：
   * 地址：https://github.com/ydli-ai/csl
