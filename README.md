@@ -112,6 +112,10 @@
   * 地址：https://yaofu.notion.site/C-Eval-6b79edd91b454e3d8ea41c59ea2af873
   * 简介：构造了一个覆盖人文，社科，理工，其他专业四个大方向，52 个学科（微积分，线代 …），从中学到大学研究生以及职业考试，一共 13948 道题目的中文知识和推理型测试集。此外还给出了当前主流中文LLM的评测结果。
 
+* PromptCBLUE: 中文医疗场景的LLM评测基准
+  * 地址：https://github.com/michael-wzhu/PromptCBLUE
+  * 简介：为推动LLM在医疗领域的发展和落地，由华东师范大学联合阿里巴巴天池平台，复旦大学附属华山医院，东北大学，哈尔滨工业大学（深圳），鹏城实验室与同济大学推出PromptCBLUE评测基准, 将16种不同的医疗场景NLP任务全部转化为基于提示的语言生成任务,形成首个中文医疗场景的LLM评测基准。
+
 ###  5. <a name='Tutorial'></a>Tutorial
 
 * LangChain 🦜️🔗 中文网，跟着LangChain一起学LLM/GPT开发：
