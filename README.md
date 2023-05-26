@@ -73,7 +73,7 @@
 
 * wenda：
   * 地址：https://github.com/wenda-LLM/wenda
-  * 简介：一个LLM调用平台。为小模型外挂知识库查找和设计自动执行动作，实现不亚于于大模型的生成能力
+  * 简介：一个LLM调用平台。为小模型外挂知识库查找和设计自动执行动作，实现不亚于于大模型的生成能力。
 
 * LaWGPT：
   * 地址：https://github.com/pengxiao-song/LaWGPT
@@ -82,6 +82,10 @@
 * Firefly：
   * 地址：https://github.com/yangjianxin1/Firefly
   * 简介：中文对话式大语言模型，构造了许多与中华文化相关的数据，以提升模型这方面的表现，如对联、作诗、文言文翻译、散文、金庸小说等。
+
+* JittorLLMs：
+  * 地址：https://github.com/Jittor/JittorLLMs
+  * 简介：计图大模型推理库：笔记本没有显卡也能跑大模型，具有成本低，支持广，可移植，速度快等优势。
 
 
 ###  3. <a name='Dataset'></a>Dataset
@@ -121,6 +125,10 @@
 * LangChain 🦜️🔗 中文网，跟着LangChain一起学LLM/GPT开发：
   * 地址：https://github.com/ydli-ai/csl
   * 简介：Langchain的中文文档，由是两个在LLM创业者维护，希望帮助到从刚进入AI应用开发的朋友们。
+
+* LLMs九层妖塔：
+  * 地址：https://github.com/km1994/LLMsNineStoryDemonTower
+  * 简介：ChatGLM、Chinese-LLaMA-Alpaca、MiniGPT-4、FastChat、LLaMA、gpt4all等实战与经验。
  
 
 ## 作者
