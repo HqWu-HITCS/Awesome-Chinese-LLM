@@ -8,6 +8,7 @@
   - [3. Dataset](#3-dataset)
   - [4. Evaluation](#4-evaluation)
   - [5. Tutorial](#5-tutorial)
+  - [6. Related Repository](#6-related-repository)
 
 
 ###  1. <a name='Model'></a>Model
@@ -130,6 +131,16 @@
   * 地址：https://github.com/km1994/LLMsNineStoryDemonTower
   * 简介：ChatGLM、Chinese-LLaMA-Alpaca、MiniGPT-4、FastChat、LLaMA、gpt4all等实战与经验。
  
+ ###  6. <a name='Related Repository'></a>Related Repository
+ 
+* FindTheChatGPTer：
+  * 地址：https://github.com/chenking2020/FindTheChatGPTer
+  * 简介：ChatGPT爆火，开启了通往AGI的关键一步，本项目旨在汇总那些ChatGPT的开源平替们，包括文本大模型、多模态大模型等，为大家提供一些便利。
+
+* LLM_reviewer：
+  * 地址：https://github.com/SpartanBin/LLM_reviewer
+  * 简介：总结归纳近期井喷式发展的大语言模型，以开源、规模较小、可私有化部署、训练成本较低的‘小羊驼类’模型为主。
+
 
 ## 作者
 
