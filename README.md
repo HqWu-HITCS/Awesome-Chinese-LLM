@@ -121,6 +121,10 @@
   * 地址：https://github.com/michael-wzhu/PromptCBLUE
   * 简介：为推动LLM在医疗领域的发展和落地，由华东师范大学联合阿里巴巴天池平台，复旦大学附属华山医院，东北大学，哈尔滨工业大学（深圳），鹏城实验室与同济大学推出PromptCBLUE评测基准, 将16种不同的医疗场景NLP任务全部转化为基于提示的语言生成任务,形成首个中文医疗场景的LLM评测基准。
 
+* Open LLM Leaderboard：
+  * 地址：https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
+  * 简介：由HuggingFace组织的一个LLM评测榜单，目前已评估了较多主流的开源LLM模型。评估主要包括AI2 Reasoning Challenge, HellaSwag, MMLU, TruthfulQA四个数据集上的表现。
+
 ###  5. <a name='Tutorial'></a>Tutorial
 
 * LangChain 🦜️🔗 中文网，跟着LangChain一起学LLM/GPT开发：
