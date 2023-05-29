@@ -95,6 +95,10 @@
   * 地址：https://github.com/hikariming/alpaca_chinese_dataset
   * 数据集说明：alpaca数据集进行中文翻译，并再制造一些对话数据
 
+* Alpaca-CoT：
+  * 地址：https://github.com/PhoebusSi/Alpaca-CoT
+  * 数据集说明：统一了丰富的IFT数据（如CoT数据，目前仍不断扩充）、多种训练效率方法（如lora，p-tuning）以及多种LLMs，三个层面上的接口，打造方便研究人员上手的LLM-IFT研究平台。
+
 * pCLUE：
   * 地址：https://github.com/CLUEbenchmark/pCLUE
   * 数据集说明：120万训练数据，73个Prompt，共包括9个任务
@@ -144,6 +148,10 @@
 * LLM_reviewer：
   * 地址：https://github.com/SpartanBin/LLM_reviewer
   * 简介：总结归纳近期井喷式发展的大语言模型，以开源、规模较小、可私有化部署、训练成本较低的‘小羊驼类’模型为主。
+
+* Awesome-AITools：
+  * 地址：https://github.com/ikaijua/Awesome-AITools
+  * 简介：收藏整理了AI相关的实用工具、评测和相关文章。
 
 
 ## 作者
