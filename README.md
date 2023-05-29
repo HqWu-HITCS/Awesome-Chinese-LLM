@@ -150,7 +150,7 @@
   * 简介：总结归纳近期井喷式发展的大语言模型，以开源、规模较小、可私有化部署、训练成本较低的‘小羊驼类’模型为主。
 
 * Awesome-AITools：
-  * 地址：https://github.com/ikaijua/Awesome-AITools
+  * 地址：https://github.com/ikaijua/Awesome-AITools/blob/main/README-CN.md
   * 简介：收藏整理了AI相关的实用工具、评测和相关文章。
 
 
