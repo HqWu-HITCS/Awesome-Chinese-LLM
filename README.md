@@ -68,6 +68,10 @@
   * 地址：https://github.com/SCIR-HI/Med-ChatGLM
   * 简介：基于中文医学知识的ChatGLM模型微调
 
+* QiZhenGPT：
+  * 地址：https://github.com/CMKRG/QiZhenGPT
+  * 简介：该项目利用启真医学知识库构建的中文医学指令数据集，并基于此在LLaMA-7B模型上进行指令精调，大幅提高了模型在中文医疗场景下效果，首先针对药品知识问答发布了评测数据集，后续计划优化疾病、手术、检验等方面的问答效果，并针对医患问答、病历自动生成等应用展开拓展。
+
 * GPT Academic：
   * 地址：https://github.com/binary-husky/gpt_academic
   * 简介：为GPT/GLM提供图形交互界面，特别优化论文阅读润色体验，支持并行问询多种LLM模型，支持清华chatglm等本地模型。兼容复旦MOSS, llama, rwkv, 盘古等。
