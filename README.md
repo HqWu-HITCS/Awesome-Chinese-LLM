@@ -88,6 +88,10 @@
   * 地址：https://github.com/Jittor/JittorLLMs
   * 简介：计图大模型推理库：笔记本没有显卡也能跑大模型，具有成本低，支持广，可移植，速度快等优势。
 
+* WebCPM
+  * 地址：https://github.com/thunlp/WebCPM
+  * 简介：一个支持可交互网页搜索的中文大模型。 
+
 
 ###  3. <a name='Dataset'></a>Dataset
 
