@@ -166,3 +166,14 @@
 
 * [HqWu-HITCS](https://github.com/HqWu-HITCS)
 * [thinkwee](https://github.com/thinkwee)
+
+## Star History
+
+<a href="https://star-history.com/#HqWu-HITCS/Awesome-Chinese-LLM&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=HqWu-HITCS/Awesome-Chinese-LLM&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=HqWu-HITCS/Awesome-Chinese-LLM&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=HqWu-HITCS/Awesome-Chinese-LLM&type=Date" />
+  </picture>
+</a>
+
