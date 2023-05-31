@@ -45,6 +45,9 @@
   * 地址：https://github.com/clue-ai/ChatYuan
   * 简介：元语智能发布的一个支持中英双语的功能型对话语言大模型
 
+* CPM-Bee
+  * 地址：https://github.com/OpenBMB/CPM-Bee
+  * 简介：一个完全开源、允许商用的百亿参数中英文基座模型。它采用Transformer自回归架构（auto-regressive），在超万亿（trillion）高质量语料上进行预训练，拥有强大的基础能力。开发者和研究者可以在CPM-Bee基座模型的基础上在各类场景进行适配来以创建特定领域的应用模型。
 
 ###  2. <a name='Application'></a>Application
 
