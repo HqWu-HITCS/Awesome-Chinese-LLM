@@ -35,7 +35,7 @@
 
 * Luotuo-Chinese-LLM：
   * 地址：https://github.com/LC1332/Luotuo-Chinese-LLM
-  * 简介：中文大语言模型开源项目，包含了一系列语言模型
+  * 简介：中文大语言模型开源项目，包含了一系列大规模语言模型，指令微调数据集等。
 
 * Linly：
   * 地址：https://github.com/CVI-SZU/Linly
@@ -43,13 +43,49 @@
 
 * ChatYuan
   * 地址：https://github.com/clue-ai/ChatYuan
-  * 简介：元语智能发布的一个支持中英双语的功能型对话语言大模型
+  * 简介：元语智能发布的一系列支持中英双语的功能型对话语言大模型，在微调数据、人类反馈强化学习、思维链等方面进行了优化。
 
 * CPM-Bee
   * 地址：https://github.com/OpenBMB/CPM-Bee
   * 简介：一个完全开源、允许商用的百亿参数中英文基座模型。它采用Transformer自回归架构（auto-regressive），在超万亿（trillion）高质量语料上进行预训练，拥有强大的基础能力。开发者和研究者可以在CPM-Bee基座模型的基础上在各类场景进行适配来以创建特定领域的应用模型。
 
 ###  2. <a name='Application'></a>Application
+
+#### 垂直领域微调
+
+* DoctorGLM：
+  * 地址：https://github.com/xionghonglin/DoctorGLM
+  * 简介：基于 ChatGLM-6B的中文问诊模型，通过中文医疗对话数据集进行微调，实现了包括lora、p-tuningv2等微调及部署
+
+* BenTsao：
+  * 地址：https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese
+  * 简介：开源了经过中文医学指令精调/指令微调(Instruct-tuning) 的LLaMA-7B模型。通过医学知识图谱和GPT3.5 API构建了中文医学指令数据集，并在此基础上对LLaMA进行了指令微调，提高了LLaMA在医疗领域的问答效果。
+
+* Med-ChatGLM：
+  * 地址：https://github.com/SCIR-HI/Med-ChatGLM
+  * 简介：基于中文医学知识的ChatGLM模型微调，微调数据与BenTsao相同。
+
+* QiZhenGPT：
+  * 地址：https://github.com/CMKRG/QiZhenGPT
+  * 简介：该项目利用启真医学知识库构建的中文医学指令数据集，并基于此在LLaMA-7B模型上进行指令精调，大幅提高了模型在中文医疗场景下效果，首先针对药品知识问答发布了评测数据集，后续计划优化疾病、手术、检验等方面的问答效果，并针对医患问答、病历自动生成等应用展开拓展。
+
+* LaWGPT：基于中文法律知识的大语言模型
+  * 地址：https://github.com/pengxiao-song/LaWGPT
+  * 简介：该系列模型在通用中文基座模型（如 Chinese-LLaMA、ChatGLM 等）的基础上扩充法律领域专有词表、大规模中文法律语料预训练，增强了大模型在法律领域的基础语义理解能力。在此基础上，构造法律领域对话问答数据集、中国司法考试数据集进行指令精调，提升了模型对法律内容的理解和执行能力。
+
+* LexiLaw，中文法律大模型
+  * 地址：https://github.com/CSHaitao/LexiLaw
+  * 简介：LexiLaw 是一个基于 ChatGLM-6B微调的中文法律大模型，通过在法律领域的数据集上进行微调。该模型旨在为法律从业者、学生和普通用户提供准确、可靠的法律咨询服务，包括具体法律问题的咨询，还是对法律条款、案例解析、法规解读等方面的查询。
+
+* Cornucopia（聚宝盆）：基于中文金融知识的LLaMA微调模型
+  * 地址：https://github.com/jerry1993-tech/Cornucopia-LLaMA-Fin-Chinese
+  * 简介：开源了经过中文金融知识指令精调/指令微调(Instruct-tuning) 的LLaMA-7B模型。通过中文金融公开数据+爬取的金融数据构建指令数据集，并在此基础上对LLaMA进行了指令微调，提高了 LLaMA 在金融领域的问答效果。基于相同的数据，后期还会利用GPT3.5 API构建高质量的数据集，另在中文知识图谱-金融上进一步扩充高质量的指令数据集
+
+* Firefly：
+  * 地址：https://github.com/yangjianxin1/Firefly
+  * 简介：中文对话式大语言模型，构造了许多与中华文化相关的数据，以提升模型这方面的表现，如对联、作诗、文言文翻译、散文、金庸小说等。
+
+#### LangChain应用
 
 * Chinese-LangChain：
   * 地址：https://github.com/yanqiangmiffy/Chinese-LangChain
@@ -59,37 +95,11 @@
   * 地址：https://github.com/imClumsyPanda/langchain-ChatGLM
   * 简介：基于本地知识库的 ChatGLM 等大语言模型应用实现
 
-* DoctorGLM：
-  * 地址：https://github.com/xionghonglin/DoctorGLM
-  * 简介：基于 ChatGLM-6B的中文问诊模型，包括lora、p-tuningv2等微调及部署
-
-* BenTsao：
-  * 地址：https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese
-  * 简介：基于中文医学知识的LLaMA微调模型
-
-* Med-ChatGLM：
-  * 地址：https://github.com/SCIR-HI/Med-ChatGLM
-  * 简介：基于中文医学知识的ChatGLM模型微调
-
-* QiZhenGPT：
-  * 地址：https://github.com/CMKRG/QiZhenGPT
-  * 简介：该项目利用启真医学知识库构建的中文医学指令数据集，并基于此在LLaMA-7B模型上进行指令精调，大幅提高了模型在中文医疗场景下效果，首先针对药品知识问答发布了评测数据集，后续计划优化疾病、手术、检验等方面的问答效果，并针对医患问答、病历自动生成等应用展开拓展。
-
-* GPT Academic：
-  * 地址：https://github.com/binary-husky/gpt_academic
-  * 简介：为GPT/GLM提供图形交互界面，特别优化论文阅读润色体验，支持并行问询多种LLM模型，支持清华chatglm等本地模型。兼容复旦MOSS, llama, rwkv, 盘古等。
+#### 外部挂件应用
 
 * wenda：
   * 地址：https://github.com/wenda-LLM/wenda
   * 简介：一个LLM调用平台。为小模型外挂知识库查找和设计自动执行动作，实现不亚于于大模型的生成能力。
-
-* LaWGPT：
-  * 地址：https://github.com/pengxiao-song/LaWGPT
-  * 简介：基于中文法律知识的大语言模型
-
-* Firefly：
-  * 地址：https://github.com/yangjianxin1/Firefly
-  * 简介：中文对话式大语言模型，构造了许多与中华文化相关的数据，以提升模型这方面的表现，如对联、作诗、文言文翻译、散文、金庸小说等。
 
 * JittorLLMs：
   * 地址：https://github.com/Jittor/JittorLLMs
@@ -99,6 +109,9 @@
   * 地址：https://github.com/thunlp/WebCPM
   * 简介：一个支持可交互网页搜索的中文大模型。 
 
+* GPT Academic：
+  * 地址：https://github.com/binary-husky/gpt_academic
+  * 简介：为GPT/GLM提供图形交互界面，特别优化论文阅读润色体验，支持并行问询多种LLM模型，支持清华chatglm等本地模型。兼容复旦MOSS, llama, rwkv, 盘古等。
 
 ###  3. <a name='Dataset'></a>Dataset
 
