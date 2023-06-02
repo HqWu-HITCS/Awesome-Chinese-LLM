@@ -61,6 +61,14 @@
   * 地址：https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese
   * 简介：开源了经过中文医学指令精调/指令微调(Instruct-tuning) 的LLaMA-7B模型。通过医学知识图谱和GPT3.5 API构建了中文医学指令数据集，并在此基础上对LLaMA进行了指令微调，提高了LLaMA在医疗领域的问答效果。
 
+* BianQue：
+  * 地址：https://github.com/scutcyr/BianQue
+  * 简介：一个经过指令与多轮问询对话联合微调的医疗对话大模型，基于ClueAI/ChatYuan-large-v2作为底座，使用中文医疗问答指令与多轮问询对话混合数据集进行微调。
+  
+* HuatuoGPT：
+  * 地址：https://github.com/FreedomIntelligence/HuatuoGPT
+  * 简介：开源了经过中文医学指令精调/指令微调(Instruct-tuning)的一个GPT-like模型
+
 * Med-ChatGLM：
   * 地址：https://github.com/SCIR-HI/Med-ChatGLM
   * 简介：基于中文医学知识的ChatGLM模型微调，微调数据与BenTsao相同。
