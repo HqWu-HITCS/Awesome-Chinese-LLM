@@ -25,6 +25,10 @@
   * 地址：https://github.com/ymcui/Chinese-LLaMA-Alpaca
   * 简介：中文LLaMA&Alpaca大语言模型+本地CPU/GPU部署，在原版LLaMA的基础上扩充了中文词表并使用了中文数据进行二次预训练
 
+* OpenChineseLLaMA：
+  * 地址：https://github.com/OpenLMLab/OpenChineseLLaMA
+  * 简介：基于 LLaMA-7B 经过中文数据集增量预训练产生的中文大语言模型基座，对比原版 LLaMA，该模型在中文理解能力和生成能力方面均获得较大提升，在众多下游任务中均取得了突出的成绩。
+
 * BELLE：
   * 地址：https://github.com/LianjiaTech/BELLE
   * 简介：包括训练数据、相关模型、训练代码、应用场景等，也会持续评估不同训练数据、训练算法等对模型表现的影响。BELLE针对中文做了优化
@@ -98,7 +102,21 @@
 
 * Cornucopia（聚宝盆）：基于中文金融知识的LLaMA微调模型
   * 地址：https://github.com/jerry1993-tech/Cornucopia-LLaMA-Fin-Chinese
-  * 简介：开源了经过中文金融知识指令精调/指令微调(Instruct-tuning) 的LLaMA-7B模型。通过中文金融公开数据+爬取的金融数据构建指令数据集，并在此基础上对LLaMA进行了指令微调，提高了 LLaMA 在金融领域的问答效果。基于相同的数据，后期还会利用GPT3.5 API构建高质量的数据集，另在中文知识图谱-金融上进一步扩充高质量的指令数据集
+  * 简介：开源了经过中文金融知识指令精调/指令微调(Instruct-tuning) 的LLaMA-7B模型。通过中文金融公开数据+爬取的金融数据构建指令数据集，并在此基础上对LLaMA进行了指令微调，提高了 LLaMA 在金融领域的问答效果。基于相同的数据，后期还会利用GPT3.5 API构建高质量的数据集，另在中文知识图谱-金融上进一步扩充高质量的指令数据集。
+
+* BBT-FinCUGE-Applications
+  * 地址：https://github.com/ssymmetry/BBT-FinCUGE-Applications
+  * 简介：开源了中文金融领域开源语料库BBT-FinCorpus，中文金融领域知识增强型预训练语言模型BBT-FinT5及中文金融领域自然语言处理评测基准CFLEB。
+
+* XuanYuan（轩辕）：首个千亿级中文金融对话模型
+  * 地址：https://huggingface.co/xyz-nlp/XuanYuan2.0
+  * 简介：轩辕是国内首个开源的千亿级中文对话大模型，同时也是首个针对中文金融领域优化的千亿级开源对话大模型。轩辕在BLOOM-176B的基础上针对中文通用领域和金融领域进行了针对性的预训练与微调，它不仅可以应对通用领域的问题，也可以解答与金融相关的各类问题，为用户提供准确、全面的金融信息和建议。
+
+##### 数学
+
+* chatglm-maths：
+  * 地址：https://github.com/yongzhuo/chatglm-maths
+  * 简介：基于chatglm-6b微调/LORA/PPO/推理的数学题解题大模型, 样本为自动生成的整数/小数加减乘除运算, 可gpu/cpu部署，开源了训练数据集等。
 
 ##### 文化
 
@@ -160,6 +178,11 @@
   * 地址：https://github.com/ydli-ai/csl
   * 数据集说明：中文科学文献数据集（CSL），包含 396,209 篇中文核心期刊论文元信息 （标题、摘要、关键词、学科、门类）以及简单的prompt
 
+* Chinese medical dialogue data：
+  * 地址：https://github.com/Toyhom/Chinese-medical-dialogue-data
+  * 数据集说明：中文医疗对话数据集，包括：<Andriatria_男科> 94596个问答对 <IM_内科> 220606个问答对 <OAGD_妇产科> 183751个问答对 <Oncology_肿瘤科> 75553个问答对 <Pediatric_儿科> 101602个问答对 <Surgical_外科> 115991个问答对 总计 792099个问答对。
+
+
 ###  4. <a name='Evaluation'></a>Evaluation
 
 * C-Eval: 构造中文大模型的知识评估基准：
@@ -205,6 +228,10 @@
 * Awesome-AITools：
   * 地址：https://github.com/ikaijua/Awesome-AITools/blob/main/README-CN.md
   * 简介：收藏整理了AI相关的实用工具、评测和相关文章。
+
+* DecryptPrompt：
+  * 地址：https://github.com/DSXiangLi/DecryptPrompt
+  * 简介：总结了Prompt&LLM论文，开源数据&模型，AIGC应用。
 
 
 ## 作者
