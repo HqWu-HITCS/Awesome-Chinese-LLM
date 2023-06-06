@@ -154,9 +154,21 @@
 
 ###  3. <a name='Dataset'></a>Dataset
 
+* RefGPT：基于RefGPT生成大量真实和定制的对话数据集
+  * 地址：https://github.com/ziliwangnlp/RefGPT
+  * 数据集说明：包括RefGPT-Fact和RefGPT-Code两部分，其中RefGPT-Fact给出了5万中文的关于事实性知识的多轮对话，RefGPT-Code给出了3.9万中文编程相关的多轮对话数据。
+
+* COIG
+  * 地址：https://huggingface.co/datasets/BAAI/COIG
+  * 数据集说明：维护了一套无害、有用且多样化的中文指令语料库，包括一个人工验证翻译的通用指令语料库、一个人工标注的考试指令语料库、一个人类价值对齐指令语料库、一个多轮反事实修正聊天语料库和一个 leetcode 指令语料库。
+
+* generated_chat_0.4M：
+  * 地址：https://huggingface.co/datasets/BelleGroup/generated_chat_0.4M
+  * 数据集说明：包含约40万条由BELLE项目生成的个性化角色对话数据，包含角色介绍。但此数据集是由ChatGPT产生的，未经过严格校验，题目或解题过程可能包含错误。
+
 * alpaca_chinese_dataset：
   * 地址：https://github.com/hikariming/alpaca_chinese_dataset
-  * 数据集说明：alpaca数据集进行中文翻译，并再制造一些对话数据
+  * 数据集说明：根据斯坦福开源的alpaca数据集进行中文翻译，并再制造一些对话数据
 
 * Alpaca-CoT：
   * 地址：https://github.com/PhoebusSi/Alpaca-CoT
@@ -164,7 +176,7 @@
 
 * pCLUE：
   * 地址：https://github.com/CLUEbenchmark/pCLUE
-  * 数据集说明：120万训练数据，73个Prompt，共包括9个任务
+  * 数据集说明：基于提示的大规模预训练数据集，用于多任务学习和零样本学习。包括120万训练数据，73个Prompt，9个任务。
 
 * firefly-train-1.1M：
   * 地址：https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M
