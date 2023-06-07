@@ -73,6 +73,9 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/TigerResearch/TigerBot
   * 简介：一个多语言多任务的大规模语言模型(LLM)，开源了包括模型：TigerBot-7B, TigerBot-7B-base，TigerBot-180B，基本训练和推理代码，100G预训练数据，涵盖金融、法律、百科的领域数据以及API等。
 
+* 书生·浦语
+  * 地址：https://github.com/InternLM/InternLM-techreport
+  * 简介：商汤科技、上海AI实验室联合香港中文大学、复旦大学和上海交通大学发布千亿级参数大语言模型“书生·浦语”（InternLM）。据悉，“书生·浦语”具有1040亿参数，基于“包含1.6万亿token的多语种高质量数据集”训练而成。
 
 ###  2. <a name='Application'></a>Application
 
