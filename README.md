@@ -65,6 +65,15 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/OpenBMB/CPM-Bee
   * 简介：一个完全开源、允许商用的百亿参数中英文基座模型。它采用Transformer自回归架构（auto-regressive），在超万亿（trillion）高质量语料上进行预训练，拥有强大的基础能力。开发者和研究者可以在CPM-Bee基座模型的基础上在各类场景进行适配来以创建特定领域的应用模型。
 
+* VisualGLM-6B
+  * 地址：https://github.com/THUDM/VisualGLM-6B
+  * 简介：一个开源的，支持图像、中文和英文的多模态对话语言模型，语言模型基于 ChatGLM-6B，具有 62 亿参数；图像部分通过训练 BLIP2-Qformer 构建起视觉模型与语言模型的桥梁，整体模型共78亿参数。依靠来自于 CogView 数据集的30M高质量中文图文对，与300M经过筛选的英文图文对进行预训练。
+
+* TigerBot
+  * 地址：https://github.com/TigerResearch/TigerBot
+  * 简介：一个多语言多任务的大规模语言模型(LLM)，开源了包括模型：TigerBot-7B, TigerBot-7B-base，TigerBot-180B，基本训练和推理代码，100G预训练数据，涵盖金融、法律、百科的领域数据以及API等。
+
+
 ###  2. <a name='Application'></a>Application
 
 #### 2.1 垂直领域微调
@@ -230,6 +239,10 @@ Awesome-Chinese-LLM
   * 简介：由HuggingFace组织的一个LLM评测榜单，目前已评估了较多主流的开源LLM模型。评估主要包括AI2 Reasoning Challenge, HellaSwag, MMLU, TruthfulQA四个数据集上的表现。
 
 ###  5. <a name='Tutorial'></a>Tutorial
+
+* 面向开发者的 LLM 入门课程：
+  * 地址：https://github.com/datawhalechina/prompt-engineering-for-developers
+  * 简介：一个中文版的大模型入门教程，围绕吴恩达老师的大模型系列课程展开，主要包括：吴恩达《ChatGPT Prompt Engineering for Developers》课程中文版，吴恩达《Building Systems with the ChatGPT API》课程中文版，吴恩达《LangChain for LLM Application Development》课程中文版等。
 
 * LangChain 🦜️🔗 中文网，跟着LangChain一起学LLM/GPT开发：
   * 地址：https://github.com/ydli-ai/csl
