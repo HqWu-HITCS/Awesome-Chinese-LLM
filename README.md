@@ -2,14 +2,15 @@
 Awesome-Chinese-LLM
 </h1>
 <p align="center" width="100%">
-<img src="icon.png" alt="Awesome-Chinese-LLM" style="width: 20%; display: block; margin: auto;"></a>
+<img src="icon.png" alt="Awesome-Chinese-LLM" style="width: 20%; height: auto; display: inline-block; margin: auto; border-radius: 50%;">
 </p>
 <p align="center">
-<font face="黑体" color=orange size=5"> A Awesome Collections for LLM in Chinese. </font>
+<font face="黑体" color=orange size=5"> An Awesome Collection for LLM in Chinese </font>
 </p>
 <p align="center">
 <font face="黑体" color=orange size=5"> 收集和梳理中文LLM相关 </font>
 </p>
+
 
 自ChatGPT为代表的大语言模型（Large Language Model, LLM）出现以后，由于其惊人的类通用人工智能（AGI）的能力，掀起了新一轮自然语言处理领域的研究和应用的浪潮。尤其是以ChatGLM、LLaMA等平民玩家都能跑起来的较小规模的LLM开源之后，业界涌现了非常多基于LLM的二次微调或应用的案例。本项目旨在收集和梳理中文LLM相关的开源模型、应用、数据集及教程等资料。
 
