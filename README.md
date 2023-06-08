@@ -233,13 +233,18 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/OpenLMLab/GAOKAO-Bench
   * 简介：GAOKAO-bench是一个以中国高考题目为数据集，测评大模型语言理解能力、逻辑推理能力的测评框架，收集了2010-2022年全国高考卷的题目，其中包括1781道客观题和1030道主观题，构建起GAOKAO-bench的数据部分。
 
+* Open LLM Leaderboard：
+  * 地址：https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
+  * 简介：由HuggingFace组织的一个LLM评测榜单，目前已评估了较多主流的开源LLM模型。评估主要包括AI2 Reasoning Challenge, HellaSwag, MMLU, TruthfulQA四个数据集上的表现，主要以英文为主。
+
+* Safety-Prompts：
+  * 地址：https://github.com/thu-coai/Safety-Prompts
+  * 简介：由清华大学提出的一个关于LLM安全评测benchmark，包括安全评测平台等，用于评测和提升大模型的安全性，囊括了多种典型的安全场景和指令攻击的prompt。
+
 * PromptCBLUE: 中文医疗场景的LLM评测基准
   * 地址：https://github.com/michael-wzhu/PromptCBLUE
   * 简介：为推动LLM在医疗领域的发展和落地，由华东师范大学联合阿里巴巴天池平台，复旦大学附属华山医院，东北大学，哈尔滨工业大学（深圳），鹏城实验室与同济大学推出PromptCBLUE评测基准, 将16种不同的医疗场景NLP任务全部转化为基于提示的语言生成任务,形成首个中文医疗场景的LLM评测基准。
 
-* Open LLM Leaderboard：
-  * 地址：https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
-  * 简介：由HuggingFace组织的一个LLM评测榜单，目前已评估了较多主流的开源LLM模型。评估主要包括AI2 Reasoning Challenge, HellaSwag, MMLU, TruthfulQA四个数据集上的表现。
 
 ###  5. <a name='Tutorial'></a>Tutorial
 
@@ -272,6 +277,10 @@ Awesome-Chinese-LLM
 * DecryptPrompt：
   * 地址：https://github.com/DSXiangLi/DecryptPrompt
   * 简介：总结了Prompt&LLM论文，开源数据&模型，AIGC应用。
+
+* Awesome Pretrained Chinese NLP Models：
+  * 地址：https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models
+  * 简介：收集了目前网上公开的一些高质量中文预训练模型。
 
 
 ## 作者
