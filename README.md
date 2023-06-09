@@ -282,6 +282,9 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models
   * 简介：收集了目前网上公开的一些高质量中文预训练模型。
 
+* ChatPiXiu：
+  * 地址：https://github.com/catqaq/ChatPiXiu
+  * 简介：该项目旨在打造全面且实用的ChatGPT模型库和文档库。当前V1版本梳理了包括：相关资料调研+通用最小实现+领域/任务适配等。
 
 ## 作者
 
