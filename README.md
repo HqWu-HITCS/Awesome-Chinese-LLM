@@ -77,6 +77,10 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/InternLM/InternLM-techreport
   * 简介：商汤科技、上海AI实验室联合香港中文大学、复旦大学和上海交通大学发布千亿级参数大语言模型“书生·浦语”（InternLM）。据悉，“书生·浦语”具有1040亿参数，基于“包含1.6万亿token的多语种高质量数据集”训练而成。
 
+* Aquila
+  * 地址：https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila
+  * 简介：由智源研究院发布，Aquila语言大模型在技术上继承了GPT-3、LLaMA等的架构设计优点，替换了一批更高效的底层算子实现、重新设计实现了中英双语的tokenizer，升级了BMTrain并行训练方法，是在中英文高质量语料基础上从０开始训练的，通过数据质量的控制、多种训练的优化方法，实现在更小的数据集、更短的训练时间，获得比其它开源模型更优的性能。也是首个支持中英双语知识、支持商用许可协议、符合国内数据合规需要的大规模开源语言模型。
+
 ###  2. <a name='Application'></a>Application
 
 #### 2.1 垂直领域微调
@@ -220,6 +224,10 @@ Awesome-Chinese-LLM
 
 
 ###  4. <a name='Evaluation'></a>Evaluation
+
+* FlagEval （天秤）大模型评测体系及开放平台
+  * 地址：https://flageval.baai.ac.cn/#/home
+  * 简介：旨在建立科学、公正、开放的评测基准、方法、工具集，协助研究人员全方位评估基础模型及训练算法的性能，同时探索利用AI方法实现对主观评测的辅助，大幅提升评测的效率和客观性。FlagEval （天秤）创新构建了“能力-任务-指标”三维评测框架，细粒度刻画基础模型的认知能力边界，可视化呈现评测结果。
 
 * C-Eval: 构造中文大模型的知识评估基准：
   * 地址：https://yaofu.notion.site/C-Eval-6b79edd91b454e3d8ea41c59ea2af873
