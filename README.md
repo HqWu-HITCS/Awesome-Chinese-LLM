@@ -45,6 +45,10 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/LianjiaTech/BELLE
   * 简介：包括训练数据、相关模型、训练代码、应用场景等，也会持续评估不同训练数据、训练算法等对模型表现的影响。BELLE针对中文做了优化
 
+* ChatRWKV：
+  * 地址：https://huggingface.co/BlinkDL/rwkv-4-raven
+  * 简介：基于RWKV架构的Chat模型（包括英文和中文），发布了包括Raven，Novel-ChnEng，Novel-Ch与Novel-ChnEng-ChnPro等模型，可以直接闲聊及进行诗歌，小说等创作，包括7B和14B等规模的模型。
+
 * Panda：
   * 地址：https://github.com/dandelionsllm/pandallm
   * 简介：模型目前基于 Llama-7B, -13B, -33B, -65B 进行中文领域上的持续预训练, 使用了接近 15M 条数据
