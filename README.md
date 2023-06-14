@@ -29,9 +29,9 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/THUDM/ChatGLM-6B
   * 简介：中文领域效果最好的开源底座模型之一，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持
 
-* Moss：
-  * 地址：https://github.com/OpenLMLab/MOSS
-  * 简介：支持中英双语和多种插件的开源对话语言模型，MOSS基座语言模型在约七千亿中英文以及代码单词上预训练得到，后续经过对话指令微调、插件增强学习和人类偏好训练具备多轮对话能力及使用多种插件的能力。
+* VisualGLM-6B
+  * 地址：https://github.com/THUDM/VisualGLM-6B
+  * 简介：一个开源的，支持图像、中文和英文的多模态对话语言模型，语言模型基于 ChatGLM-6B，具有 62 亿参数；图像部分通过训练 BLIP2-Qformer 构建起视觉模型与语言模型的桥梁，整体模型共78亿参数。依靠来自于 CogView 数据集的30M高质量中文图文对，与300M经过筛选的英文图文对进行预训练。
 
 * Chinese-LLaMA-Alpaca：
   * 地址：https://github.com/ymcui/Chinese-LLaMA-Alpaca
@@ -43,19 +43,27 @@ Awesome-Chinese-LLM
 
 * BELLE：
   * 地址：https://github.com/LianjiaTech/BELLE
-  * 简介：包括训练数据、相关模型、训练代码、应用场景等，也会持续评估不同训练数据、训练算法等对模型表现的影响。BELLE针对中文做了优化
-
-* ChatRWKV：
-  * 地址：https://huggingface.co/BlinkDL/rwkv-4-raven
-  * 简介：基于RWKV架构的Chat模型（包括英文和中文），发布了包括Raven，Novel-ChnEng，Novel-Ch与Novel-ChnEng-ChnPro等模型，可以直接闲聊及进行诗歌，小说等创作，包括7B和14B等规模的模型。
+  * 简介：开源了基于BLOOMZ和LLaMA优化后的一系列模型，同时包括训练数据、相关模型、训练代码、应用场景等，也会持续评估不同训练数据、训练算法等对模型表现的影响。
 
 * Panda：
   * 地址：https://github.com/dandelionsllm/pandallm
-  * 简介：模型目前基于 Llama-7B, -13B, -33B, -65B 进行中文领域上的持续预训练, 使用了接近 15M 条数据
+  * 简介：开源了基于LLaMA-7B, -13B, -33B, -65B 进行中文领域上的持续预训练的语言模型, 使用了接近 15M 条数据进行二次预训练。
+
+* Ziya-LLaMA-13B：
+  * 地址：https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1
+  * 简介：该项目开源了姜子牙通用大模型V1，是基于LLaMa的130亿参数的大规模预训练模型，具备翻译，编程，文本分类，信息抽取，摘要，文案生成，常识问答和数学计算等能力。该模型已完成大规模预训练、多任务有监督微调和人类反馈学习三阶段的训练过程。
+
+* BiLLa：
+  * 地址：https://github.com/Neutralzz/BiLLa
+  * 简介：该项目开源了推理能力增强的中英双语LLaMA模型。模型的主要特性有：较大提升LLaMA的中文理解能力，并尽可能减少对原始LLaMA英文能力的损伤；训练过程增加较多的任务型数据，利用ChatGPT生成解析，强化模型理解任务求解逻辑；全量参数更新，追求更好的生成效果。
+
+* Moss：
+  * 地址：https://github.com/OpenLMLab/MOSS
+  * 简介：支持中英双语和多种插件的开源对话语言模型，MOSS基座语言模型在约七千亿中英文以及代码单词上预训练得到，后续经过对话指令微调、插件增强学习和人类偏好训练具备多轮对话能力及使用多种插件的能力。
 
 * Luotuo-Chinese-LLM：
   * 地址：https://github.com/LC1332/Luotuo-Chinese-LLM
-  * 简介：中文大语言模型开源项目，包含了一系列大规模语言模型，指令微调数据集等。
+  * 简介：囊括了一系列中文大语言模型开源项目，包含了一系列基于已有开源模型（ChatGLM, MOSS, LLaMA）进行二次微调的语言模型，指令微调数据集等。
 
 * Linly：
   * 地址：https://github.com/CVI-SZU/Linly
@@ -65,13 +73,13 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/clue-ai/ChatYuan
   * 简介：元语智能发布的一系列支持中英双语的功能型对话语言大模型，在微调数据、人类反馈强化学习、思维链等方面进行了优化。
 
+* ChatRWKV：
+  * 地址：https://huggingface.co/BlinkDL/rwkv-4-raven
+  * 简介：基于RWKV架构的Chat模型（包括英文和中文），发布了包括Raven，Novel-ChnEng，Novel-Ch与Novel-ChnEng-ChnPro等模型，可以直接闲聊及进行诗歌，小说等创作，包括7B和14B等规模的模型。
+
 * CPM-Bee
   * 地址：https://github.com/OpenBMB/CPM-Bee
   * 简介：一个完全开源、允许商用的百亿参数中英文基座模型。它采用Transformer自回归架构（auto-regressive），在超万亿（trillion）高质量语料上进行预训练，拥有强大的基础能力。开发者和研究者可以在CPM-Bee基座模型的基础上在各类场景进行适配来以创建特定领域的应用模型。
-
-* VisualGLM-6B
-  * 地址：https://github.com/THUDM/VisualGLM-6B
-  * 简介：一个开源的，支持图像、中文和英文的多模态对话语言模型，语言模型基于 ChatGLM-6B，具有 62 亿参数；图像部分通过训练 BLIP2-Qformer 构建起视觉模型与语言模型的桥梁，整体模型共78亿参数。依靠来自于 CogView 数据集的30M高质量中文图文对，与300M经过筛选的英文图文对进行预训练。
 
 * TigerBot
   * 地址：https://github.com/TigerResearch/TigerBot
@@ -275,7 +283,7 @@ Awesome-Chinese-LLM
   * 简介：一个中文版的大模型入门教程，围绕吴恩达老师的大模型系列课程展开，主要包括：吴恩达《ChatGPT Prompt Engineering for Developers》课程中文版，吴恩达《Building Systems with the ChatGPT API》课程中文版，吴恩达《LangChain for LLM Application Development》课程中文版等。
 
 * LangChain 🦜️🔗 中文网，跟着LangChain一起学LLM/GPT开发：
-  * 地址：https://github.com/ydli-ai/csl
+  * 地址：https://www.langchain.asia
   * 简介：Langchain的中文文档，由是两个在LLM创业者维护，希望帮助到从刚进入AI应用开发的朋友们。
 
 * LLMs九层妖塔：
