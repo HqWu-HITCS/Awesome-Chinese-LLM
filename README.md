@@ -93,6 +93,10 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila
   * 简介：由智源研究院发布，Aquila语言大模型在技术上继承了GPT-3、LLaMA等的架构设计优点，替换了一批更高效的底层算子实现、重新设计实现了中英双语的tokenizer，升级了BMTrain并行训练方法，是在中英文高质量语料基础上从０开始训练的，通过数据质量的控制、多种训练的优化方法，实现在更小的数据集、更短的训练时间，获得比其它开源模型更优的性能。也是首个支持中英双语知识、支持商用许可协议、符合国内数据合规需要的大规模开源语言模型。
 
+* baichuan-7B
+  * 地址：https://github.com/baichuan-inc/baichuan-7B
+  * 简介：由百川智能开发的一个开源可商用的大规模预训练语言模型。基于Transformer结构，在大约1.2万亿tokens上训练的70亿参数模型，支持中英双语，上下文窗口长度为4096。在标准的中文和英文权威benchmark（C-EVAL/MMLU）上均取得同尺寸最好的效果。
+
 ###  2. <a name='Application'></a>Application
 
 #### 2.1 垂直领域微调
@@ -266,6 +270,10 @@ Awesome-Chinese-LLM
 * GAOKAO-Bench: 
   * 地址：https://github.com/OpenLMLab/GAOKAO-Bench
   * 简介：GAOKAO-bench是一个以中国高考题目为数据集，测评大模型语言理解能力、逻辑推理能力的测评框架，收集了2010-2022年全国高考卷的题目，其中包括1781道客观题和1030道主观题，构建起GAOKAO-bench的数据部分。
+
+* AGIEval: 
+  * 地址：https://github.com/microsoft/AGIEval
+  * 简介：由微软发布的一项新型基准测试，这项基准选取20种面向普通人类考生的官方、公开、高标准往常和资格考试，包括普通大学入学考试（中国高考和美国 SAT 考试）、法学入学考试、数学竞赛、律师资格考试、国家公务员考试等等。
 
 * Open LLM Leaderboard：
   * 地址：https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
