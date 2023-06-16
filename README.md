@@ -275,6 +275,10 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/microsoft/AGIEval
   * 简介：由微软发布的一项新型基准测试，这项基准选取20种面向普通人类考生的官方、公开、高标准往常和资格考试，包括普通大学入学考试（中国高考和美国 SAT 考试）、法学入学考试、数学竞赛、律师资格考试、国家公务员考试等等。
 
+* Xiezhi: 
+  * 地址：https://github.com/mikegu721/xiezhibenchmark
+  * 简介：由复旦大学发布的一个综合的、多学科的、能够自动更新的领域知识评估Benchmark，包含了哲学、经济学、法学、教育学、文学、历史学、自然科学、工学、农学、医学、军事学、管理学、艺术学这13个学科门类，24万道学科题目，516个具体学科，249587道题目。
+
 * Open LLM Leaderboard：
   * 地址：https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
   * 简介：由HuggingFace组织的一个LLM评测榜单，目前已评估了较多主流的开源LLM模型。评估主要包括AI2 Reasoning Challenge, HellaSwag, MMLU, TruthfulQA四个数据集上的表现，主要以英文为主。
