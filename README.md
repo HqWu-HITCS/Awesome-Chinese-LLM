@@ -279,6 +279,10 @@ Awesome-Chinese-LLM
   * 地址：https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
   * 简介：由HuggingFace组织的一个LLM评测榜单，目前已评估了较多主流的开源LLM模型。评估主要包括AI2 Reasoning Challenge, HellaSwag, MMLU, TruthfulQA四个数据集上的表现，主要以英文为主。
 
+* chinese-llm-benchmark：
+  * 地址：https://github.com/jeinlee1991/chinese-llm-benchmark
+  * 简介：中文大模型能力评测榜单：覆盖百度文心一言、chatgpt、阿里通义千问、讯飞星火、belle / chatglm6b 等开源大模型，多维度能力评测。不仅提供能力评分排行榜，也提供所有模型的原始输出结果！
+
 * Safety-Prompts：
   * 地址：https://github.com/thu-coai/Safety-Prompts
   * 简介：由清华大学提出的一个关于LLM安全评测benchmark，包括安全评测平台等，用于评测和提升大模型的安全性，囊括了多种典型的安全场景和指令攻击的prompt。
