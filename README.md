@@ -10,9 +10,23 @@ Awesome-Chinese-LLM
 <p align="center">
 <font face="黑体" color=orange size=5"> 收集和梳理中文LLM相关 </font>
 </p>
+<p align="center">
+  <a href="https://github.com/HqWu-HITCS/Awesome-Chinese-LLM/stargazers"> <img src="https://img.shields.io/github/stars/HqWu-HITCS/Awesome-Chinese-LLM.svg?style=popout-square" alt="GitHub stars"></a>
+  <a href="https://github.com/HqWu-HITCS/Awesome-Chinese-LLM/issues"> <img src="https://img.shields.io/github/issues/HqWu-HITCS/Awesome-Chinese-LLM.svg?style=popout-square" alt="GitHub issues"></a>
+  <a href="https://github.com/HqWu-HITCS/Awesome-Chinese-LLM/forks"> <img src="https://img.shields.io/github/forks/HqWu-HITCS/Awesome-Chinese-LLM.svg?style=popout-square" alt="GitHub forks"></a>
+</p>
 
 
 自ChatGPT为代表的大语言模型（Large Language Model, LLM）出现以后，由于其惊人的类通用人工智能（AGI）的能力，掀起了新一轮自然语言处理领域的研究和应用的浪潮。尤其是以ChatGLM、LLaMA等平民玩家都能跑起来的较小规模的LLM开源之后，业界涌现了非常多基于LLM的二次微调或应用的案例。本项目旨在收集和梳理中文LLM相关的开源模型、应用、数据集及教程等资料。
+
+截止到当前，本仓库已收录**74**个相关项目，其具体数量分布如下：
+
+| 底座模型 | LLM应用 | 数据集 | 评测基准 | LLM教程 | 相关项目 |
+|  :---:  |  :---: | :---: |  :---:  |  :---: |  :---:  |
+|   18  |   23   |  10  |   10   |  4 |  9  |
+
+如果本项目能给您带来一点点帮助，麻烦点个⭐️吧～
+
 
 ## 目录
   - [1. Model](#1-model)
@@ -309,6 +323,10 @@ Awesome-Chinese-LLM
 * LLMs九层妖塔：
   * 地址：https://github.com/km1994/LLMsNineStoryDemonTower
   * 简介：ChatGLM、Chinese-LLaMA-Alpaca、MiniGPT-4、FastChat、LLaMA、gpt4all等实战与经验。
+
+* HuggingLLM：
+  * 地址：https://github.com/datawhalechina/hugging-llm
+  * 简介：介绍 ChatGPT 原理、使用和应用，降低使用门槛，让更多感兴趣的非NLP或算法专业人士能够无障碍使用LLM创造价值。
  
  ###  6. <a name='Related Repository'></a>Related Repository
  
@@ -323,6 +341,18 @@ Awesome-Chinese-LLM
 * Awesome-AITools：
   * 地址：https://github.com/ikaijua/Awesome-AITools/blob/main/README-CN.md
   * 简介：收藏整理了AI相关的实用工具、评测和相关文章。
+
+* open source ChatGPT and beyond：
+  * 地址：https://github.com/SunLemuria/open_source_chatgpt_list
+  * 简介：This repo aims at recording open source ChatGPT, and providing an overview of how to get involved, including: base models, technologies, data, domain models, training pipelines, speed up techniques, multi-language, multi-modal, and more to go.
+
+* Awesome Totally Open Chatgpt：
+  * 地址：https://github.com/nichtdax/awesome-totally-open-chatgpt
+  * 简介：This repo record a list of totally open alternatives to ChatGPT.
+
+* Awesome-LLM：
+  * 地址：https://github.com/Hannibal046/Awesome-LLM
+  * 简介：This repo is a curated list of papers about large language models, especially relating to ChatGPT. It also contains frameworks for LLM training, tools to deploy LLM, courses and tutorials about LLM and all publicly available LLM checkpoints and APIs.
 
 * DecryptPrompt：
   * 地址：https://github.com/DSXiangLi/DecryptPrompt
