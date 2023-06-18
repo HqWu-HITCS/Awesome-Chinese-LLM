@@ -32,24 +32,12 @@ Awesome-Chinese-LLM
 </p>
 
 ## 目录
-- [目录](#目录)
-  - [1. Model](#1-model)
-  - [2. Application](#2-application)
-    - [2.1 垂直领域微调](#21-垂直领域微调)
-      - [医疗](#医疗)
-      - [法律](#法律)
-      - [金融](#金融)
-      - [教育](#教育)
-      - [数学](#数学)
-      - [文化](#文化)
-    - [2.2 LangChain应用](#22-langchain应用)
-    - [2.3 外部挂件应用](#23-外部挂件应用)
-  - [3. Dataset](#3-dataset)
-  - [4. Evaluation](#4-evaluation)
-  - [5. Tutorial](#5-tutorial)
-  - [6. Related Repository](#6-related-repository)
-- [作者](#作者)
-- [Star History](#star-history)
+- [1. Model](#1-model)
+- [2. Application](#2-application)
+- [3. Dataset](#3-dataset)
+- [4. Evaluation](#4-evaluation)
+- [5. Tutorial](#5-tutorial)
+- [6. Related Repository](#6-related-repository)
 
 
 ###  1. <a name='Model'></a>Model
