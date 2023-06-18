@@ -19,11 +19,11 @@ Awesome-Chinese-LLM
 
 自ChatGPT为代表的大语言模型（Large Language Model, LLM）出现以后，由于其惊人的类通用人工智能（AGI）的能力，掀起了新一轮自然语言处理领域的研究和应用的浪潮。尤其是以ChatGLM、LLaMA等平民玩家都能跑起来的较小规模的LLM开源之后，业界涌现了非常多基于LLM的二次微调或应用的案例。本项目旨在收集和梳理中文LLM相关的开源模型、应用、数据集及教程等资料。
 
-截止到当前，本仓库已收录**74**个相关项目，其具体数量分布如下：
+截止到当前，本仓库已收录**77**个相关项目，其具体数量分布如下：
 
 | 底座模型 | LLM应用 | 数据集 | 评测基准 | LLM教程 | 相关项目 |
 |  :---:  |  :---: | :---: |  :---:  |  :---: |  :---:  |
-|   18  |   23   |  10  |   10   |  4 |  9  |
+|   18  |   24   |  11  |   10   |  5 |  9  |
 
 如果本项目能给您带来一点点帮助，麻烦点个⭐️吧～
 
@@ -224,6 +224,10 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/binary-husky/gpt_academic
   * 简介：为GPT/GLM提供图形交互界面，特别优化论文阅读润色体验，支持并行问询多种LLM模型，支持清华chatglm等本地模型。兼容复旦MOSS, llama, rwkv, 盘古等。
 
+* ChatALL：
+  * 地址：https://github.com/sunner/ChatALL
+  * 简介：ChatALL（中文名：齐叨）可以把一条指令同时发给多个 AI，可以帮助用户发现最好的回答。
+
 ###  3. <a name='Dataset'></a>Dataset
 
 * RefGPT：基于RefGPT生成大量真实和定制的对话数据集
@@ -266,6 +270,9 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/Toyhom/Chinese-medical-dialogue-data
   * 数据集说明：中文医疗对话数据集，包括：<Andriatria_男科> 94596个问答对 <IM_内科> 220606个问答对 <OAGD_妇产科> 183751个问答对 <Oncology_肿瘤科> 75553个问答对 <Pediatric_儿科> 101602个问答对 <Surgical_外科> 115991个问答对 总计 792099个问答对。
 
+* Huatuo-26M：
+  * 地址：https://github.com/FreedomIntelligence/Huatuo-26M
+  * 数据集说明：Huatuo-26M 是一个中文医疗问答数据集，此数据集包含了超过2600万个高质量的医疗问答对，涵盖了各种疾病、症状、治疗方式、药品信息等多个方面。Huatuo-26M 是研究人员、开发者和企业为了提高医疗领域的人工智能应用，如聊天机器人、智能诊断系统等需要的重要资源。
 
 ###  4. <a name='Evaluation'></a>Evaluation
 
@@ -327,6 +334,10 @@ Awesome-Chinese-LLM
 * HuggingLLM：
   * 地址：https://github.com/datawhalechina/hugging-llm
   * 简介：介绍 ChatGPT 原理、使用和应用，降低使用门槛，让更多感兴趣的非NLP或算法专业人士能够无障碍使用LLM创造价值。
+
+* OpenAI Cookbook：
+  * 地址：https://github.com/openai/openai-cookbook
+  * 简介：该项目是OpenAI提供的使用OpenAI API的示例和指导，其中包括如何构建一个问答机器人等教程，能够为从业人员开发类似应用时带来指导。
  
  ###  6. <a name='Related Repository'></a>Related Repository
  
