@@ -2,7 +2,7 @@
 Awesome-Chinese-LLM
 </h1>
 <p align="center" width="100%">
-<img src="icon.png" alt="Awesome-Chinese-LLM" style="width: 20%; height: auto; display: inline-block; margin: auto; border-radius: 50%;">
+<img src="src/icon.png" alt="Awesome-Chinese-LLM" style="width: 20%; height: auto; display: inline-block; margin: auto; border-radius: 50%;">
 </p>
 <p align="center">
 <font face="黑体" color=orange size=5"> An Awesome Collection for LLM in Chinese </font>
@@ -27,14 +27,17 @@ Awesome-Chinese-LLM
 
 如果本项目能给您带来一点点帮助，麻烦点个⭐️吧～
 
+<p align="center" width="100%">
+<img src="src/chinese_taxonomy.png" alt="Awesome-Chinese-LLM">
+</p>
 
 ## 目录
-  - [1. Model](#1-model)
-  - [2. Application](#2-application)
-  - [3. Dataset](#3-dataset)
-  - [4. Evaluation](#4-evaluation)
-  - [5. Tutorial](#5-tutorial)
-  - [6. Related Repository](#6-related-repository)
+- [1. Model](#1-model)
+- [2. Application](#2-application)
+- [3. Dataset](#3-dataset)
+- [4. Evaluation](#4-evaluation)
+- [5. Tutorial](#5-tutorial)
+- [6. Related Repository](#6-related-repository)
 
 
 ###  1. <a name='Model'></a>Model
