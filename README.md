@@ -19,11 +19,11 @@ Awesome-Chinese-LLM
 
 自ChatGPT为代表的大语言模型（Large Language Model, LLM）出现以后，由于其惊人的类通用人工智能（AGI）的能力，掀起了新一轮自然语言处理领域的研究和应用的浪潮。尤其是以ChatGLM、LLaMA等平民玩家都能跑起来的较小规模的LLM开源之后，业界涌现了非常多基于LLM的二次微调或应用的案例。本项目旨在收集和梳理中文LLM相关的开源模型、应用、数据集及教程等资料。
 
-截止到当前，本仓库已收录**77**个相关项目，其具体数量分布如下：
+截止到当前，本仓库已收录**79**个相关项目，其具体数量分布如下：
 
 | 底座模型 | LLM应用 | 数据集 | 评测基准 | LLM教程 | 相关项目 |
 |  :---:  |  :---: | :---: |  :---:  |  :---: |  :---:  |
-|   18  |   24   |  11  |   10   |  5 |  9  |
+|   18  |   25   |  11  |   10   |  6 |  9  |
 
 如果本项目能给您带来一点点帮助，麻烦点个⭐️吧～
 
@@ -152,6 +152,9 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/WangRongsheng/XrayGLM
   * 简介：该项目为促进中文领域医学多模态大模型的研究发展，发布了XrayGLM数据集及模型，其在医学影像诊断和多轮交互对话上显示出了非凡的潜力。
 
+* MeChat，中文心理健康支持对话大模型：
+  * 地址：https://github.com/qiuhuachuan/smile
+  * 简介：该项目开源的中文心理健康支持通用模型由 ChatGLM-6B LoRA 16-bit 指令微调得到。数据集通过调用gpt-3.5-turbo API扩展真实的心理互助 QA为多轮的心理健康支持多轮对话，提高了通用语言大模型在心理健康支持领域的表现，更加符合在长程多轮对话的应用场景。
 
 ##### 法律
 
@@ -325,6 +328,10 @@ Awesome-Chinese-LLM
 * 面向开发者的 LLM 入门课程：
   * 地址：https://github.com/datawhalechina/prompt-engineering-for-developers
   * 简介：一个中文版的大模型入门教程，围绕吴恩达老师的大模型系列课程展开，主要包括：吴恩达《ChatGPT Prompt Engineering for Developers》课程中文版，吴恩达《Building Systems with the ChatGPT API》课程中文版，吴恩达《LangChain for LLM Application Development》课程中文版等。
+
+* 提示工程指南:
+  * 地址：https://www.promptingguide.ai/zh
+  * 简介：该项目基于对大语言模型的浓厚兴趣，编写了这份全新的提示工程指南，介绍了大语言模型相关的论文研究、学习指南、模型、讲座、参考资料、大语言模型能力以及与其他与提示工程相关的工具。
 
 * LangChain 🦜️🔗 中文网，跟着LangChain一起学LLM/GPT开发：
   * 地址：https://www.langchain.asia
