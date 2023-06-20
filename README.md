@@ -32,12 +32,24 @@ Awesome-Chinese-LLM
 </p>
 
 ## 目录
-- [1. Model](#1-model)
-- [2. Application](#2-application)
-- [3. Dataset](#3-dataset)
-- [4. Evaluation](#4-evaluation)
-- [5. Tutorial](#5-tutorial)
-- [6. Related Repository](#6-related-repository)
+- [目录](#目录)
+  - [1. Model](#1-model)
+  - [2. Application](#2-application)
+    - [2.1 垂直领域微调](#21-垂直领域微调)
+      - [医疗](#医疗)
+      - [法律](#法律)
+      - [金融](#金融)
+      - [教育](#教育)
+      - [数学](#数学)
+      - [文化](#文化)
+    - [2.2 LangChain应用](#22-langchain应用)
+    - [2.3 外部挂件应用](#23-外部挂件应用)
+  - [3. Dataset](#3-dataset)
+  - [4. Evaluation](#4-evaluation)
+  - [5. Tutorial](#5-tutorial)
+  - [6. Related Repository](#6-related-repository)
+- [作者](#作者)
+- [Star History](#star-history)
 
 
 ###  1. <a name='Model'></a>Model
@@ -279,6 +291,23 @@ Awesome-Chinese-LLM
 * Huatuo-26M：
   * 地址：https://github.com/FreedomIntelligence/Huatuo-26M
   * 数据集说明：Huatuo-26M 是一个中文医疗问答数据集，此数据集包含了超过2600万个高质量的医疗问答对，涵盖了各种疾病、症状、治疗方式、药品信息等多个方面。Huatuo-26M 是研究人员、开发者和企业为了提高医疗领域的人工智能应用，如聊天机器人、智能诊断系统等需要的重要资源。
+
+* Alpaca-GPT-4:
+  * 地址：https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM
+  * 数据集说明：Alpaca-GPT-4 是一个使用 self-instruct 技术，基于 175 条中文种子任务和 GPT-4 接口生成的 50K 的指令微调数据集。
+
+* InstructionWild
+  * 地址：https://github.com/XueFuzhao/InstructionWild
+  * 数据集说明：InstructionWild 是一个从网络上收集自然指令并过滤之后使用自然指令结合 ChatGPT 接口生成指令微调数据集的项目。主要的指令来源：Twitter、CookUp.AI、Github 和 Discard。
+
+* ShareChat
+  * 地址：https://paratranz.cn/projects/6725
+  * 数据集说明：一个倡议大家一起翻译高质量 ShareGPT 数据的项目。
+  * 项目介绍：清洗/构造/翻译中文的ChatGPT数据，推进国内AI的发展，人人可炼优质中文 Chat 模型。本数据集为ChatGPT约九万个对话数据，由ShareGPT API获得（英文68000，中文11000条，其他各国语言）。项目所有数据最终将以 CC0 协议并入 Multilingual Share GPT 语料库。
+
+* Guanaco
+  * 地址：https://huggingface.co/datasets/JosephusCheung/GuanacoDataset
+  * 数据集说明：一个使用 Self-Instruct 的主要包含中日英德的多语言指令微调数据集。
 
 ###  4. <a name='Evaluation'></a>Evaluation
 
