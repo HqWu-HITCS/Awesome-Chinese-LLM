@@ -24,7 +24,7 @@ Awesome-Chinese-LLM
 
 | 总项目数| 底座模型 | LLM应用 | 数据集 | 评测基准 | LLM教程 | 相关项目 |
 | :---: | :---:  |  :---: | :---: |  :---:  |  :---: |  :---:  |
-|  83   |   18  |   25   |  15  |   10   |  6 |  9  |
+|  85   |   19  |   25   |  15  |   11   |  6 |  9  |
 
 如果本项目能给您带来一点点帮助，麻烦点个⭐️吧～
 
@@ -128,6 +128,10 @@ Awesome-Chinese-LLM
 * baichuan-7B
   * 地址：https://github.com/baichuan-inc/baichuan-7B
   * 简介：由百川智能开发的一个开源可商用的大规模预训练语言模型。基于Transformer结构，在大约1.2万亿tokens上训练的70亿参数模型，支持中英双语，上下文窗口长度为4096。在标准的中文和英文权威benchmark（C-EVAL/MMLU）上均取得同尺寸最好的效果。
+
+* Anima
+  * 地址：https://github.com/lyogavin/Anima
+  * 简介：由艾写科技开发的一个开源的基于QLoRA的33B中文大语言模型，该模型基于QLoRA的Guanaco 33B模型使用Chinese-Vicuna项目开放的训练数据集guanaco_belle_merge_v1.0进行finetune训练了10000个step，基于Elo rating tournament评估效果较好。
 
 ###  2. <a name='Application'></a>Application
 
@@ -311,6 +315,10 @@ Awesome-Chinese-LLM
 * Guanaco
   * 地址：https://huggingface.co/datasets/JosephusCheung/GuanacoDataset
   * 数据集说明：一个使用 Self-Instruct 的主要包含中日英德的多语言指令微调数据集。
+
+* chatgpt-corpus
+  * 地址：https://github.com/PlexPt/chatgpt-corpus
+  * 数据集说明：开源了由 ChatGPT3.5 生成的300万自问自答数据，包括多个领域，可用于用于训练大模型。
 
 ###  4. <a name='Evaluation'></a>Evaluation
 
