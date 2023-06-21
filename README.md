@@ -133,6 +133,10 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/lyogavin/Anima
   * 简介：由艾写科技开发的一个开源的基于QLoRA的33B中文大语言模型，该模型基于QLoRA的Guanaco 33B模型使用Chinese-Vicuna项目开放的训练数据集guanaco_belle_merge_v1.0进行finetune训练了10000个step，基于Elo rating tournament评估效果较好。
 
+* KnowLM
+  * 地址：https://github.com/zjunlp/KnowLM
+  * 简介：KnowLM项目旨在发布开源大模型框架及相应模型权重以助力减轻知识谬误问题，包括大模型的知识难更新及存在潜在的错误和偏见等。该项目一期发布了基于Llama的抽取大模型智析，使用中英文语料对LLaMA（13B）进行进一步全量预训练，并基于知识图谱转换指令技术对知识抽取任务进行优化。
+
 ###  2. <a name='Application'></a>Application
 
 #### 2.1 垂直领域微调
