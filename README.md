@@ -21,7 +21,7 @@ Awesome-Chinese-LLM
 
 如果本项目能给您带来一点点帮助，麻烦点个⭐️吧～
 
-同时也欢迎大家贡献本项目未收录的开源模型、应用、数据集等。提供新的仓库信息请发起PR，并按照本项目的格式提供仓库链接、简介以及修改相应的仓库数量，感谢~
+同时也欢迎大家贡献本项目未收录的开源模型、应用、数据集等。提供新的仓库信息请发起PR，并按照本项目的格式提供仓库链接、star数，简介等相关信息，感谢~
 
 <p align="center" width="100%">
 <img src="src/chinese_taxonomy.png" alt="Awesome-Chinese-LLM">
@@ -381,11 +381,13 @@ Awesome-Chinese-LLM
 ###  4. <a name='Evaluation'></a>Evaluation
 
 * FlagEval （天秤）大模型评测体系及开放平台
-  * 地址：https://flageval.baai.ac.cn/#/home
+  * 地址：https://github.com/FlagOpen/FlagEval
+![](https://img.shields.io/github/stars/FlagOpen/FlagEval.svg)
   * 简介：旨在建立科学、公正、开放的评测基准、方法、工具集，协助研究人员全方位评估基础模型及训练算法的性能，同时探索利用AI方法实现对主观评测的辅助，大幅提升评测的效率和客观性。FlagEval （天秤）创新构建了“能力-任务-指标”三维评测框架，细粒度刻画基础模型的认知能力边界，可视化呈现评测结果。
 
 * C-Eval: 构造中文大模型的知识评估基准：
-  * 地址：https://yaofu.notion.site/C-Eval-6b79edd91b454e3d8ea41c59ea2af873
+  * 地址：https://github.com/SJTU-LIT/ceval
+![](https://img.shields.io/github/stars/SJTU-LIT/ceval.svg)
   * 简介：构造了一个覆盖人文，社科，理工，其他专业四个大方向，52 个学科（微积分，线代 …），从中学到大学研究生以及职业考试，一共 13948 道题目的中文知识和推理型测试集。此外还给出了当前主流中文LLM的评测结果。
 
 * SuperCLUElyb: SuperCLUE琅琊榜
@@ -471,8 +473,8 @@ Awesome-Chinese-LLM
   * 简介：总结归纳近期井喷式发展的大语言模型，以开源、规模较小、可私有化部署、训练成本较低的‘小羊驼类’模型为主。
 
 * Awesome-AITools：
-  * 地址：https://github.com/ikaijua/Awesome-AITools/blob/main/README-CN.md
-![](https://img.shields.io/github/stars/ikaijua/Awesome-AITools/blob/main/README-CN.md.svg)
+  * 地址：https://github.com/ikaijua/Awesome-AITools
+![](https://img.shields.io/github/stars/ikaijua/Awesome-AITools.svg)
   * 简介：收藏整理了AI相关的实用工具、评测和相关文章。
 
 * open source ChatGPT and beyond：
