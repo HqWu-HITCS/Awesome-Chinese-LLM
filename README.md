@@ -205,6 +205,10 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/qiuhuachuan/smile
 ![](https://img.shields.io/github/stars/qiuhuachuan/smile.svg)
   * 简介：该项目开源的中文心理健康支持通用模型由 ChatGLM-6B LoRA 16-bit 指令微调得到。数据集通过调用gpt-3.5-turbo API扩展真实的心理互助 QA为多轮的心理健康支持多轮对话，提高了通用语言大模型在心理健康支持领域的表现，更加符合在长程多轮对话的应用场景。
+ 
+* MedicalGPT
+* 地址：https://github.com/shibing624/MedicalGPT ![](https://github.com/shibing624/MedicalGPT.svg)
+* 简介：训练医疗大模型，实现包括二次预训练、有监督微调、奖励建模、强化学习训练。发布中文医疗LoRA模型shibing624/ziya-llama-13b-medical-lora，基于Ziya-LLaMA-13B-v1模型，SFT微调了一版医疗模型，医疗问答效果有提升，发布微调后的LoRA权重。
 
 ##### 法律
 
