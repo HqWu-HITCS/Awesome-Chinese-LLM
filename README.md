@@ -479,6 +479,11 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/PlexPt/awesome-chatgpt-prompts-zh
 ![](https://img.shields.io/github/stars/PlexPt/awesome-chatgpt-prompts-zh.svg)
   * 简介：该项目是ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话，对指令构造可以提供一些参考。
+
+* llm-action：
+  * 地址：https://github.com/liguodongiot/llm-action
+![](https://img.shields.io/github/stars/liguodongiot/llm-action.svg)
+  * 简介：该项目提供了一系列LLM实战的教程和代码，包括LLM的训练、推理、微调以及LLM生态相关的一些技术文章等。
  
  ###  6. <a name='Related Repository'></a>Related Repository
  
@@ -526,6 +531,11 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/catqaq/ChatPiXiu
 ![](https://img.shields.io/github/stars/catqaq/ChatPiXiu.svg)
   * 简介：该项目旨在打造全面且实用的ChatGPT模型库和文档库。当前V1版本梳理了包括：相关资料调研+通用最小实现+领域/任务适配等。
+
+* LLM-Zoo：
+  * 地址：https://github.com/DAMO-NLP-SG/LLM-Zoo
+![](https://img.shields.io/github/stars/DAMO-NLP-SG/LLM-Zoo.svg)
+  * 简介：该项目收集了包括开源和闭源的LLM模型，具体包括了发布时间，模型大小，支持的语种，领域，训练数据及相应论文/仓库等。
 
 ## 作者
 
