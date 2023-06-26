@@ -60,6 +60,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/THUDM/VisualGLM-6B.svg)
   * 简介：一个开源的，支持图像、中文和英文的多模态对话语言模型，语言模型基于 ChatGLM-6B，具有 62 亿参数；图像部分通过训练 BLIP2-Qformer 构建起视觉模型与语言模型的桥梁，整体模型共78亿参数。依靠来自于 CogView 数据集的30M高质量中文图文对，与300M经过筛选的英文图文对进行预训练。
 
+* ChatGLM2-6B
+  * 地址：hhttps://github.com/THUDM/ChatGLM2-6B
+![](https://img.shields.io/github/stars/THUDM/ChatGLM2-6B.svg)
+  * 简介：基于开源中英双语对话模型 ChatGLM-6B 的第二代版本，在保留了初代模型对话流畅、部署门槛较低等众多优秀特性的基础之上，引入了GLM 的混合目标函数，经过了 1.4T 中英标识符的预训练与人类偏好对齐训练；基座模型的上下文长度扩展到了 32K，并在对话阶段使用 8K 的上下文长度训练；基于 Multi-Query Attention 技术实现更高效的推理速度和更低的显存占用；允许商业使用。
+
 * Chinese-LLaMA-Alpaca：
   * 地址：https://github.com/ymcui/Chinese-LLaMA-Alpaca
 ![](https://img.shields.io/github/stars/ymcui/Chinese-LLaMA-Alpaca.svg)
