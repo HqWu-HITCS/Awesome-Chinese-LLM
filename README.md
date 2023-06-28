@@ -484,6 +484,11 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/liguodongiot/llm-action
 ![](https://img.shields.io/github/stars/liguodongiot/llm-action.svg)
   * 简介：该项目提供了一系列LLM实战的教程和代码，包括LLM的训练、推理、微调以及LLM生态相关的一些技术文章等。
+
+* LLMsPracticalGuide：
+  * 地址：https://github.com/Mooler0410/LLMsPracticalGuide
+![](https://img.shields.io/github/stars/Mooler0410/LLMsPracticalGuide.svg)
+  * 简介：该项目提供了关于LLM的一系列实用指南与资源精选列表（包括LLM发展历程、示例、论文等）。
  
  ###  6. <a name='Related Repository'></a>Related Repository
  
@@ -536,6 +541,11 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/DAMO-NLP-SG/LLM-Zoo
 ![](https://img.shields.io/github/stars/DAMO-NLP-SG/LLM-Zoo.svg)
   * 简介：该项目收集了包括开源和闭源的LLM模型，具体包括了发布时间，模型大小，支持的语种，领域，训练数据及相应论文/仓库等。
+
+* LLMs-In-China：
+  * 地址：https://github.com/wgwang/LLMs-In-China
+![](https://img.shields.io/github/stars/wgwang/LLMs-In-China.svg)
+  * 简介：该项目旨在记录中国大模型发展情况，同时持续深度分析开源开放的大模型以及数据集的情况。
 
 ## 作者
 
