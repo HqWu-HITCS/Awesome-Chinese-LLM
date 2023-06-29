@@ -295,6 +295,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/Jittor/JittorLLMs.svg)
   * 简介：计图大模型推理库：笔记本没有显卡也能跑大模型，具有成本低，支持广，可移植，速度快等优势。
 
+* fastllm：
+  * 地址：https://github.com/ztxz16/fastllm
+![](https://img.shields.io/github/stars/ztxz16/fastllm.svg)
+  * 简介：纯c++的全平台llm加速库，chatglm-6B级模型单卡可达10000+token / s，支持moss, chatglm, baichuan模型，手机端流畅运行。
+
 * WebCPM
   * 地址：https://github.com/thunlp/WebCPM
 ![](https://img.shields.io/github/stars/thunlp/WebCPM.svg)
@@ -309,6 +314,11 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/sunner/ChatALL
 ![](https://img.shields.io/github/stars/sunner/ChatALL.svg)
   * 简介：ChatALL（中文名：齐叨）可以把一条指令同时发给多个 AI，可以帮助用户发现最好的回答。
+
+* CreativeChatGLM：
+  * 地址：https://github.com/ypwhs/CreativeChatGLM
+![](https://img.shields.io/github/stars/ypwhs/CreativeChatGLM.svg)
+  * 简介：可以使用修订和续写的功能来生成创意内容，可以使用“续写”按钮帮 ChatGLM 想一个开头，并让它继续生成更多的内容，你可以使用“修订”按钮修改最后一句 ChatGLM 的回复。
 
 ###  3. <a name='Dataset'></a>Dataset
 
