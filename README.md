@@ -160,6 +160,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/ictnlp/BayLing.svg)
   * 简介：一个具有增强的跨语言对齐的通用大模型，由中国科学院计算技术研究所自然语言处理团队开发。百聆（BayLing）以LLaMA为基座模型，探索了以交互式翻译任务为核心进行指令微调的方法，旨在同时完成语言间对齐以及与人类意图对齐，将LLaMA的生成能力和指令跟随能力从英语迁移到其他语言（中文）。在多语言翻译、交互翻译、通用任务、标准化考试的测评中，百聆在中文/英语中均展现出更好的表现。百聆提供了在线的内测版demo，以供大家体验。
 
+* YuLan-Chat
+  * 地址：https://github.com/ictnlp/BayLing
+![](https://img.shields.io/github/stars/RUC-GSAI/YuLan-Chat.svg)
+  * 简介：YuLan-Chat是中国人民大学GSAI研究人员开发的基于聊天的大语言模型。它是在LLaMA的基础上微调开发的，具有高质量的英文和中文指令。 YuLan-Chat可以与用户聊天，很好地遵循英文或中文指令，并且可以在量化后部署在GPU（A800-80G或RTX3090）上。
+
 ###  2. <a name='Application'></a>Application
 
 #### 2.1 垂直领域微调
