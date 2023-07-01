@@ -17,7 +17,7 @@ Awesome-Chinese-LLM
 </p>
 
 
-自ChatGPT为代表的大语言模型（Large Language Model, LLM）出现以后，由于其惊人的类通用人工智能（AGI）的能力，掀起了新一轮自然语言处理领域的研究和应用的浪潮。尤其是以ChatGLM、LLaMA等平民玩家都能跑起来的较小规模的LLM开源之后，业界涌现了非常多基于LLM的二次微调或应用的案例。本项目旨在收集和梳理中文LLM相关的开源模型、应用、数据集及教程等资料。
+自ChatGPT为代表的大语言模型（Large Language Model, LLM）出现以后，由于其惊人的类通用人工智能（AGI）的能力，掀起了新一轮自然语言处理领域的研究和应用的浪潮。尤其是以ChatGLM、LLaMA等平民玩家都能跑起来的较小规模的LLM开源之后，业界涌现了非常多基于LLM的二次微调或应用的案例。本项目旨在收集和梳理中文LLM相关的开源模型、应用、数据集及教程等资料，目前收录的资源已达100+个！
 
 如果本项目能给您带来一点点帮助，麻烦点个⭐️吧～
 
@@ -29,36 +29,33 @@ Awesome-Chinese-LLM
 
 ## 目录
 - [目录](#目录)
-  - [1. Model](#1-model)
-  - [2. Application](#2-application)
+  - [1. 模型](#1-模型)
+    - [1.1 文本LLM模型](#11-文本llm模型)
+    - [1.2 多模态LLM模型](#12-多模态llm模型)
+  - [2. 应用](#2-应用)
     - [2.1 垂直领域微调](#21-垂直领域微调)
       - [医疗](#医疗)
       - [法律](#法律)
       - [金融](#金融)
       - [教育](#教育)
       - [数学](#数学)
-      - [文化](#文化)
     - [2.2 LangChain应用](#22-langchain应用)
-    - [2.3 外部挂件应用](#23-外部挂件应用)
-  - [3. Dataset](#3-dataset)
-  - [4. Evaluation](#4-evaluation)
-  - [5. Tutorial](#5-tutorial)
-  - [6. Related Repository](#6-related-repository)
-- [作者](#作者)
+    - [2.3 其他应用](#23-其他应用)
+  - [3. 数据集](#3-数据集)
+  - [4. LLM评测](#4-llm评测)
+  - [5. LLM教程](#5-llm教程)
+  - [6. 相关仓库](#6-相关仓库)
 - [Star History](#star-history)
 
 
-###  1. <a name='Model'></a>Model
+###  1. <a name='模型'></a>模型
+
+#### 1.1 文本LLM模型
 
 * ChatGLM：
   * 地址：https://github.com/THUDM/ChatGLM-6B
 ![](https://img.shields.io/github/stars/THUDM/ChatGLM-6B.svg)
   * 简介：中文领域效果最好的开源底座模型之一，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持
-
-* VisualGLM-6B
-  * 地址：https://github.com/THUDM/VisualGLM-6B
-![](https://img.shields.io/github/stars/THUDM/VisualGLM-6B.svg)
-  * 简介：一个开源的，支持图像、中文和英文的多模态对话语言模型，语言模型基于 ChatGLM-6B，具有 62 亿参数；图像部分通过训练 BLIP2-Qformer 构建起视觉模型与语言模型的桥梁，整体模型共78亿参数。依靠来自于 CogView 数据集的30M高质量中文图文对，与300M经过筛选的英文图文对进行预训练。
 
 * ChatGLM2-6B
   * 地址：https://github.com/THUDM/ChatGLM2-6B
@@ -109,6 +106,11 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/CVI-SZU/Linly
 ![](https://img.shields.io/github/stars/CVI-SZU/Linly.svg)
   * 简介：提供中文对话模型 Linly-ChatFlow 、中文基础模型 Linly-Chinese-LLaMA 及其训练数据。 中文基础模型以 LLaMA 为底座，利用中文和中英平行增量预训练。项目汇总了目前公开的多语言指令数据，对中文模型进行了大规模指令跟随训练，实现了 Linly-ChatFlow 对话模型。
+
+* Firefly：
+  * 地址：https://github.com/yangjianxin1/Firefly
+![](https://img.shields.io/github/stars/yangjianxin1/Firefly.svg)
+  * 简介：Firefly(流萤) 是一个开源的中文大语言模型项目，开源包括数据、微调代码、多个基于Bloom、baichuan等微调好的模型等；支持全量参数指令微调、QLoRA低成本高效指令微调、LoRA指令微调；支持绝大部分主流的开源大模型，如百川baichuan、Ziya、Bloom、LLaMA等。持lora与base model进行权重合并，推理更便捷。
 
 * ChatYuan
   * 地址：https://github.com/clue-ai/ChatYuan
@@ -165,7 +167,22 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/RUC-GSAI/YuLan-Chat.svg)
   * 简介：YuLan-Chat是中国人民大学GSAI研究人员开发的基于聊天的大语言模型。它是在LLaMA的基础上微调开发的，具有高质量的英文和中文指令。 YuLan-Chat可以与用户聊天，很好地遵循英文或中文指令，并且可以在量化后部署在GPU（A800-80G或RTX3090）上。
 
-###  2. <a name='Application'></a>Application
+
+#### 1.2 多模态LLM模型
+
+* VisualGLM-6B
+  * 地址：https://github.com/THUDM/VisualGLM-6B
+![](https://img.shields.io/github/stars/THUDM/VisualGLM-6B.svg)
+  * 简介：一个开源的，支持图像、中文和英文的多模态对话语言模型，语言模型基于 ChatGLM-6B，具有 62 亿参数；图像部分通过训练 BLIP2-Qformer 构建起视觉模型与语言模型的桥梁，整体模型共78亿参数。依靠来自于 CogView 数据集的30M高质量中文图文对，与300M经过筛选的英文图文对进行预训练。
+
+* VisCPM
+  * 地址：https://github.com/OpenBMB/VisCPM
+![](https://img.shields.io/github/stars/OpenBMB/VisCPM.svg)
+  * 简介：一个开源的多模态大模型系列，支持中英双语的多模态对话能力（VisCPM-Chat模型）和文到图生成能力（VisCPM-Paint模型）。VisCPM基于百亿参数量语言大模型CPM-Bee（10B）训练，融合视觉编码器（Q-Former）和视觉解码器（Diffusion-UNet）以支持视觉信号的输入和输出。得益于CPM-Bee基座优秀的双语能力，VisCPM可以仅通过英文多模态数据预训练，泛化实现优秀的中文多模态能力。
+
+
+
+###  2. <a name='应用'></a>应用
 
 #### 2.1 垂直领域微调
 
@@ -269,13 +286,6 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/yongzhuo/chatglm-maths.svg)
   * 简介：基于chatglm-6b微调/LORA/PPO/推理的数学题解题大模型, 样本为自动生成的整数/小数加减乘除运算, 可gpu/cpu部署，开源了训练数据集等。
 
-##### 文化
-
-* Firefly：
-  * 地址：https://github.com/yangjianxin1/Firefly
-![](https://img.shields.io/github/stars/yangjianxin1/Firefly.svg)
-  * 简介：中文对话式大语言模型，构造了许多与中华文化相关的数据，以提升模型这方面的表现，如对联、作诗、文言文翻译、散文、金庸小说等。
-
 #### 2.2 LangChain应用
 
 * Chinese-LangChain：
@@ -288,7 +298,7 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/imClumsyPanda/langchain-ChatGLM.svg)
   * 简介：基于本地知识库的 ChatGLM 等大语言模型应用实现
 
-#### 2.3 外部挂件应用
+#### 2.3 其他应用
 
 * wenda：
   * 地址：https://github.com/wenda-LLM/wenda
@@ -325,7 +335,7 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/ypwhs/CreativeChatGLM.svg)
   * 简介：可以使用修订和续写的功能来生成创意内容，可以使用“续写”按钮帮 ChatGLM 想一个开头，并让它继续生成更多的内容，你可以使用“修订”按钮修改最后一句 ChatGLM 的回复。
 
-###  3. <a name='Dataset'></a>Dataset
+###  3. <a name='数据集'></a>数据集
 
 * RefGPT：基于RefGPT生成大量真实和定制的对话数据集
   * 地址：https://github.com/ziliwangnlp/RefGPT
@@ -361,7 +371,7 @@ Awesome-Chinese-LLM
 
 * BELLE-data-1.5M：
   * 地址：https://github.com/LianjiaTech/BELLE/tree/main/data/1.5M
-![](https://img.shields.io/github/stars/LianjiaTech/BELLE/tree/main/data/1.5M.svg)
+![](https://img.shields.io/github/stars/LianjiaTech/BELLE.svg)
   * 数据集说明：通过self-instruct生成，使用了中文种子任务，以及openai的text-davinci-003接口,涉及175个种子任务
 
 * Chinese Scientific Literature Dataset：
@@ -408,7 +418,7 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/qiuhuachuan/smile.svg)
   * 数据集说明：数据集通过ChatGPT改写真实的心理互助 QA为多轮的心理健康支持多轮对话（single-turn to multi-turn inclusive language expansion via ChatGPT），该数据集含有56k个多轮对话，其对话主题、词汇和篇章语义更加丰富多样，更加符合在长程多轮对话的应用场景。
 
-###  4. <a name='Evaluation'></a>Evaluation
+###  4. <a name='LLM评测'></a>LLM评测
 
 * FlagEval （天秤）大模型评测体系及开放平台
   * 地址：https://github.com/FlagOpen/FlagEval
@@ -465,7 +475,7 @@ Awesome-Chinese-LLM
   * 简介：为推动LLM在医疗领域的发展和落地，由华东师范大学联合阿里巴巴天池平台，复旦大学附属华山医院，东北大学，哈尔滨工业大学（深圳），鹏城实验室与同济大学推出PromptCBLUE评测基准, 将16种不同的医疗场景NLP任务全部转化为基于提示的语言生成任务,形成首个中文医疗场景的LLM评测基准。
 
 
-###  5. <a name='Tutorial'></a>Tutorial
+###  5. <a name='LLM教程'></a>LLM教程
 
 * 面向开发者的 LLM 入门课程：
   * 地址：https://github.com/datawhalechina/prompt-engineering-for-developers
@@ -510,7 +520,7 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/Mooler0410/LLMsPracticalGuide.svg)
   * 简介：该项目提供了关于LLM的一系列实用指南与资源精选列表（包括LLM发展历程、示例、论文等）。
  
- ###  6. <a name='Related Repository'></a>Related Repository
+ ###  6. <a name='相关仓库'></a>相关仓库
  
 * FindTheChatGPTer：
   * 地址：https://github.com/chenking2020/FindTheChatGPTer
@@ -567,10 +577,6 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/wgwang/LLMs-In-China.svg)
   * 简介：该项目旨在记录中国大模型发展情况，同时持续深度分析开源开放的大模型以及数据集的情况。
 
-## 作者
-
-* [HqWu-HITCS](https://github.com/HqWu-HITCS)
-* [thinkwee](https://github.com/thinkwee)
 
 ## Star History
 
