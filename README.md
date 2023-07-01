@@ -454,6 +454,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/thu-coai/Safety-Prompts.svg)
   * 简介：由清华大学提出的一个关于LLM安全评测benchmark，包括安全评测平台等，用于评测和提升大模型的安全性，囊括了多种典型的安全场景和指令攻击的prompt。
 
+* MMCU：
+  * 地址：https://github.com/Felixgithub2017/MMCU
+![](https://img.shields.io/github/stars/Felixgithub2017/MMCU.svg)
+  * 简介：该项目提供对中文大模型语义理解能力的测试，评测方式、评测数据集、评测记录都公开，确保可以复现。该项目旨在帮助各位研究者们评测自己的模型性能，并验证训练策略是否有效。
+
 * PromptCBLUE: 中文医疗场景的LLM评测基准
   * 地址：https://github.com/michael-wzhu/PromptCBLUE
 ![](https://img.shields.io/github/stars/michael-wzhu/PromptCBLUE.svg)
