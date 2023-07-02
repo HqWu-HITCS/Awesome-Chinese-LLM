@@ -255,6 +255,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/AndrewZhe/lawyer-llama.svg)
   * 简介：开源了一系列法律领域的指令微调数据和基于LLaMA训练的中文法律大模型的参数。Lawyer LLaMA 首先在大规模法律语料上进行了continual pretraining。在此基础上，借助ChatGPT收集了一批对中国国家统一法律职业资格考试客观题（以下简称法考）的分析和对法律咨询的回答，利用收集到的数据对模型进行指令微调，让模型习得将法律知识应用到具体场景中的能力。
 
+* ChatLaw-法律大模型
+  * 地址：https://github.com/PKU-YuanGroup/ChatLaw
+![](https://img.shields.io/github/stars/PKU-YuanGroup/ChatLaw.svg)
+  * 简介：由北大开源的一系列法律领域的大模型，包括ChatLaw-13B（基于姜子牙Ziya-LLaMA-13B-v1训练而来），ChatLaw-33B（基于Anima-33B训练而来，逻辑推理能力大幅提升），ChatLaw-Text2Vec，使用93w条判决案例做成的数据集基于BERT训练了一个相似度匹配模型，可将用户提问信息和对应的法条相匹配。
+
 ##### 金融
 
 * Cornucopia（聚宝盆）：基于中文金融知识的LLaMA微调模型
