@@ -298,15 +298,20 @@ Awesome-Chinese-LLM
 
 #### 2.2 LangChain应用
 
+* langchain-ChatGLM：
+  * 地址：https://github.com/imClumsyPanda/langchain-ChatGLM
+![](https://img.shields.io/github/stars/imClumsyPanda/langchain-ChatGLM.svg)
+  * 简介：基于本地知识库的问答应用，目标期望建立一套对中文场景与开源模型支持友好、可离线运行的知识库问答解决方案。建立了全流程可使用开源模型实现的本地知识库问答应用。现已支持使用 ChatGLM-6B 等大语言模型直接接入，或通过 fastchat api 形式接入 Vicuna, Alpaca, LLaMA, Koala, RWKV 等模型。
+
+* LangChain-ChatGLM-Webui：
+  * 地址：https://github.com/thomas-yanxin/LangChain-ChatGLM-Webui
+![](https://img.shields.io/github/stars/thomas-yanxin/LangChain-ChatGLM-Webui.svg)
+  * 简介：利用LangChain和ChatGLM-6B系列模型制作的Webui, 提供基于本地知识的大模型应用。目前支持上传 txt、docx、md、pdf等文本格式文件, 提供包括ChatGLM-6B系列、Belle系列等模型文件以及GanymedeNil/text2vec-large-chinese、nghuyong/ernie-3.0-base-zh、nghuyong/ernie-3.0-nano-zh等Embedding模型。
+
 * Chinese-LangChain：
   * 地址：https://github.com/yanqiangmiffy/Chinese-LangChain
 ![](https://img.shields.io/github/stars/yanqiangmiffy/Chinese-LangChain.svg)
   * 简介：基于ChatGLM-6b+langchain实现本地化知识库检索与智能答案生成（包括互联网检索结果接入）
-
-* langchain-ChatGLM：
-  * 地址：https://github.com/imClumsyPanda/langchain-ChatGLM
-![](https://img.shields.io/github/stars/imClumsyPanda/langchain-ChatGLM.svg)
-  * 简介：基于本地知识库的 ChatGLM 等大语言模型应用实现
 
 #### 2.3 其他应用
 
