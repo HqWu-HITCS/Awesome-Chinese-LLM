@@ -23,9 +23,7 @@ Awesome-Chinese-LLM
 
 同时也欢迎大家贡献本项目未收录的开源模型、应用、数据集等。提供新的仓库信息请发起PR，并按照本项目的格式提供仓库链接、star数，简介等相关信息，感谢~
 
-<p align="center" width="100%">
-<img src="src/chinese_taxonomy.png" alt="Awesome-Chinese-LLM">
-</p>
+![Awesome-Chinese-LLM](src/LLM.png)
 
 ## 目录
 - [目录](#目录)
@@ -188,6 +186,8 @@ Awesome-Chinese-LLM
 
 ##### 医疗
 
+[![](src/Medical.png)](src/Medical.png)
+
 * DoctorGLM：
   * 地址：https://github.com/xionghonglin/DoctorGLM
 ![](https://img.shields.io/github/stars/xionghonglin/DoctorGLM.svg)
@@ -240,6 +240,8 @@ Awesome-Chinese-LLM
 
 ##### 法律
 
+[![](src/Legal.png)](src/Legal.png)
+
 * LaWGPT：基于中文法律知识的大语言模型
   * 地址：https://github.com/pengxiao-song/LaWGPT
 ![](https://img.shields.io/github/stars/pengxiao-song/LaWGPT.svg)
@@ -261,6 +263,8 @@ Awesome-Chinese-LLM
   * 简介：由北大开源的一系列法律领域的大模型，包括ChatLaw-13B（基于姜子牙Ziya-LLaMA-13B-v1训练而来），ChatLaw-33B（基于Anima-33B训练而来，逻辑推理能力大幅提升），ChatLaw-Text2Vec，使用93w条判决案例做成的数据集基于BERT训练了一个相似度匹配模型，可将用户提问信息和对应的法条相匹配。
 
 ##### 金融
+
+[![](src/Financial.png)](src/Financial.png)
 
 * Cornucopia（聚宝盆）：基于中文金融知识的LLaMA微调模型
   * 地址：https://github.com/jerry1993-tech/Cornucopia-LLaMA-Fin-Chinese
