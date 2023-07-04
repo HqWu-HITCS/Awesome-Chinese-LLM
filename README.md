@@ -42,6 +42,10 @@ Awesome-Chinese-LLM
   - [3. 数据集](#3-数据集)
   - [4. LLM评测](#4-llm评测)
   - [5. LLM教程](#5-llm教程)
+    - [LLM基础知识](#llm基础知识)
+    - [提示工程教程](#提示工程教程)
+    - [LLM应用教程](#llm应用教程)
+    - [LLM实战教程](#llm实战教程)
   - [6. 相关仓库](#6-相关仓库)
 - [Star History](#star-history)
 
@@ -496,6 +500,20 @@ Awesome-Chinese-LLM
 
 ###  5. <a name='LLM教程'></a>LLM教程
 
+#### LLM基础知识
+
+* HuggingLLM：
+  * 地址：https://github.com/datawhalechina/hugging-llm
+![](https://img.shields.io/github/stars/datawhalechina/hugging-llm.svg)
+  * 简介：介绍 ChatGPT 原理、使用和应用，降低使用门槛，让更多感兴趣的非NLP或算法专业人士能够无障碍使用LLM创造价值。
+
+* LLMsPracticalGuide：
+  * 地址：https://github.com/Mooler0410/LLMsPracticalGuide
+![](https://img.shields.io/github/stars/Mooler0410/LLMsPracticalGuide.svg)
+  * 简介：该项目提供了关于LLM的一系列指南与资源精选列表，包括LLM发展历程、原理、示例、论文等。
+
+#### 提示工程教程
+
 * 面向开发者的 LLM 入门课程：
   * 地址：https://github.com/datawhalechina/prompt-engineering-for-developers
 ![](https://img.shields.io/github/stars/datawhalechina/prompt-engineering-for-developers.svg)
@@ -505,44 +523,38 @@ Awesome-Chinese-LLM
   * 地址：https://www.promptingguide.ai/zh
   * 简介：该项目基于对大语言模型的浓厚兴趣，编写了这份全新的提示工程指南，介绍了大语言模型相关的论文研究、学习指南、模型、讲座、参考资料、大语言模型能力以及与其他与提示工程相关的工具。
 
+* awesome-chatgpt-prompts-zh：
+  * 地址：https://github.com/PlexPt/awesome-chatgpt-prompts-zh
+![](https://img.shields.io/github/stars/PlexPt/awesome-chatgpt-prompts-zh.svg)
+  * 简介：该项目是ChatGPT中文调教指南。包括各种场景使用指南，让chatgpt知道怎么听你的话，对指令构造可以提供一些参考。
+
+#### LLM应用教程
+
 * LangChain 🦜️🔗 中文网，跟着LangChain一起学LLM/GPT开发：
   * 地址：https://www.langchain.asia
   * 简介：Langchain的中文文档，由是两个在LLM创业者维护，希望帮助到从刚进入AI应用开发的朋友们。
-
-* LLMs九层妖塔：
-  * 地址：https://github.com/km1994/LLMsNineStoryDemonTower
-![](https://img.shields.io/github/stars/km1994/LLMsNineStoryDemonTower.svg)
-  * 简介：ChatGLM、Chinese-LLaMA-Alpaca、MiniGPT-4、FastChat、LLaMA、gpt4all等实战与经验。
-
-* HuggingLLM：
-  * 地址：https://github.com/datawhalechina/hugging-llm
-![](https://img.shields.io/github/stars/datawhalechina/hugging-llm.svg)
-  * 简介：介绍 ChatGPT 原理、使用和应用，降低使用门槛，让更多感兴趣的非NLP或算法专业人士能够无障碍使用LLM创造价值。
 
 * OpenAI Cookbook：
   * 地址：https://github.com/openai/openai-cookbook
 ![](https://img.shields.io/github/stars/openai/openai-cookbook.svg)
   * 简介：该项目是OpenAI提供的使用OpenAI API的示例和指导，其中包括如何构建一个问答机器人等教程，能够为从业人员开发类似应用时带来指导。
 
-* awesome-chatgpt-prompts-zh：
-  * 地址：https://github.com/PlexPt/awesome-chatgpt-prompts-zh
-![](https://img.shields.io/github/stars/PlexPt/awesome-chatgpt-prompts-zh.svg)
-  * 简介：该项目是ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话，对指令构造可以提供一些参考。
+* 构筑大语言模型应用：应用开发与架构设计：
+  * 地址：https://github.com/phodal/aigc
+![](https://img.shields.io/github/stars/phodal/aigc.svg)
+  * 简介：该项目开源了一本关于 LLM 在真实世界应用的开源电子书，介绍了大语言模型的基础知识和应用，以及如何构建自己的模型。其中包括Prompt的编写、开发和管理，探索最好的大语言模型能带来什么，以及LLM应用开发的模式和架构设计。
+
+#### LLM实战教程
+
+* LLMs九层妖塔：
+  * 地址：https://github.com/km1994/LLMsNineStoryDemonTower
+![](https://img.shields.io/github/stars/km1994/LLMsNineStoryDemonTower.svg)
+  * 简介：ChatGLM、Chinese-LLaMA-Alpaca、MiniGPT-4、FastChat、LLaMA、gpt4all等实战与经验。
 
 * llm-action：
   * 地址：https://github.com/liguodongiot/llm-action
 ![](https://img.shields.io/github/stars/liguodongiot/llm-action.svg)
   * 简介：该项目提供了一系列LLM实战的教程和代码，包括LLM的训练、推理、微调以及LLM生态相关的一些技术文章等。
-
-* LLMsPracticalGuide：
-  * 地址：https://github.com/Mooler0410/LLMsPracticalGuide
-![](https://img.shields.io/github/stars/Mooler0410/LLMsPracticalGuide.svg)
-  * 简介：该项目提供了关于LLM的一系列实用指南与资源精选列表（包括LLM发展历程、示例、论文等）。
-
-* 构筑大语言模型应用：应用开发与架构设计：
-  * 地址：https://github.com/phodal/aigc
-![](https://img.shields.io/github/stars/phodal/aigc.svg)
-  * 简介：该项目开源了一本关于 LLM 在真实世界应用的开源电子书，介绍了大语言模型的基础知识和应用，以及如何构建自己的模型。其中包括Prompt的编写、开发和管理，探索最好的大语言模型能带来什么，以及LLM应用开发的模式和架构设计。
  
  ###  6. <a name='相关仓库'></a>相关仓库
  
@@ -611,4 +623,3 @@ Awesome-Chinese-LLM
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=HqWu-HITCS/Awesome-Chinese-LLM&type=Date" />
   </picture>
 </a>
-
