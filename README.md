@@ -613,6 +613,10 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/wgwang/LLMs-In-China.svg)
   * 简介：该项目旨在记录中国大模型发展情况，同时持续深度分析开源开放的大模型以及数据集的情况。
 
+* BMList：
+  * 地址：https://github.com/OpenBMB/BMList
+![](https://img.shields.io/github/stars/OpenBMB/BMList.svg)
+  * 简介：该项目收集了参数量超过10亿的大模型，并梳理了各个大模型的适用模态、发布的机构、适合的语种，参数量和开源地址、API等信息。
 
 ## Star History
 
