@@ -477,6 +477,16 @@ Awesome-Chinese-LLM
   * 地址：https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
   * 简介：由HuggingFace组织的一个LLM评测榜单，目前已评估了较多主流的开源LLM模型。评估主要包括AI2 Reasoning Challenge, HellaSwag, MMLU, TruthfulQA四个数据集上的表现，主要以英文为主。
 
+* CMMLU：
+  * 地址：https://github.com/haonan-li/CMMLU
+![](https://img.shields.io/github/stars/haonan-li/CMMLU.svg)
+  * 简介：CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在中文语境下的知识和推理能力。CMMLU涵盖了从基础学科到高级专业水平的67个主题。它包括：需要计算和推理的自然科学，需要知识的人文科学和社会科学,以及需要生活常识的中国驾驶规则等。此外，CMMLU中的许多任务具有中国特定的答案，可能在其他地区或语言中并不普遍适用。因此是一个完全中国化的中文测试基准。
+
+* MMCU：
+  * 地址：https://github.com/Felixgithub2017/MMCU
+![](https://img.shields.io/github/stars/Felixgithub2017/MMCU.svg)
+  * 简介：该项目提供对中文大模型语义理解能力的测试，评测方式、评测数据集、评测记录都公开，确保可以复现。该项目旨在帮助各位研究者们评测自己的模型性能，并验证训练策略是否有效。
+
 * chinese-llm-benchmark：
   * 地址：https://github.com/jeinlee1991/chinese-llm-benchmark
 ![](https://img.shields.io/github/stars/jeinlee1991/chinese-llm-benchmark.svg)
@@ -486,11 +496,6 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/thu-coai/Safety-Prompts
 ![](https://img.shields.io/github/stars/thu-coai/Safety-Prompts.svg)
   * 简介：由清华大学提出的一个关于LLM安全评测benchmark，包括安全评测平台等，用于评测和提升大模型的安全性，囊括了多种典型的安全场景和指令攻击的prompt。
-
-* MMCU：
-  * 地址：https://github.com/Felixgithub2017/MMCU
-![](https://img.shields.io/github/stars/Felixgithub2017/MMCU.svg)
-  * 简介：该项目提供对中文大模型语义理解能力的测试，评测方式、评测数据集、评测记录都公开，确保可以复现。该项目旨在帮助各位研究者们评测自己的模型性能，并验证训练策略是否有效。
 
 * PromptCBLUE: 中文医疗场景的LLM评测基准
   * 地址：https://github.com/michael-wzhu/PromptCBLUE
