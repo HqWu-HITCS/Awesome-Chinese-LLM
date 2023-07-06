@@ -321,6 +321,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/yanqiangmiffy/Chinese-LangChain.svg)
   * 简介：基于ChatGLM-6b+langchain实现本地化知识库检索与智能答案生成（包括互联网检索结果接入）
 
+* DemoGPT：
+  * 地址：https://github.com/melih-unsal/DemoGPT
+![](https://img.shields.io/github/stars/melih-unsal/DemoGPT.svg)
+  * 简介：⚡ DemoGPT 使您只需使用提示即可创建快速演示。 ⚡
+
 #### 2.3 其他应用
 
 * wenda：
