@@ -76,6 +76,29 @@
       * 中国国家统一法律职业资格考试客观题
   * 院校: 北京大学
 
+* 韩非(HanFei)  (2023-05-31)
+  * Code: https://github.com/siat-nlp/HanFei
+  * License: Apache-2.0
+  * 基座模型: BLOOMZ-7B1
+  * 数据:
+    * 预训练
+      * 案例、法规、起诉状、法律新闻 (60G, 2K token/条)
+    * 微调
+      * v1.0
+        * 中文通用指令 (53k)
+        * 中文法律指令 (41k)
+        * 中文通用对话 (55k)
+        * 中文法律对话 (56k)
+        * 中文法律问答数据 (50k)
+    * 评估
+      * 法律问题
+        * 包含劳动、婚姻等9个板块 (150)
+  * 算力: 8 x NVIDIA A100/A800
+  * 机构:
+    * 中科院深圳先进院
+    * 深圳市大数据研究院
+    * 香港中文大学（深圳）
+
 * ChatLaw  (2023-06-28)
   * Paper: https://arxiv.org/abs/2306.16092
   * Code: https://github.com/PKU-YuanGroup/ChatLaw

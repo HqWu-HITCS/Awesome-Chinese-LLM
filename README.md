@@ -246,6 +246,11 @@ Awesome-Chinese-LLM
 
 [![](src/Legal.png)](src/Legal.png)
 
+* 獬豸(LawGPT_zh): 中文法律对话语言模型
+  * 地址：https://github.com/LiuHC0428/LAW-GPT
+![](https://img.shields.io/github/stars/LiuHC0428/LAW-GPT.svg)
+  * 简介: 本项目开源的中文法律通用模型由ChatGLM-6B LoRA 16-bit指令微调得到。数据集包括现有的法律问答数据集和基于法条和真实案例指导的self-Instruct构建的高质量法律文本问答，提高了通用语言大模型在法律领域的表现，提高了模型回答的可靠性和专业程度。
+
 * LaWGPT：基于中文法律知识的大语言模型
   * 地址：https://github.com/pengxiao-song/LaWGPT
 ![](https://img.shields.io/github/stars/pengxiao-song/LaWGPT.svg)
@@ -260,6 +265,11 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/AndrewZhe/lawyer-llama
 ![](https://img.shields.io/github/stars/AndrewZhe/lawyer-llama.svg)
   * 简介：开源了一系列法律领域的指令微调数据和基于LLaMA训练的中文法律大模型的参数。Lawyer LLaMA 首先在大规模法律语料上进行了continual pretraining。在此基础上，借助ChatGPT收集了一批对中国国家统一法律职业资格考试客观题（以下简称法考）的分析和对法律咨询的回答，利用收集到的数据对模型进行指令微调，让模型习得将法律知识应用到具体场景中的能力。
+
+* 韩非(HanFei)
+  * 地址: https://github.com/siat-nlp/HanFei
+![](https://img.shields.io/github/stars/siat-nlp/HanFei.svg)
+  * 简介: HanFei-1.0(韩非)是国内首个全参数训练的法律大模型，参数量7b，主要功能包括：法律问答、多轮对话、撰写文章、检索等。
 
 * ChatLaw-法律大模型
   * 地址：https://github.com/PKU-YuanGroup/ChatLaw
