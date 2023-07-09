@@ -242,6 +242,21 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/shibing624/MedicalGPT.svg)
   * 简介：训练医疗大模型，实现包括二次预训练、有监督微调、奖励建模、强化学习训练。发布中文医疗LoRA模型shibing624/ziya-llama-13b-medical-lora，基于Ziya-LLaMA-13B-v1模型，SFT微调了一版医疗模型，医疗问答效果有提升，发布微调后的LoRA权重。
 
+* Sunsimiao
+  * 地址：https://github.com/thomas-yanxin/Sunsimiao
+![](https://img.shields.io/github/stars/thomas-yanxin/Sunsimiao.svg)
+  * 简介：Sunsimiao是一个开源的中文医疗大模型，该模型基于baichuan-7B和ChatGLM-6B底座模型在十万级高质量的中文医疗数据中微调而得。
+
+* ShenNong-TCM-LLM
+  * 地址：https://github.com/michael-wzhu/ShenNong-TCM-LLM
+![](https://img.shields.io/github/stars/michael-wzhu/ShenNong-TCM-LLM.svg)
+  * 简介：该项目开源了ShenNong中医药大规模语言模型，该模型以LlaMA为底座，采用LoRA (rank=16)微调得到。微调代码与ChatMed代码库相同。此外该项目还开源了中医药指令微调数据集。
+
+* SoulChat
+  * 地址：https://github.com/scutcyr/SoulChat
+![](https://img.shields.io/github/stars/scutcyr/SoulChat.svg)
+  * 简介：该项目开源了经过百万规模心理咨询领域中文长文本指令与多轮共情对话数据联合指令微调的心理健康大模型灵心（SoulChat），该模型以ChatGLM-6B作为初始化模型，进行了全量参数的指令微调。
+
 ##### 法律
 
 [![](src/Legal.png)](src/Legal.png)
