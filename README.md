@@ -84,6 +84,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/dandelionsllm/pandallm.svg)
   * 简介：开源了基于LLaMA-7B, -13B, -33B, -65B 进行中文领域上的持续预训练的语言模型, 使用了接近 15M 条数据进行二次预训练。
 
+* Robin (罗宾):
+  * 地址：https://github.com/OptimalScale/LMFlow
+![](https://img.shields.io/github/stars/OptimalScale/LMFlow.svg)
+  * 简介：Robin (罗宾)是香港科技大学LMFlow团队开发的中英双语大语言模型。仅使用180K条数据微调得到的Robin第二代模型，在Huggingface榜单上达到了第一名的成绩。LMFlow支持用户快速训练个性化模型，仅需单张3090和5个小时即可微调70亿参数定制化模型。
+    
 * Fengshenbang-LM：
   * 地址：https://github.com/IDEA-CCNL/Fengshenbang-LM
 ![](https://img.shields.io/github/stars/IDEA-CCNL/Fengshenbang-LM.svg)
@@ -363,6 +368,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/Jittor/JittorLLMs.svg)
   * 简介：计图大模型推理库：笔记本没有显卡也能跑大模型，具有成本低，支持广，可移植，速度快等优势。
 
+* LMFlow:
+  * 地址：https://github.com/OptimalScale/LMFlow
+![](https://img.shields.io/github/stars/OptimalScale/LMFlow.svg)
+  * 简介：LMFlow是香港科技大学LMFlow团队开发的大模型微调工具箱。LMFlow工具箱具有可扩展性强、高效、方便的特性。LMFlow仅使用180K条数据微调，即可得到在Huggingface榜单第一名的Robin模型。LMFlow支持用户快速训练个性化模型，仅需单张3090和5个小时即可微调70亿参数定制化模型。
+  * 
 * fastllm：
   * 地址：https://github.com/ztxz16/fastllm
 ![](https://img.shields.io/github/stars/ztxz16/fastllm.svg)
