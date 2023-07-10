@@ -471,6 +471,12 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/qiuhuachuan/smile.svg)
   * 数据集说明：数据集通过ChatGPT改写真实的心理互助 QA为多轮的心理健康支持多轮对话（single-turn to multi-turn inclusive language expansion via ChatGPT），该数据集含有56k个多轮对话，其对话主题、词汇和篇章语义更加丰富多样，更加符合在长程多轮对话的应用场景。
 
+* MNBVC
+  * 地址：https://github.com/esbatmop/MNBVC
+![](https://img.shields.io/github/stars/esbatmop/MNBVC.svg)
+  * 数据集说明：超大规模中文语料集，不但包括主流文化，也包括各个小众文化甚至火星文的数据。MNBVC数据集包括新闻、作文、小说、书籍、杂志、论文、台词、帖子、wiki、古诗、歌词、商品介绍、笑话、糗事、聊天记录等一切形式的纯文本中文数据。数据均来源于互联网收集，且在持续更新中。
+
+
 ###  4. <a name='LLM评测'></a>LLM评测
 
 * FlagEval （天秤）大模型评测体系及开放平台
