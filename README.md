@@ -315,6 +315,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/Duxiaoman-DI/XuanYuan.svg)
   * 简介：轩辕是国内首个开源的千亿级中文对话大模型，同时也是首个针对中文金融领域优化的千亿级开源对话大模型。轩辕在BLOOM-176B的基础上针对中文通用领域和金融领域进行了针对性的预训练与微调，它不仅可以应对通用领域的问题，也可以解答与金融相关的各类问题，为用户提供准确、全面的金融信息和建议。
 
+* FinGPT
+  * 地址：https://github.com/AI4Finance-Foundation/FinGPT
+![](https://img.shields.io/github/stars/AI4Finance-Foundation/FinGPT.svg)
+  * 简介：该项目开源了多个金融大模型，包括ChatGLM-6B/ChatGLM2-6B+LoRA和LLaMA-7B+LoRA的金融大模型，收集了包括金融新闻、社交媒体、财报等中英文训练数据。
+
 ##### 教育
 
 * 桃李（Taoli）：
@@ -372,7 +377,7 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/OptimalScale/LMFlow
 ![](https://img.shields.io/github/stars/OptimalScale/LMFlow.svg)
   * 简介：LMFlow是香港科技大学LMFlow团队开发的大模型微调工具箱。LMFlow工具箱具有可扩展性强、高效、方便的特性。LMFlow仅使用180K条数据微调，即可得到在Huggingface榜单第一名的Robin模型。LMFlow支持用户快速训练个性化模型，仅需单张3090和5个小时即可微调70亿参数定制化模型。
-  * 
+    
 * fastllm：
   * 地址：https://github.com/ztxz16/fastllm
 ![](https://img.shields.io/github/stars/ztxz16/fastllm.svg)
