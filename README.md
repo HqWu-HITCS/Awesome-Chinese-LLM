@@ -504,6 +504,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/SJTU-LIT/ceval.svg)
   * 简介：构造了一个覆盖人文，社科，理工，其他专业四个大方向，52 个学科（微积分，线代 …），从中学到大学研究生以及职业考试，一共 13948 道题目的中文知识和推理型测试集。此外还给出了当前主流中文LLM的评测结果。
 
+* OpenCompass: 
+  * 地址：https://github.com/InternLM/opencompass
+![](https://img.shields.io/github/stars/InternLM/opencompass.svg)
+  * 简介：由上海AI实验室发布的面向大模型评测的一站式平台。主要特点包括：开源可复现；全面的能力维度：五大维度设计，提供 50+ 个数据集约 30 万题的的模型评测方案；丰富的模型支持：已支持 20+ HuggingFace 及 API 模型；分布式高效评测：一行命令实现任务分割和分布式评测，数小时即可完成千亿模型全量评测；多样化评测范式：支持零样本、小样本及思维链评测，结合标准型或对话型提示词模板；灵活化拓展。
+
 * SuperCLUElyb: SuperCLUE琅琊榜
   * 地址：https://github.com/CLUEbenchmark/SuperCLUElyb
 ![](https://img.shields.io/github/stars/CLUEbenchmark/SuperCLUElyb.svg)
