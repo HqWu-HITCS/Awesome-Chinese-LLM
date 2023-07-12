@@ -674,6 +674,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/OpenBMB/BMList.svg)
   * 简介：该项目收集了参数量超过10亿的大模型，并梳理了各个大模型的适用模态、发布的机构、适合的语种，参数量和开源地址、API等信息。
 
+* awesome-free-chatgpt：
+  * 地址：https://github.com/LiLittleCat/awesome-free-chatgpt
+![](https://img.shields.io/github/stars/LiLittleCat/awesome-free-chatgpt.svg)
+  * 简介：该项目收集了免费的 ChatGPT 镜像网站列表，ChatGPT的替代方案，以及构建自己的ChatGPT的教程工具等。
+
 ## Star History
 
 <a href="https://star-history.com/#HqWu-HITCS/Awesome-Chinese-LLM&Date">
