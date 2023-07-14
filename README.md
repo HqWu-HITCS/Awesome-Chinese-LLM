@@ -296,6 +296,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/PKU-YuanGroup/ChatLaw.svg)
   * 简介：由北大开源的一系列法律领域的大模型，包括ChatLaw-13B（基于姜子牙Ziya-LLaMA-13B-v1训练而来），ChatLaw-33B（基于Anima-33B训练而来，逻辑推理能力大幅提升），ChatLaw-Text2Vec，使用93w条判决案例做成的数据集基于BERT训练了一个相似度匹配模型，可将用户提问信息和对应的法条相匹配。
 
+* lychee_law-律知
+  * 地址：https://github.com/davidpig/lychee_law
+![](https://img.shields.io/github/stars/davidpig/lychee_law)
+  * 简介：该项目由德国萨尔大学团队和中国南京大学团队合作开发，开源一系列中文司法领域大模型，如Law-GLM-10B: 基于 GLM-10B 模型, 在 30GB 中文法律数据上进行指令微调得到的。
+
 ##### 金融
 
 [![](src/Financial.png)](src/Financial.png)
