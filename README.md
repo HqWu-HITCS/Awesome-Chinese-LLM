@@ -149,8 +149,13 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/FlagAI-Open/FlagAI.svg)
   * 简介：由智源研究院发布，Aquila语言大模型在技术上继承了GPT-3、LLaMA等的架构设计优点，替换了一批更高效的底层算子实现、重新设计实现了中英双语的tokenizer，升级了BMTrain并行训练方法，是在中英文高质量语料基础上从０开始训练的，通过数据质量的控制、多种训练的优化方法，实现在更小的数据集、更短的训练时间，获得比其它开源模型更优的性能。也是首个支持中英双语知识、支持商用许可协议、符合国内数据合规需要的大规模开源语言模型。
 
-* baichuan-7B
+* Baichuan-7B
   * 地址：https://github.com/baichuan-inc/baichuan-7B
+![](https://img.shields.io/github/stars/baichuan-inc/baichuan-7B.svg)
+  * 简介：Baichuan-13B 是由百川智能继 Baichuan-7B 之后开发的包含 130 亿参数的开源可商用的大规模语言模型，在权威的中文和英文 benchmark 上均取得同尺寸最好的效果。该项目发布包含有预训练 (Baichuan-13B-Base) 和对齐 (Baichuan-13B-Chat) 两个版本。
+ 
+* Baichuan-13B
+  * 地址：https://github.com/baichuan-inc/Baichuan-13B
 ![](https://img.shields.io/github/stars/baichuan-inc/baichuan-7B.svg)
   * 简介：由百川智能开发的一个开源可商用的大规模预训练语言模型。基于Transformer结构，在大约1.2万亿tokens上训练的70亿参数模型，支持中英双语，上下文窗口长度为4096。在标准的中文和英文权威benchmark（C-EVAL/MMLU）上均取得同尺寸最好的效果。
 
