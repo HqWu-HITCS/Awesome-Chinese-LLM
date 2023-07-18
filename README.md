@@ -36,7 +36,6 @@ Awesome-Chinese-LLM
       - [法律](#法律)
       - [金融](#金融)
       - [教育](#教育)
-      - [数学](#数学)
     - [2.2 LangChain应用](#22-langchain应用)
     - [2.3 其他应用](#23-其他应用)
   - [3. 数据集](#3-数据集)
@@ -46,6 +45,7 @@ Awesome-Chinese-LLM
     - [提示工程教程](#提示工程教程)
     - [LLM应用教程](#llm应用教程)
     - [LLM实战教程](#llm实战教程)
+    - [LLM高效微调教程](#llm高效微调教程)
   - [6. 相关仓库](#6-相关仓库)
 - [Star History](#star-history)
 
@@ -156,7 +156,7 @@ Awesome-Chinese-LLM
  
 * Baichuan-13B
   * 地址：https://github.com/baichuan-inc/Baichuan-13B
-![](https://img.shields.io/github/stars/baichuan-inc/baichuan-7B.svg)
+![](https://img.shields.io/github/stars/baichuan-inc/baichuan-13B.svg)
   * 简介：由百川智能开发的一个开源可商用的大规模预训练语言模型。基于Transformer结构，在大约1.2万亿tokens上训练的70亿参数模型，支持中英双语，上下文窗口长度为4096。在标准的中文和英文权威benchmark（C-EVAL/MMLU）上均取得同尺寸最好的效果。
 
 * Anima
@@ -341,8 +341,6 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/icalk-nlp/EduChat
 ![](https://img.shields.io/github/stars/icalk-nlp/EduChat.svg)
   * 简介：该项目华东师范大学计算机科学与技术学院的EduNLP团队研发，主要研究以预训练大模型为基底的教育对话大模型相关技术，融合多样化的教育垂直领域数据，辅以指令微调、价值观对齐等方法，提供教育场景下自动出题、作业批改、情感支持、课程辅导、高考咨询等丰富功能，服务于广大老师、学生和家长群体，助力实现因材施教、公平公正、富有温度的智能教育。
-
-##### 数学
 
 * chatglm-maths：
   * 地址：https://github.com/yongzhuo/chatglm-maths
@@ -631,6 +629,20 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/liguodongiot/llm-action.svg)
   * 简介：该项目提供了一系列LLM实战的教程和代码，包括LLM的训练、推理、微调以及LLM生态相关的一些技术文章等。
  
+
+#### LLM高效微调教程
+
+* LLaMA Efficient Tuning：
+  * 地址：https://github.com/hiyouga/LLaMA-Efficient-Tuning
+![](https://img.shields.io/github/stars/hiyouga/LLaMA-Efficient-Tuning.svg)
+  * 简介：该项目提供了易于使用的基于PEFT的LLaMA微调框架，实现了包括全参数，LoRA，QLoRA等的预训练，指令微调和RLHF，并支持LLaMA, BLOOM, Falcon, Baichuan, InternLM等底座模型。
+
+* ChatGLM Efficient Tuning：
+  * 地址：https://github.com/hiyouga/ChatGLM-Efficient-Tuning
+![](https://img.shields.io/github/stars/hiyouga/ChatGLM-Efficient-Tuning.svg)
+  * 简介：该项目提供了基于PEFT的高效ChatGLM微调，支持LoRA，P-Tuning V2，全参数微调等模式，并适配了多个微调数据集。
+
+
  ###  6. <a name='相关仓库'></a>相关仓库
  
 * FindTheChatGPTer：
