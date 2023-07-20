@@ -647,6 +647,10 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/hiyouga/ChatGLM-Efficient-Tuning.svg)
   * 简介：该项目提供了基于PEFT的高效ChatGLM微调，支持LoRA，P-Tuning V2，全参数微调等模式，并适配了多个微调数据集。
 
+* bert4torch：
+  * 地址：https://github.com/Tongjilibo/bert4torch
+![](https://img.shields.io/github/stars/Tongjilibo/bert4torch.svg)
+  * 简介：该项目提供了一个大模型的训练和部署框架，包含了目前主要的开源大模型，llama系列，chatglm，bloom系列等等，同时还给出了预训练和微调的示例。
 
  ###  6. <a name='相关仓库'></a>相关仓库
  
