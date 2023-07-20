@@ -39,6 +39,9 @@ Awesome-Chinese-LLM
     - [2.2 LangChain应用](#22-langchain应用)
     - [2.3 其他应用](#23-其他应用)
   - [3. 数据集](#3-数据集)
+    - [预训练数据集](#预训练数据集)
+    - [SFT数据集](#sft数据集)
+    - [PPO数据集](#ppo数据集)
   - [4. LLM评测](#4-llm评测)
   - [5. LLM教程](#5-llm教程)
     - [LLM基础知识](#llm基础知识)
@@ -418,9 +421,19 @@ Awesome-Chinese-LLM
 
 ###  3. <a name='数据集'></a>数据集
 
+#### 预训练数据集
+
+* MNBVC
+  * 地址：https://github.com/esbatmop/MNBVC
+![](https://img.shields.io/github/stars/esbatmop/MNBVC.svg)
+  * 数据集说明：超大规模中文语料集，不但包括主流文化，也包括各个小众文化甚至火星文的数据。MNBVC数据集包括新闻、作文、小说、书籍、杂志、论文、台词、帖子、wiki、古诗、歌词、商品介绍、笑话、糗事、聊天记录等一切形式的纯文本中文数据。数据均来源于互联网收集，且在持续更新中。
+
+
+#### SFT数据集
+
 * RefGPT：基于RefGPT生成大量真实和定制的对话数据集
-  * 地址：https://github.com/ziliwangnlp/RefGPT
-![](https://img.shields.io/github/stars/ziliwangnlp/RefGPT.svg)
+  * 地址：https://github.com/DA-southampton/RedGPT
+![](https://img.shields.io/github/stars/DA-southampton/RedGPT.svg)
   * 数据集说明：包括RefGPT-Fact和RefGPT-Code两部分，其中RefGPT-Fact给出了5万中文的关于事实性知识的多轮对话，RefGPT-Code给出了3.9万中文编程相关的多轮对话数据。
 
 * COIG
@@ -499,10 +512,7 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/qiuhuachuan/smile.svg)
   * 数据集说明：数据集通过ChatGPT改写真实的心理互助 QA为多轮的心理健康支持多轮对话（single-turn to multi-turn inclusive language expansion via ChatGPT），该数据集含有56k个多轮对话，其对话主题、词汇和篇章语义更加丰富多样，更加符合在长程多轮对话的应用场景。
 
-* MNBVC
-  * 地址：https://github.com/esbatmop/MNBVC
-![](https://img.shields.io/github/stars/esbatmop/MNBVC.svg)
-  * 数据集说明：超大规模中文语料集，不但包括主流文化，也包括各个小众文化甚至火星文的数据。MNBVC数据集包括新闻、作文、小说、书籍、杂志、论文、台词、帖子、wiki、古诗、歌词、商品介绍、笑话、糗事、聊天记录等一切形式的纯文本中文数据。数据均来源于互联网收集，且在持续更新中。
+#### PPO数据集
 
 * CValues
   * 地址：https://github.com/X-PLUG/CValues
