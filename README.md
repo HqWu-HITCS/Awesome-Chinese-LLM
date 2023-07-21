@@ -367,6 +367,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/thomas-yanxin/LangChain-ChatGLM-Webui.svg)
   * 简介：利用LangChain和ChatGLM-6B系列模型制作的Webui, 提供基于本地知识的大模型应用。目前支持上传 txt、docx、md、pdf等文本格式文件, 提供包括ChatGLM-6B系列、Belle系列等模型文件以及GanymedeNil/text2vec-large-chinese、nghuyong/ernie-3.0-base-zh、nghuyong/ernie-3.0-nano-zh等Embedding模型。
 
+* Langchain-ChatGLM-and-TigerBot：
+  * 地址：https://github.com/wordweb/langchain-ChatGLM-and-TigerBot
+![](https://img.shields.io/github/stars/wordweb/langchain-ChatGLM-and-TigerBot.svg)
+  * 简介：该项目在langchain-ChatGLM的基础上补充了加载TigerBot模型的基于本地知识库的问答应用。
+
 * Chinese-LangChain：
   * 地址：https://github.com/yanqiangmiffy/Chinese-LangChain
 ![](https://img.shields.io/github/stars/yanqiangmiffy/Chinese-LangChain.svg)
@@ -428,6 +433,14 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/esbatmop/MNBVC.svg)
   * 数据集说明：超大规模中文语料集，不但包括主流文化，也包括各个小众文化甚至火星文的数据。MNBVC数据集包括新闻、作文、小说、书籍、杂志、论文、台词、帖子、wiki、古诗、歌词、商品介绍、笑话、糗事、聊天记录等一切形式的纯文本中文数据。数据均来源于互联网收集，且在持续更新中。
 
+* WuDaoCorporaText
+  * 地址：https://data.baai.ac.cn/details/WuDaoCorporaText
+  * 数据集说明：WuDaoCorpora是北京智源人工智能研究院（智源研究院）构建的大规模、高质量数据集，用于支撑大模型训练研究。目前由文本、对话、图文对、视频文本对四部分组成，分别致力于构建微型语言世界、提炼对话核心规律、打破图文模态壁垒、建立视频文字关联，为大模型训练提供坚实的数据支撑。
+
+* CLUECorpus2020
+  * 地址：https://github.com/CLUEbenchmark/CLUECorpus2020
+![](https://img.shields.io/github/stars/CLUEbenchmark/CLUECorpus2020.svg)
+  * 数据集说明：通过对Common Crawl的中文部分进行语料清洗，最终得到100GB的高质量中文预训练语料，可直接用于预训练、语言模型或语言生成任务以及专用于简体中文NLP任务的小词表。
 
 #### SFT数据集
 
