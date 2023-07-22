@@ -77,6 +77,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/ymcui/Chinese-LLaMA-Alpaca-2.svg)
   * 简介：该项目将发布中文LLaMA-2 & Alpaca-2大语言模型，基于可商用的LLaMA-2进行二次开发。
 
+* Chinese-LlaMA2：
+  * 地址：https://github.com/michael-wzhu/Chinese-LlaMA2
+![](https://img.shields.io/github/stars/michael-wzhu/Chinese-LlaMA2.svg)
+  * 简介：该项目基于可商用的LLaMA-2进行二次开发决定在次开展Llama 2的中文汉化工作，包括Chinese-LlaMA2: 对Llama 2进行中文预训练；第一步：先在42G中文预料上进行训练；后续将会加大训练规模；Chinese-LlaMA2-chat: 对Chinese-LlaMA2进行指令微调和多轮对话微调，以适应各种应用场景和多轮对话交互。同时我们也考虑更为快速的中文适配方案：Chinese-LlaMA2-sft-v0: 采用现有的开源中文指令微调或者是对话数据，对LlaMA-2进行直接微调 (将于近期开源)。
+    
 * OpenChineseLLaMA：
   * 地址：https://github.com/OpenLMLab/OpenChineseLLaMA
 ![](https://img.shields.io/github/stars/OpenLMLab/OpenChineseLLaMA.svg)
