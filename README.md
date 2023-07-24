@@ -197,6 +197,10 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/RUC-GSAI/YuLan-Chat.svg)
   * 简介：YuLan-Chat是中国人民大学GSAI研究人员开发的基于聊天的大语言模型。它是在LLaMA的基础上微调开发的，具有高质量的英文和中文指令。 YuLan-Chat可以与用户聊天，很好地遵循英文或中文指令，并且可以在量化后部署在GPU（A800-80G或RTX3090）上。
 
+* PolyLM
+  * 地址：https://github.com/DAMO-NLP-MT/PolyLM
+![](https://img.shields.io/github/stars/DAMO-NLP-MT/PolyLM.svg)
+  * 简介：一个在6400亿个词的数据上从头训练的多语言语言模型，包括两种模型大小(1.7B和13B)。PolyLM覆盖中、英、俄、西、法、葡、德、意、荷、波、阿、土、希伯来、日、韩、泰、越、印尼等语种，特别是对亚洲语种更友好。
 
 #### 1.2 多模态LLM模型
 
