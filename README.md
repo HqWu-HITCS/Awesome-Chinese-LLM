@@ -438,6 +438,12 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/ypwhs/CreativeChatGLM.svg)
   * 简介：可以使用修订和续写的功能来生成创意内容，可以使用“续写”按钮帮 ChatGLM 想一个开头，并让它继续生成更多的内容，你可以使用“修订”按钮修改最后一句 ChatGLM 的回复。
 
+* docker-llama2-chat：
+  * 地址：https://github.com/soulteary/docker-llama2-chat
+![](https://img.shields.io/github/stars/soulteary/docker-llama2-chat.svg)
+  * 简介：开源了一个只需要三步就可以上手LLaMA2的快速部署方案。
+
+
 ###  3. <a name='数据集'></a>数据集
 
 #### 预训练数据集
@@ -545,6 +551,12 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/X-PLUG/CValues
 ![](https://img.shields.io/github/stars/X-PLUG/CValues.svg)
   * 数据集说明：该项目开源了数据规模为145k的价值对齐数据集，该数据集对于每个prompt包括了拒绝&正向建议 (safe and reponsibility) > 拒绝为主(safe) > 风险回复(unsafe)三种类型，可用于增强SFT模型的安全性或用于训练reward模型。
+
+* GPT-4-LLM
+  * 地址：https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM
+![](https://img.shields.io/github/stars/Instruction-Tuning-with-GPT-4/GPT-4-LLM.svg)
+  * 数据集说明：该项目开源了由GPT4生成的多种数据集，包括通过GPT4生成的中英PPO数据，可以用于奖励模型的训练。
+
 
 ###  4. <a name='LLM评测'></a>LLM评测
 
