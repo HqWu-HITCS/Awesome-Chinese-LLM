@@ -443,6 +443,10 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/soulteary/docker-llama2-chat.svg)
   * 简介：开源了一个只需要三步就可以上手LLaMA2的快速部署方案。
 
+* ChatGLM2-Voice-Cloning：
+  * 地址：https://github.com/KevinWang676/ChatGLM2-Voice-Cloning
+![](https://img.shields.io/github/stars/KevinWang676/ChatGLM2-Voice-Cloning.svg)
+  * 简介：实现了一个可以和喜欢的角色沉浸式对话的应用，主要采用ChatGLM2+声音克隆+视频对话的技术。
 
 ###  3. <a name='数据集'></a>数据集
 
