@@ -36,6 +36,7 @@ Awesome-Chinese-LLM
       - [法律](#法律)
       - [金融](#金融)
       - [教育](#教育)
+      - [科技](#科技)
     - [2.2 LangChain应用](#22-langchain应用)
     - [2.3 其他应用](#23-其他应用)
   - [3. 数据集](#3-数据集)
@@ -374,6 +375,23 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/yongzhuo/chatglm-maths
 ![](https://img.shields.io/github/stars/yongzhuo/chatglm-maths.svg)
   * 简介：基于chatglm-6b微调/LORA/PPO/推理的数学题解题大模型, 样本为自动生成的整数/小数加减乘除运算, 可gpu/cpu部署，开源了训练数据集等。
+
+##### 科技
+
+* 天文大语言模型StarGLM：
+  * 地址：https://github.com/Yu-Yang-Li/StarGLM
+![](https://img.shields.io/github/stars/Yu-Yang-Li/StarGLM.svg)
+  * 简介：基于ChatGLM训练了天文大语言模型，以期缓解大语言模型在部分天文通用知识和前沿变星领域的幻觉现象，为接下来可处理天文多模态任务、部署于望远镜阵列的观测Agent——司天大脑（数据智能处理）打下基础。
+
+* TransGPT·致远：
+  * 地址：https://github.com/DUOMO/TransGPT
+![](https://img.shields.io/github/stars/DUOMO/TransGPT.svg)
+  * 简介：开源交通大模型，主要致力于在真实交通行业中发挥实际价值。它能够实现交通情况预测、智能咨询助手、公共交通服务、交通规划设计、交通安全教育、协助管理、交通事故报告和分析、自动驾驶辅助系统等功能。
+
+* Mozi：
+  * 地址：https://github.com/gmftbyGMFTBY/science-llm
+![](https://img.shields.io/github/stars/gmftbyGMFTBY/science-llm.svg)
+  * 简介：该项目开源了基于LLaMA和Baichuan的科技论文大模型，可以用于科技文献的问答和情感支持。
 
 #### 2.2 LangChain应用
 
