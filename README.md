@@ -37,6 +37,7 @@ Awesome-Chinese-LLM
       - [金融](#金融)
       - [教育](#教育)
       - [科技](#科技)
+      - [自媒体](#自媒体)
     - [2.2 LangChain应用](#22-langchain应用)
     - [2.3 其他应用](#23-其他应用)
   - [3. 数据集](#3-数据集)
@@ -208,6 +209,15 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/AtomEcho/AtomGPT.svg)
   * 简介：AtomGPT基于LLaMA的模型架构，从0开始训练，希望能在训练的过程中，将模型能力得到提升的进化过程展示出来，感受到模型学习的过程，该项目开源了多个不同预训练步数下的指令微调模型。
 
+* Qwen-7B
+  * 地址：https://github.com/QwenLM/Qwen-7B
+![](https://img.shields.io/github/stars/QwenLM/Qwen-7B.svg)
+  * 简介：通义千问-7B（Qwen-7B） 是阿里云研发的通义千问大模型系列的70亿参数规模的模型，使用了超过2.2万亿token的自建大规模预训练数据集进行语言模型的预训练。数据集包括文本和代码等多种数据类型，覆盖通用领域和专业领域，能支持8K的上下文长度，针对插件调用相关的对齐数据做了特定优化，当前模型能有效调用插件以及升级为Agent。
+
+* huozi
+  * 地址：https://github.com/HIT-SCIR/huozi
+![](https://img.shields.io/github/stars/HIT-SCIR/huozi.svg)
+  * 简介：由哈工大自然语言处理研究所多位老师和学生参与开发的一个开源可商用的大规模预训练语言模型。 该模型基于 Bloom 结构的70 亿参数模型，支持中英双语，上下文窗口长度为 2048，同时还开源了基于RLHF训练的模型以及全人工标注的的中文偏好数据集。
 
 #### 1.2 多模态LLM模型
 
@@ -220,7 +230,6 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/OpenBMB/VisCPM
 ![](https://img.shields.io/github/stars/OpenBMB/VisCPM.svg)
   * 简介：一个开源的多模态大模型系列，支持中英双语的多模态对话能力（VisCPM-Chat模型）和文到图生成能力（VisCPM-Paint模型）。VisCPM基于百亿参数量语言大模型CPM-Bee（10B）训练，融合视觉编码器（Q-Former）和视觉解码器（Diffusion-UNet）以支持视觉信号的输入和输出。得益于CPM-Bee基座优秀的双语能力，VisCPM可以仅通过英文多模态数据预训练，泛化实现优秀的中文多模态能力。
-
 
 
 ###  2. <a name='应用'></a>应用
@@ -376,6 +385,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/yongzhuo/chatglm-maths.svg)
   * 简介：基于chatglm-6b微调/LORA/PPO/推理的数学题解题大模型, 样本为自动生成的整数/小数加减乘除运算, 可gpu/cpu部署，开源了训练数据集等。
 
+* QiaoBan：
+  * 地址：https://github.com/HIT-SCIR-SC/QiaoBan
+![](https://img.shields.io/github/stars/HIT-SCIR-SC/QiaoBan.svg)
+  * 简介：该项目旨在构建一个面向儿童情感陪伴的大模型，这个仓库包含：用于指令微调的对话数据/data，巧板的训练代码，训练配置文件，使用巧板进行对话的示例代码（TODO，checkpoint将发布至huggingface）。
+
 ##### 科技
 
 * 天文大语言模型StarGLM：
@@ -392,6 +406,15 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/gmftbyGMFTBY/science-llm
 ![](https://img.shields.io/github/stars/gmftbyGMFTBY/science-llm.svg)
   * 简介：该项目开源了基于LLaMA和Baichuan的科技论文大模型，可以用于科技文献的问答和情感支持。
+
+
+##### 自媒体
+
+* MediaGPT：
+  * 地址：https://github.com/IMOSR/MediaGPT
+![](https://img.shields.io/github/stars/IMOSR/MediaGPT.svg)
+  * 简介：一个针对自媒体领域进行特殊训练的模型，首先在大规模自媒体语料上进行连续预训练，然后ChatGPT收集了一批关于抖音运营、短视频创作、巨量千川投放、直播运营和直播话术技巧等领域知识问题的分析和回答，并利用这些数据对模型进行指令微调，开源一系列自媒体领域的指令微调数据和基于LLaMA训练的中文自媒体大模型的参数。
+
 
 #### 2.2 LangChain应用
 
