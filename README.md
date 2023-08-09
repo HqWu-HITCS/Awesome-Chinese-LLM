@@ -608,6 +608,9 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/Instruction-Tuning-with-GPT-4/GPT-4-LLM.svg)
   * 数据集说明：该项目开源了由GPT4生成的多种数据集，包括通过GPT4生成的中英PPO数据，可以用于奖励模型的训练。
 
+* zhihu_rlhf_3k
+  * 地址：https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k
+  * 数据集说明：该项目开源了3k+条基于知乎问答的人类偏好数据集，每个实际的知乎问题下给出了赞同数据较高（chosen）和较低（rejected）的回答，可以用于奖励模型的训练。
 
 ###  4. <a name='LLM评测'></a>LLM评测
 
