@@ -231,6 +231,15 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/OpenBMB/VisCPM.svg)
   * 简介：一个开源的多模态大模型系列，支持中英双语的多模态对话能力（VisCPM-Chat模型）和文到图生成能力（VisCPM-Paint模型）。VisCPM基于百亿参数量语言大模型CPM-Bee（10B）训练，融合视觉编码器（Q-Former）和视觉解码器（Diffusion-UNet）以支持视觉信号的输入和输出。得益于CPM-Bee基座优秀的双语能力，VisCPM可以仅通过英文多模态数据预训练，泛化实现优秀的中文多模态能力。
 
+* Visual-Chinese-LLaMA-Alpaca
+  * 地址：https://github.com/airaria/Visual-Chinese-LLaMA-Alpaca
+![](https://img.shields.io/github/stars/airaria/Visual-Chinese-LLaMA-Alpaca.svg)
+  * 简介：基于中文LLaMA&Alpaca大模型项目开发的多模态中文大模型。VisualCLA在中文LLaMA/Alpaca模型上增加了图像编码等模块，使LLaMA模型可以接收视觉信息。在此基础上，使用了中文图文对数据进行了多模态预训练，对齐图像与文本表示，赋予其基本的多模态理解能力；并使用多模态指令数据集精调，增强其对多模态指令的理解、执行和对话能力，目前开源了VisualCLA-7B-v0.1。
+
+* LLaSM
+  * 地址：https://github.com/LinkSoul-AI/LLaSM
+![](https://img.shields.io/github/stars/LinkSoul-AI/LLaSM.svg)
+  * 简介：第一个支持中英文双语语音-文本多模态对话的开源可商用对话模型。便捷的语音输入将大幅改善以文本为输入的大模型的使用体验，同时避免了基于 ASR 解决方案的繁琐流程以及可能引入的错误。目前开源了LLaSM-Chinese-Llama-2-7B、LLaSM-Baichuan-7B等模型与数据集。
 
 ###  2. <a name='应用'></a>应用
 
