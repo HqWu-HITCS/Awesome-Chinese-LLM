@@ -25,6 +25,19 @@ Awesome-Chinese-LLM
 
 ![Awesome-Chinese-LLM](src/LLM.png)
 
+常见底座模型细节概览：
+| 底座名称     | 模型参数大小          | 训练token数  | 训练最大长度 | 是否可商用 |
+|----------|-----------------|-----------|--------|-------|
+| ChatGLM  | 6B              | 1T        | 2K     | 可商用   |
+| ChatGLM2 | 6B              | 1.4T      | 32K    | 可商用   |
+| LLaMA    | 7B/13B/33B/65B  | 1T        | 2k     | 不可商用  |
+| LLaMA2   | 7B/13B/33B/65B  | 2T        | 4k     | 可商用   |
+| BLOOM    | 1B7/7B1/176B-MT | 1.5T      | 2k     | 可商用   |
+| Baichuan | 7B/13B          | 1.2T/1.4T | 4k     | 可商用   |
+| Falcon   | 7B/40B          | 1.5T      | 2k     | 可商用   |
+| Qwen     | 7B/7B-Chat      | 2.2T      | 8k     | 可商用   |
+| Alpaca   | 7B/Chat-7B      | -         | 2k     | 可商用   |
+
 ## 目录
 - [目录](#目录)
   - [1. 模型](#1-模型)
