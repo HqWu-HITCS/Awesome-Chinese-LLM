@@ -231,6 +231,11 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/HIT-SCIR/huozi
 ![](https://img.shields.io/github/stars/HIT-SCIR/huozi.svg)
   * 简介：由哈工大自然语言处理研究所多位老师和学生参与开发的一个开源可商用的大规模预训练语言模型。 该模型基于 Bloom 结构的70 亿参数模型，支持中英双语，上下文窗口长度为 2048，同时还开源了基于RLHF训练的模型以及全人工标注的的中文偏好数据集。
+ 
+* XVERSE-13B
+  * 地址：https://github.com/xverse-ai/XVERSE-13B
+![](https://img.shields.io/github/stars/xverse-ai/XVERSE-13B.svg)
+  * 简介：由深圳元象科技自主研发的支持多语言的大语言模型，使用主流 Decoder-only 的标准Transformer网络结构，支持 8K 的上下文长度（Context Length），为同尺寸模型中最长，构建了 1.4 万亿 token 的高质量、多样化的数据对模型进行充分训练，包含中、英、俄、西等 40 多种语言，通过精细化设置不同类型数据的采样比例，使得中英两种语言表现优异，也能兼顾其他语言效果；基于BPE算法使用上百GB 语料训练了一个词表大小为100,278的分词器，能够同时支持多语言，而无需额外扩展词表。
 
 #### 1.2 多模态LLM模型
 
