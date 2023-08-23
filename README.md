@@ -470,6 +470,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/yanqiangmiffy/Chinese-LangChain.svg)
   * 简介：基于ChatGLM-6b+langchain实现本地化知识库检索与智能答案生成（包括互联网检索结果接入）
 
+* Lagent：
+  * 地址：https://github.com/InternLM/lagent
+![](https://img.shields.io/github/stars/InternLM/lagent.svg)
+  * 简介：Lagent 是一个轻量级、开源的基于大语言模型的智能体（agent）框架，支持用户快速地将一个大语言模型转变为多种类型的智能体。具体实现了多种类型的智能体，如经典的 ReAct，AutoGPT 和 ReWoo 等智能体。框架简单易拓展. 只需要不到20行代码你就能够创造出一个你自己的智能体（agent）。同时支持了 Python 解释器、API 调用和搜索三类常用典型工具。灵活支持多个大语言模型. 提供了多种大语言模型支持包括 InternLM、Llama-2 等开源模型和 GPT-4/3.5 等基于 API 的闭源模型。
+
 * DemoGPT：
   * 地址：https://github.com/melih-unsal/DemoGPT
 ![](https://img.shields.io/github/stars/melih-unsal/DemoGPT.svg)
