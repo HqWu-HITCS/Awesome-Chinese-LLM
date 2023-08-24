@@ -36,7 +36,7 @@ Awesome-Chinese-LLM
 | Baichuan | 7B/13B          | 1.2T/1.4T | 4k     | 可商用   |
 | Falcon   | 7B/40B          | 1.5T      | 2k     | 可商用   |
 | Qwen     | 7B/7B-Chat      | 2.2T      | 8k     | 可商用   |
-| Alpaca   | 7B/Chat-7B      | -         | 2k     | 可商用   |
+| Aquila   | 7B/Chat-7B      | -         | 2k     | 可商用   |
 
 ## 目录
 - [目录](#目录)
@@ -373,8 +373,13 @@ Awesome-Chinese-LLM
 
 * lychee_law-律知
   * 地址：https://github.com/davidpig/lychee_law
-![](https://img.shields.io/github/stars/davidpig/lychee_law)
+![](https://img.shields.io/github/stars/davidpig/lychee_law.svg)
   * 简介：该项目由德国萨尔大学团队和中国南京大学团队合作开发，开源一系列中文司法领域大模型，如Law-GLM-10B: 基于 GLM-10B 模型, 在 30GB 中文法律数据上进行指令微调得到的。
+
+* 智海-录问(wisdomInterrogatory)
+  * 地址：https://github.com/zhihaiLLM/wisdomInterrogatory
+![](https://img.shields.io/github/stars/zhihaiLLM/wisdomInterrogatory.svg)
+  * 简介：该项目由浙江大学、阿里巴巴达摩院以及华院计算三家单位共同设计研发的法律大模型，基于baichuan-7b进行了法律领域数据的二次预训练与指令微调，并设计了知识增强的推理流程。
 
 ##### 金融
 
