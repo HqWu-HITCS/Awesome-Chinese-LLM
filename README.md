@@ -555,6 +555,10 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/CLUEbenchmark/CLUECorpus2020.svg)
   * 数据集说明：通过对Common Crawl的中文部分进行语料清洗，最终得到100GB的高质量中文预训练语料，可直接用于预训练、语言模型或语言生成任务以及专用于简体中文NLP任务的小词表。
 
+* WanJuan-1.0
+  * 地址：https://opendatalab.org.cn/WanJuan1.0
+  * 数据集说明：书生·万卷1.0为书生·万卷多模态语料库的首个开源版本，包含文本数据集、图文数据集、视频数据集三部分，数据总量超过2TB。 目前，书生·万卷1.0已被应用于书生·多模态、书生·浦语的训练。通过对高质量语料的“消化”，书生系列模型在语义理解、知识问答、视觉理解、视觉问答等各类生成式任务表现出的优异性能。
+
 #### SFT数据集
 
 * RefGPT：基于RefGPT生成大量真实和定制的对话数据集
