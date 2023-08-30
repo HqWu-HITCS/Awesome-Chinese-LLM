@@ -57,14 +57,15 @@ Awesome-Chinese-LLM
     - [预训练数据集](#预训练数据集)
     - [SFT数据集](#sft数据集)
     - [PPO数据集](#ppo数据集)
-  - [4. LLM评测](#4-llm评测)
-  - [5. LLM教程](#5-llm教程)
+  - [4. LLM训练微调框架](#4-llm训练微调框架)
+  - [5. LLM推理部署框架](#5-llm推理部署框架)
+  - [6. LLM评测](#6-llm评测)
+  - [7. LLM教程](#7-llm教程)
     - [LLM基础知识](#llm基础知识)
     - [提示工程教程](#提示工程教程)
     - [LLM应用教程](#llm应用教程)
     - [LLM实战教程](#llm实战教程)
-    - [LLM高效微调教程](#llm高效微调教程)
-  - [6. 相关仓库](#6-相关仓库)
+  - [8. 相关仓库](#8-相关仓库)
 - [Star History](#star-history)
 
 
@@ -668,7 +669,64 @@ Awesome-Chinese-LLM
   * 地址：https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k
   * 数据集说明：该项目开源了3k+条基于知乎问答的人类偏好数据集，每个实际的知乎问题下给出了赞同数据较高（chosen）和较低（rejected）的回答，可以用于奖励模型的训练。
 
-###  4. <a name='LLM评测'></a>LLM评测
+
+### 4. LLM训练微调框架
+
+* DeepSpeed Chat：
+  * 地址：https://github.com/microsoft/DeepSpeed/tree/master/blogs/deepspeed-chat
+![](https://img.shields.io/github/stars/microsoft/DeepSpeed.svg)
+  * 简介：该项目提供了一键式RLHF训练框架，只需一个脚本即可实现多个训练步骤，包括SFT，奖励模型微调和基于人类反馈的强化学习（RLHF），此外还实现了DeepSpeed HE，统一的高效混合引擎，达到训练和推理引擎之间的过渡是无缝的。
+
+* LLaMA Efficient Tuning：
+  * 地址：https://github.com/hiyouga/LLaMA-Efficient-Tuning
+![](https://img.shields.io/github/stars/hiyouga/LLaMA-Efficient-Tuning.svg)
+  * 简介：该项目提供了易于使用的基于PEFT的LLaMA微调框架，实现了包括全参数，LoRA，QLoRA等的预训练，指令微调和RLHF，并支持LLaMA, BLOOM, Falcon, Baichuan, InternLM等底座模型。
+
+* ChatGLM Efficient Tuning：
+  * 地址：https://github.com/hiyouga/ChatGLM-Efficient-Tuning
+![](https://img.shields.io/github/stars/hiyouga/ChatGLM-Efficient-Tuning.svg)
+  * 简介：该项目提供了基于PEFT的高效ChatGLM微调，支持LoRA，P-Tuning V2，全参数微调等模式，并适配了多个微调数据集。
+
+* bert4torch：
+  * 地址：https://github.com/Tongjilibo/bert4torch
+![](https://img.shields.io/github/stars/Tongjilibo/bert4torch.svg)
+  * 简介：该项目提供了一个大模型的训练和部署框架，包含了目前主要的开源大模型，llama系列，chatglm，bloom系列等等，同时还给出了预训练和微调的示例。
+
+
+### 5. LLM推理部署框架
+
+* vLLM：
+  * 地址：https://github.com/vllm-project/vllm
+![](https://img.shields.io/github/stars/vllm-project/vllm.svg)
+  * 简介：适用于大批量Prompt输入，并对推理速度要求高的场景。吞吐量比HuggingFace Transformers高14x-24倍，比HuggingFace Text Generation Inference（TGI）高2.2x-2.5倍，实现了Continuous batching和PagedAttention等技巧。但该框架对适配器（LoRA、QLoRA等）的支持不友好且缺少权重量化。
+
+* DeepSpeed-MII：
+  * 地址：https://github.com/microsoft/DeepSpeed-MII
+![](https://img.shields.io/github/stars/microsoft/DeepSpeed-MII.svg)
+  * 简介：支持多个机器之间的负载均衡，支持不同的模型库（如Hugging Face、FairSeq等），支持模型量化推理。
+
+* text-generation-inference：
+  * 地址：https://github.com/huggingface/text-generation-inference
+![](https://img.shields.io/github/stars/huggingface/text-generation-inference.svg)
+  * 简介：用于文本生成推断的Rust、Python和gRPC部署框架，可以监控服务器负载，实现了flash attention和Paged attention，所有的依赖项都安装在Docker中：支持HuggingFace模型；但该框架对适配器（LoRA、QLoRA等）的支持不友好。
+
+* CTranslate2
+  * 地址：https://github.com/OpenNMT/CTranslate2
+![](https://img.shields.io/github/stars/OpenNMT/CTranslate2.svg)
+  * 简介：基于C++和python的推理框架，支持在CPU和GPU上并行和异步执行，且支持prompt缓存及量化。但缺少对适配器（LoRA、QLoRA等）的支持。
+
+* OpenLLM
+  * 地址：https://github.com/bentoml/OpenLLM
+![](https://img.shields.io/github/stars/bentoml/OpenLLM.svg)
+  * 简介：支持将要部署的LLM连接多个适配器，可以实现只使用一个底座模型来执行多个特定的任务；支持量化推理和LangChain集成。但对批处理和分布式推理的支持相对不友好。
+
+* MLC LLM
+  * 地址：https://github.com/mlc-ai/mlc-llm
+![](https://img.shields.io/github/stars/mlc-ai/mlc-llm.svg)
+  * 简介：支持不同平台上的不同设备部署推理，包括移动设备（iOS或Android设备等）的高效推理，压缩等。但对大规模批量调用相对不友好。
+
+
+###  6. <a name='LLM评测'></a>LLM评测
 
 * FlagEval （天秤）大模型评测体系及开放平台
   * 地址：https://github.com/FlagOpen/FlagEval
@@ -735,7 +793,7 @@ Awesome-Chinese-LLM
   * 简介：为推动LLM在医疗领域的发展和落地，由华东师范大学联合阿里巴巴天池平台，复旦大学附属华山医院，东北大学，哈尔滨工业大学（深圳），鹏城实验室与同济大学推出PromptCBLUE评测基准, 将16种不同的医疗场景NLP任务全部转化为基于提示的语言生成任务,形成首个中文医疗场景的LLM评测基准。
 
 
-###  5. <a name='LLM教程'></a>LLM教程
+###  7. <a name='LLM教程'></a>LLM教程
 
 #### LLM基础知识
 
@@ -794,24 +852,7 @@ Awesome-Chinese-LLM
   * 简介：该项目提供了一系列LLM实战的教程和代码，包括LLM的训练、推理、微调以及LLM生态相关的一些技术文章等。
  
 
-#### LLM高效微调教程
-
-* LLaMA Efficient Tuning：
-  * 地址：https://github.com/hiyouga/LLaMA-Efficient-Tuning
-![](https://img.shields.io/github/stars/hiyouga/LLaMA-Efficient-Tuning.svg)
-  * 简介：该项目提供了易于使用的基于PEFT的LLaMA微调框架，实现了包括全参数，LoRA，QLoRA等的预训练，指令微调和RLHF，并支持LLaMA, BLOOM, Falcon, Baichuan, InternLM等底座模型。
-
-* ChatGLM Efficient Tuning：
-  * 地址：https://github.com/hiyouga/ChatGLM-Efficient-Tuning
-![](https://img.shields.io/github/stars/hiyouga/ChatGLM-Efficient-Tuning.svg)
-  * 简介：该项目提供了基于PEFT的高效ChatGLM微调，支持LoRA，P-Tuning V2，全参数微调等模式，并适配了多个微调数据集。
-
-* bert4torch：
-  * 地址：https://github.com/Tongjilibo/bert4torch
-![](https://img.shields.io/github/stars/Tongjilibo/bert4torch.svg)
-  * 简介：该项目提供了一个大模型的训练和部署框架，包含了目前主要的开源大模型，llama系列，chatglm，bloom系列等等，同时还给出了预训练和微调的示例。
-
- ###  6. <a name='相关仓库'></a>相关仓库
+ ###  8. <a name='相关仓库'></a>相关仓库
  
 * FindTheChatGPTer：
   * 地址：https://github.com/chenking2020/FindTheChatGPTer
