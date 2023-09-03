@@ -51,6 +51,7 @@ Awesome-Chinese-LLM
       - [教育](#教育)
       - [科技](#科技)
       - [自媒体](#自媒体)
+      - [电商](#电商)
     - [2.2 LangChain应用](#22-langchain应用)
     - [2.3 其他应用](#23-其他应用)
   - [3. 数据集](#3-数据集)
@@ -348,6 +349,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/WangRongsheng/CareLlama.svg)
   * 简介：该项目开源了CareLlama (关怀羊驼)医疗大语言模型，同时它集合了数十个公开可用的医疗微调数据集和开放可用的医疗大语言模型以促进医疗LLM快速发展。
 
+* DISC-MedLLM
+  * 地址：https://github.com/FudanDISC/DISC-MedLLM
+![](https://img.shields.io/github/stars/FudanDISC/DISC-MedLLM.svg)
+  * 简介：该项目是由复旦大学发布的针对医疗健康对话式场景而设计的医疗领域大模型与数据集，该模型由DISC-Med-SFT数据集基于Baichuan-13B-Base指令微调得到。
+
 ##### 法律
 
 [![](src/Legal.png)](src/Legal.png)
@@ -463,6 +469,12 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/IMOSR/MediaGPT.svg)
   * 简介：一个针对自媒体领域进行特殊训练的模型，首先在大规模自媒体语料上进行连续预训练，然后ChatGPT收集了一批关于抖音运营、短视频创作、巨量千川投放、直播运营和直播话术技巧等领域知识问题的分析和回答，并利用这些数据对模型进行指令微调，开源一系列自媒体领域的指令微调数据和基于LLaMA训练的中文自媒体大模型的参数。
 
+##### 电商
+
+* EcomGPT
+  * 地址：https://github.com/Alibaba-NLP/EcomGPT
+![](https://img.shields.io/github/stars/Alibaba-NLP/EcomGPT.svg)
+  * 简介：一个由阿里发布的面向电商领域的语言模型，该模型基于BLOOMZ在电商指令微调数据集上微调得到，人工评估在12个电商评测数据集上超过ChatGPT。
 
 #### 2.2 LangChain应用
 
