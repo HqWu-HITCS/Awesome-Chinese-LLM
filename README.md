@@ -194,6 +194,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/baichuan-inc/baichuan-13B.svg)
   * 简介：由百川智能开发的一个开源可商用的大规模预训练语言模型。基于Transformer结构，在大约1.2万亿tokens上训练的70亿参数模型，支持中英双语，上下文窗口长度为4096。在标准的中文和英文权威benchmark（C-EVAL/MMLU）上均取得同尺寸最好的效果。
 
+* Baichuan2
+  * 地址：https://github.com/baichuan-inc/Baichuan2
+![](https://img.shields.io/github/stars/baichuan-inc/Baichuan2.svg)
+  * 简介：由百川智能推出的新一代开源大语言模型，采用 2.6 万亿 Tokens 的高质量语料训练，在多个权威的中文、英文和多语言的通用、领域 benchmark上取得同尺寸最佳的效果，发布包含有7B、13B的Base和经过PPO训练的Chat版本，并提供了Chat版本的4bits量化。
+
 * Anima
   * 地址：https://github.com/lyogavin/Anima
 ![](https://img.shields.io/github/stars/lyogavin/Anima.svg)
