@@ -513,6 +513,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/melih-unsal/DemoGPT.svg)
   * 简介：⚡ DemoGPT 使您只需使用提示即可创建快速演示。 ⚡
 
+* ChatDev：
+  * 地址：https://github.com/OpenBMB/ChatDev
+![](https://img.shields.io/github/stars/OpenBMB/ChatDev.svg)
+  * 简介：ChatDev是一家虚拟软件公司，通过担任不同角色的各种智能代理进行运营，包括首席执行官、首席技术官、程序员、测试员等。 这些代理形成了一个多代理组织结构，并因“通过编程彻底改变数字世界”的使命而团结在一起。 ChatDev中的代理通过参加专门的功能研讨会进行协作，包括设计、编码、测试和记录等任务。
+
 #### 2.3 其他应用
 
 * wenda：
