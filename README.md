@@ -945,6 +945,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/LiLittleCat/awesome-free-chatgpt.svg)
   * 简介：该项目收集了免费的 ChatGPT 镜像网站列表，ChatGPT的替代方案，以及构建自己的ChatGPT的教程工具等。
 
+* Awesome-Domain-LLM：
+  * 地址：https://github.com/luban-agi/Awesome-Domain-LLM
+![](https://img.shields.io/github/stars/luban-agi/Awesome-Domain-LLM.svg)
+  * 简介：该项目收集和梳理垂直领域的开源模型、数据集及评测基准。
+
 ## Star History
 
 <a href="https://star-history.com/#HqWu-HITCS/Awesome-Chinese-LLM&Date">
