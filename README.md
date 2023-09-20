@@ -444,6 +444,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/yongzhuo/chatglm-maths.svg)
   * 简介：基于chatglm-6b微调/LORA/PPO/推理的数学题解题大模型, 样本为自动生成的整数/小数加减乘除运算, 可gpu/cpu部署，开源了训练数据集等。
 
+* MathGLM：
+  * 地址：https://github.com/THUDM/MathGLM
+![](https://img.shields.io/github/stars/THUDM/MathGLM.svg)
+  * 简介：该项目由THUDM研发，开源了多个能进行20亿参数可以进行准确多位算术运算的语言模型，同时开源了可用于算术运算微调的数据集。
+
 * QiaoBan：
   * 地址：https://github.com/HIT-SCIR-SC/QiaoBan
 ![](https://img.shields.io/github/stars/HIT-SCIR-SC/QiaoBan.svg)
