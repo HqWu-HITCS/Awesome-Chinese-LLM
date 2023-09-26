@@ -697,6 +697,11 @@ Awesome-Chinese-LLM
   * 数据集说明：该项目开源了3k+条基于知乎问答的人类偏好数据集，每个实际的知乎问题下给出了赞同数据较高（chosen）和较低（rejected）的回答，可以用于奖励模型的训练。
 
 
+* hh_rlhf_cn
+  * 地址：https://huggingface.co/datasets/dikw/hh_rlhf_cn
+  * 数据集说明：基于Anthropic论文Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback 开源的helpful 和harmless数据，使用翻译工具进行了翻译。
+
+
 ### 4. LLM训练微调框架
 
 * DeepSpeed Chat：
