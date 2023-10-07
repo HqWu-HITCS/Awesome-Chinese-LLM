@@ -400,8 +400,13 @@ Awesome-Chinese-LLM
 
 * 夫子•明察司法大模型
   * 地址：https://github.com/irlab-sdu/fuzi.mingcha
-![](https://img.shields.io/github/stars/irlab-sdu/fuzi.mingchasvg)
+![](https://img.shields.io/github/stars/irlab-sdu/fuzi.mingcha.svg)
   * 简介：该项目由是由山东大学、浪潮云、中国政法大学联合研发，以 ChatGLM 为大模型底座，基于海量中文无监督司法语料（包括各类判决文书、法律法规等）与有监督司法微调数据（包括法律问答、类案检索）训练的中文司法大模型。该模型支持法条检索、案例分析、三段论推理判决以及司法对话等功能。
+
+* DISC-LawLLM
+  * 地址：https://github.com/FudanDISC/DISC-LawLLM
+![](https://img.shields.io/github/stars/FudanDISC/DISC-LawLLM.svg)
+  * 简介：该项目由由复旦大学数据智能与社会计算实验室 (Fudan-DISC) 开发并开源的法律领域大模型，包括数据集，基于 Baichuan-13B-Base 进行微调的模型，且增加了检索增强模块。
 
 ##### 金融
 
