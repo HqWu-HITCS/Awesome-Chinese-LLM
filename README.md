@@ -354,6 +354,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/FudanDISC/DISC-MedLLM.svg)
   * 简介：该项目是由复旦大学发布的针对医疗健康对话式场景而设计的医疗领域大模型与数据集，该模型由DISC-Med-SFT数据集基于Baichuan-13B-Base指令微调得到。
 
+* Taiyi-LLM
+  * 地址：https://github.com/DUTIR-BioNLP/Taiyi-LLM
+![](https://img.shields.io/github/stars/DUTIR-BioNLP/Taiyi-LLM.svg)
+  * 简介：该项目由大连理工大学信息检索研究室开发的中英双语医学大模型"太一"，收集整理了丰富的中英双语生物医学自然语言处理（BioNLP）训练语料，总共包含38个中文数据集，通过丰富的中英双语任务指令数据（超过100W条样本）进行大模型（Qwen-7B-base）指令微调，使模型具备了出色的中英双语生物医学智能问答、医患对话、报告生成、信息抽取、机器翻译、标题生成、文本分类等多种BioNLP能力。
+
 ##### 法律
 
 [![](src/Legal.png)](src/Legal.png)
