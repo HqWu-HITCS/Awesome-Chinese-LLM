@@ -584,6 +584,11 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/KevinWang676/ChatGLM2-Voice-Cloning
 ![](https://img.shields.io/github/stars/KevinWang676/ChatGLM2-Voice-Cloning.svg)
   * 简介：实现了一个可以和喜欢的角色沉浸式对话的应用，主要采用ChatGLM2+声音克隆+视频对话的技术。
+ 
+* Flappy
+  * 地址：https://github.com/pleisto/flappy
+![](https://avatars.githubusercontent.com/u/107701489?s=48&v=4)
+  * 简介：一个产品级面向所有程序员的LLM SDK，
 
 ###  3. <a name='数据集'></a>数据集
 
