@@ -587,7 +587,7 @@ Awesome-Chinese-LLM
  
 * Flappy
   * 地址：https://github.com/pleisto/flappy
-![](https://avatars.githubusercontent.com/u/107701489?s=48&v=4)
+![](https://img.shields.io/github/stars/pleisto/flappy.svg)
   * 简介：一个产品级面向所有程序员的LLM SDK，
 
 ###  3. <a name='数据集'></a>数据集
