@@ -901,8 +901,10 @@ Awesome-Chinese-LLM
   * 地址：https://github.com/liguodongiot/llm-action
 ![](https://img.shields.io/github/stars/liguodongiot/llm-action.svg)
   * 简介：该项目提供了一系列LLM实战的教程和代码，包括LLM的训练、推理、微调以及LLM生态相关的一些技术文章等。
- 
 
+* llm大模型训练专栏：
+  * 地址：https://www.zhihu.com/column/c_1252604770952642560
+  * 简介：该项目提供了一系列LLM前言理论和实战实验，包括论文解读与洞察分析。
  ###  8. <a name='相关仓库'></a>相关仓库
  
 * FindTheChatGPTer：
