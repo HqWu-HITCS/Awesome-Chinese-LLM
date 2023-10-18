@@ -344,10 +344,10 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/scutcyr/SoulChat.svg)
   * 简介：该项目开源了经过百万规模心理咨询领域中文长文本指令与多轮共情对话数据联合指令微调的心理健康大模型灵心（SoulChat），该模型以ChatGLM-6B作为初始化模型，进行了全量参数的指令微调。
 
-* CareLlama
-  * 地址：https://github.com/WangRongsheng/CareLlama
-![](https://img.shields.io/github/stars/WangRongsheng/CareLlama.svg)
-  * 简介：该项目开源了CareLlama (关怀羊驼)医疗大语言模型，同时它集合了数十个公开可用的医疗微调数据集和开放可用的医疗大语言模型以促进医疗LLM快速发展。
+* CareGPT
+  * 地址：https://github.com/WangRongsheng/CareGPT
+![](https://img.shields.io/github/stars/WangRongsheng/CareGPT.svg)
+  * 简介：该项目开源了数十个公开可用的医疗微调数据集和开放可用的医疗大语言模型，包含LLM的训练、测评、部署等以促进医疗LLM快速发展。
 
 * DISC-MedLLM
   * 地址：https://github.com/FudanDISC/DISC-MedLLM
