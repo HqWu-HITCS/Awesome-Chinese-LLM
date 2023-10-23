@@ -359,6 +359,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/DUTIR-BioNLP/Taiyi-LLM.svg)
   * 简介：该项目由大连理工大学信息检索研究室开发的中英双语医学大模型"太一"，收集整理了丰富的中英双语生物医学自然语言处理（BioNLP）训练语料，总共包含38个中文数据集，通过丰富的中英双语任务指令数据（超过100W条样本）进行大模型（Qwen-7B-base）指令微调，使模型具备了出色的中英双语生物医学智能问答、医患对话、报告生成、信息抽取、机器翻译、标题生成、文本分类等多种BioNLP能力。
 
+* WiNGPT
+  * 地址：https://github.com/winninghealth/WiNGPT2
+![](https://img.shields.io/github/stars/winninghealth/WiNGPT2.svg)
+  * 简介：WiNGPT是一个基于GPT的医疗垂直领域大模型，基于Qwen-7b1作为基础预训练模型，在此技术上进行了继续预训练，指令微调等，该项目具体开源了WiNGPT2-7B-Base与WiNGPT2-7B-Chat模型。
+
 ##### 法律
 
 [![](src/Legal.png)](src/Legal.png)
