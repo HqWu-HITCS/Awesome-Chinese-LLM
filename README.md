@@ -442,6 +442,12 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/AI4Finance-Foundation/FinGPT.svg)
   * 简介：该项目开源了多个金融大模型，包括ChatGLM-6B/ChatGLM2-6B+LoRA和LLaMA-7B+LoRA的金融大模型，收集了包括金融新闻、社交媒体、财报等中英文训练数据。
 
+* DISC-FinLLM
+  * 地址：https://github.com/FudanDISC/DISC-FinLLM
+![](https://img.shields.io/github/stars/FudanDISC/DISC-FinLLM.svg)
+  * 简介：该项目由复旦大学数据智能与社会计算实验室 (Fudan-DISC) 开发并开源，项目中开源的资源包括：DISC-FinLLM-SFT训练数据样本，DISC-FinLLM模型参数（基于Baichuan-13B-Chat训练），DISC-Fin-Eval-Benchmark等。
+。
+
 ##### 教育
 
 * 桃李（Taoli）：
