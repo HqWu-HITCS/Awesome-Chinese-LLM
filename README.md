@@ -249,6 +249,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/xverse-ai/XVERSE-13B.svg)
   * 简介：由深圳元象科技自主研发的支持多语言的大语言模型，使用主流 Decoder-only 的标准Transformer网络结构，支持 8K 的上下文长度（Context Length），为同尺寸模型中最长，构建了 1.4 万亿 token 的高质量、多样化的数据对模型进行充分训练，包含中、英、俄、西等 40 多种语言，通过精细化设置不同类型数据的采样比例，使得中英两种语言表现优异，也能兼顾其他语言效果；基于BPE算法使用上百GB 语料训练了一个词表大小为100,278的分词器，能够同时支持多语言，而无需额外扩展词表。
 
+* Skywork
+  * 地址：https://github.com/SkyworkAI/Skywork
+![](https://img.shields.io/github/stars/SkyworkAI/Skywork.svg)
+  * 简介：该项目开源了天工系列模型，该系列模型在3.2TB高质量多语言和代码数据上进行预训练，开源了包括模型参数，训练数据，评估数据，评估方法。具体包括Skywork-13B-Base模型、Skywork-13B-Chat模型、Skywork-13B-Math模型和Skywork-13B-MM模型，以及每个模型的量化版模型，以支持用户在消费级显卡进行部署和推理。
+
 #### 1.2 多模态LLM模型
 
 * VisualGLM-6B
