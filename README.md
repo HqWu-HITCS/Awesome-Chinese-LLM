@@ -254,6 +254,11 @@ Awesome-Chinese-LLM
 ![](https://img.shields.io/github/stars/SkyworkAI/Skywork.svg)
   * 简介：该项目开源了天工系列模型，该系列模型在3.2TB高质量多语言和代码数据上进行预训练，开源了包括模型参数，训练数据，评估数据，评估方法。具体包括Skywork-13B-Base模型、Skywork-13B-Chat模型、Skywork-13B-Math模型和Skywork-13B-MM模型，以及每个模型的量化版模型，以支持用户在消费级显卡进行部署和推理。
 
+* Yi
+  * 地址：https://github.com/01-ai/Yi
+![](https://img.shields.io/github/stars/01-ai/Yi.svg)
+  * 简介：该项目开源了Yi-6B和Yi-34B等模型，该系列模型最长可支持200K的超长上下文窗口版本，可以处理约40万汉字超长文本输入，理解超过1000页的PDF文档。
+
 #### 1.2 多模态LLM模型
 
 * VisualGLM-6B
