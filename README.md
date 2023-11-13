@@ -60,7 +60,7 @@
   - [3. 数据集](#3-数据集)
     - [预训练数据集](#预训练数据集)
     - [SFT数据集](#sft数据集)
-    - [PPO数据集](#ppo数据集)
+    - [偏好数据集](#偏好数据集)
   - [4. LLM训练微调框架](#4-llm训练微调框架)
   - [5. LLM推理部署框架](#5-llm推理部署框架)
   - [6. LLM评测](#6-llm评测)
@@ -724,7 +724,7 @@
 ![](https://img.shields.io/github/stars/qiuhuachuan/smile.svg)
   * 数据集说明：数据集通过ChatGPT改写真实的心理互助 QA为多轮的心理健康支持多轮对话（single-turn to multi-turn inclusive language expansion via ChatGPT），该数据集含有56k个多轮对话，其对话主题、词汇和篇章语义更加丰富多样，更加符合在长程多轮对话的应用场景。
 
-#### PPO数据集
+#### 偏好数据集
 
 * CValues
   * 地址：https://github.com/X-PLUG/CValues
@@ -740,11 +740,18 @@
   * 地址：https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k
   * 数据集说明：该项目开源了3k+条基于知乎问答的人类偏好数据集，每个实际的知乎问题下给出了赞同数据较高（chosen）和较低（rejected）的回答，可以用于奖励模型的训练。
 
-
 * hh_rlhf_cn
   * 地址：https://huggingface.co/datasets/dikw/hh_rlhf_cn
   * 数据集说明：基于Anthropic论文Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback 开源的helpful 和harmless数据，使用翻译工具进行了翻译。
 
+* chatbot_arena_conversations
+  * 地址：https://huggingface.co/datasets/lmsys/chatbot_arena_conversations
+  * 数据集说明：该偏好数据集包含20个LLM的输出，其中包括GPT-4和Claude-v1等更强的LLM，它还包含这些最先进模型的许多失败案例。包含来自超过13K个用户的无限制对话。
+
+* UltraFeedback
+  * 地址：https://github.com/OpenBMB/UltraFeedback
+![](https://img.shields.io/github/stars/OpenBMB/UltraFeedback.svg)
+  * 数据集说明：该数据集是一个大规模、细粒度、多样化的偏好数据集，用于训练强大的奖励模型和批评者模型。该工作从各种资源（包括UltraChat、ShareGPT、Evol-Instruct、TruthfulQA、FalseQA和FLAN，数据集统计数据请参见此处）中收集了约64k条提示。然后使用这些提示来查询多个LLM（模型列表请参见此处），并为每个提示生成4个不同的回复，从而得到总共256k个样本。
 
 ### 4. LLM训练微调框架
 
