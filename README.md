@@ -382,6 +382,11 @@
 ![](https://img.shields.io/github/stars/winninghealth/WiNGPT2.svg)
   * 简介：WiNGPT是一个基于GPT的医疗垂直领域大模型，基于Qwen-7b1作为基础预训练模型，在此技术上进行了继续预训练，指令微调等，该项目具体开源了WiNGPT2-7B-Base与WiNGPT2-7B-Chat模型。
 
+* ChiMed-GPT
+  * 地址：https://github.com/synlp/ChiMed-GPT
+![](https://img.shields.io/github/stars/synlp/ChiMed-GPT.svg)
+  * 简介：ChiMed-GPT是一个开源中文医学大语言模型，通过在中文医学数据上持续训练 Ziya-v2 构建而成，其中涵盖了预训练、有监督微调 (SFT) 和来自人类反馈的强化学习 (RLHF) 等训练过程。
+
 ##### 法律
 
 [![](src/Legal.png)](src/Legal.png)
