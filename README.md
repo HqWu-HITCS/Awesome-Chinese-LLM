@@ -269,6 +269,11 @@
 ![](https://img.shields.io/github/stars/THUDM/VisualGLM-6B.svg)
   * 简介：一个开源的，支持图像、中文和英文的多模态对话语言模型，语言模型基于 ChatGLM-6B，具有 62 亿参数；图像部分通过训练 BLIP2-Qformer 构建起视觉模型与语言模型的桥梁，整体模型共78亿参数。依靠来自于 CogView 数据集的30M高质量中文图文对，与300M经过筛选的英文图文对进行预训练。
 
+* CogVLM
+  * 地址：https://github.com/THUDM/CogVLM
+![](https://img.shields.io/github/stars/THUDM/VisualGLM-6B.svg)
+  * 简介：一个强大的开源视觉语言模型（VLM）。CogVLM-17B 拥有 100 亿视觉参数和 70 亿语言参数。 CogVLM-17B 在 10 个经典跨模态基准测试上取得了 SOTA 性能。CogVLM 能够准确地描述图像，几乎不会出现幻觉。
+
 * VisCPM
   * 地址：https://github.com/OpenBMB/VisCPM
 ![](https://img.shields.io/github/stars/OpenBMB/VisCPM.svg)
