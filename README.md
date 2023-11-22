@@ -55,6 +55,7 @@
       - [科技](#科技)
       - [自媒体](#自媒体)
       - [电商](#电商)
+      - [网络安全](#网络安全)
     - [2.2 LangChain应用](#22-langchain应用)
     - [2.3 其他应用](#23-其他应用)
   - [3. 数据集](#3-数据集)
@@ -534,6 +535,13 @@
   * 地址：https://github.com/Alibaba-NLP/EcomGPT
 ![](https://img.shields.io/github/stars/Alibaba-NLP/EcomGPT.svg)
   * 简介：一个由阿里发布的面向电商领域的语言模型，该模型基于BLOOMZ在电商指令微调数据集上微调得到，人工评估在12个电商评测数据集上超过ChatGPT。
+
+##### 网络安全
+
+* SecGPT
+  * 地址：https://github.com/Clouditera/secgpt
+![](https://img.shields.io/github/stars/Clouditera/secgpt.svg)
+  * 简介：开项目开源了网络安全大模型，该模型基于Baichuan-13B采用Lora做预训练和SFT训练，此外该项目还开源了相关预训练和指令微调数据集等资源。
 
 #### 2.2 LangChain应用
 
