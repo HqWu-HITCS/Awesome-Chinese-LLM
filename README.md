@@ -475,7 +475,10 @@
   * 地址：https://github.com/FudanDISC/DISC-FinLLM
 ![](https://img.shields.io/github/stars/FudanDISC/DISC-FinLLM.svg)
   * 简介：该项目由复旦大学数据智能与社会计算实验室 (Fudan-DISC) 开发并开源，项目中开源的资源包括：DISC-FinLLM-SFT训练数据样本，DISC-FinLLM模型参数（基于Baichuan-13B-Chat训练），DISC-Fin-Eval-Benchmark等。
-。
+
+* Tongyi-Finance
+  * 地址：https://modelscope.cn/models/TongyiFinance/Tongyi-Finance-14B
+  * 简介：该模型是针对对金融行业推出的大语言模型，基于通义千问基础模型进行行业语料增量学习，强化金融领域知识和场景应用能力，覆盖金融知识问答、文本分类、信息抽取、文本创作、阅读理解、逻辑推理、多模态、Coding等能力象限。具有以下特点：行业语料增量学习：使用200B高质量金融行业语料进行增量学习，并进行金融行业词表扩展，覆盖丰富的数据类型，支持更大上下文（16k）输入和完整的语义表达。行业能力强化：自研SFT质量&多样性分析工具，筛选高质量SFT数据，解决大语言模型的alignment问题。行业后链路优化：借助multi-agent框架，实现知识库增强和工具API调用。
 
 ##### 教育
 
