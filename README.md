@@ -38,7 +38,7 @@
 | BLOOM    | 1B7/7B1/176B-MT | 1.5T      | 2k     | 可商用   |
 | Baichuan | 7B/13B          | 1.2T/1.4T | 4k     | 可商用   |
 | Falcon   | 7B/40B          | 1.5T      | 2k     | 可商用   |
-| Qwen     | 7B/7B-Chat      | 2.2T      | 8k     | 可商用   |
+| Qwen     | 7B/14B/72B Base&Chat      | 2.2T/3T      | 8k/32k     | 可商用   |
 | Aquila   | 7B/Chat-7B      | -         | 2k     | 可商用   |
 
 ## 目录
@@ -112,6 +112,11 @@
   * 地址：https://github.com/FlagAlpha/Llama2-Chinese
 ![](https://img.shields.io/github/stars/FlagAlpha/Llama2-Chinese.svg)
   * 简介：该项目专注于Llama2模型在中文方面的优化和上层建设，基于大规模中文数据，从预训练开始对Llama2模型进行中文能力的持续迭代升级。
+
+* Qwen
+  * 地址：https://github.com/QwenLM/Qwen
+![](https://img.shields.io/github/stars/QwenLM/Qwen.svg)
+  * 简介：通义千问 是阿里云研发的通义千问大模型系列模型，包括参数规模为18亿（1.8B）、70亿（7B）、140亿（14B）和720亿（72B）。各个规模的模型包括基础模型Qwen，即Qwen-1.8B、Qwen-7B、Qwen-14B、Qwen-72B，以及对话模型Qwen-Chat，即Qwen-1.8B-Chat、Qwen-7B-Chat、Qwen-14B-Chat和Qwen-72B-Chat。数据集包括文本和代码等多种数据类型，覆盖通用领域和专业领域，能支持8K的上下文长度，针对插件调用相关的对齐数据做了特定优化，当前模型能有效调用插件以及升级为Agent。
 
 * OpenChineseLLaMA：
   * 地址：https://github.com/OpenLMLab/OpenChineseLLaMA
@@ -232,11 +237,6 @@
   * 地址：https://github.com/DAMO-NLP-MT/PolyLM
 ![](https://img.shields.io/github/stars/DAMO-NLP-MT/PolyLM.svg)
   * 简介：一个在6400亿个词的数据上从头训练的多语言语言模型，包括两种模型大小(1.7B和13B)。PolyLM覆盖中、英、俄、西、法、葡、德、意、荷、波、阿、土、希伯来、日、韩、泰、越、印尼等语种，特别是对亚洲语种更友好。
-
-* Qwen-7B
-  * 地址：https://github.com/QwenLM/Qwen-7B
-![](https://img.shields.io/github/stars/QwenLM/Qwen-7B.svg)
-  * 简介：通义千问-7B（Qwen-7B） 是阿里云研发的通义千问大模型系列的70亿参数规模的模型，使用了超过2.2万亿token的自建大规模预训练数据集进行语言模型的预训练。数据集包括文本和代码等多种数据类型，覆盖通用领域和专业领域，能支持8K的上下文长度，针对插件调用相关的对齐数据做了特定优化，当前模型能有效调用插件以及升级为Agent。
 
 * huozi
   * 地址：https://github.com/HIT-SCIR/huozi
