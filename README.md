@@ -910,6 +910,11 @@
 ![](https://img.shields.io/github/stars/michael-wzhu/PromptCBLUE.svg)
   * 简介：为推动LLM在医疗领域的发展和落地，由华东师范大学联合阿里巴巴天池平台，复旦大学附属华山医院，东北大学，哈尔滨工业大学（深圳），鹏城实验室与同济大学推出PromptCBLUE评测基准, 将16种不同的医疗场景NLP任务全部转化为基于提示的语言生成任务,形成首个中文医疗场景的LLM评测基准。
 
+* HalluQA: 中文幻觉评估基准
+  * 地址：https://github.com/xiami2019/HalluQA
+![](https://img.shields.io/github/stars/xiami2019/HalluQA.svg)
+  * 简介：该项目提出了一个名为HalluQA的基准测试，用于衡量中文大型语言模型中的幻觉现象。HalluQA包含450个精心设计的对抗性问题，涵盖多个领域，并考虑了中国历史文化、风俗和社会现象。在构建HalluQA时，考虑了两种类型的幻觉：模仿性虚假和事实错误，并基于GLM-130B和ChatGPT构建对抗性样本。为了评估，设计了一种使用GPT-4进行自动评估的方法，判断模型输出是否是幻觉。
+
 
 ###  7. <a name='LLM教程'></a>LLM教程
 
