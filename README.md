@@ -398,6 +398,11 @@
 ![](https://img.shields.io/github/stars/synlp/ChiMed-GPT.svg)
   * 简介：ChiMed-GPT是一个开源中文医学大语言模型，通过在中文医学数据上持续训练 Ziya-v2 构建而成，其中涵盖了预训练、有监督微调 (SFT) 和来自人类反馈的强化学习 (RLHF) 等训练过程。
 
+* MindChat
+  * 地址：https://github.com/X-D-Lab/MindChat
+![](https://img.shields.io/github/stars/X-D-Lab/MindChat.svg)
+  * 简介：心理大模型——漫谈(MindChat)期望从心理咨询、心理评估、心理诊断、心理治疗四个维度帮助人们纾解心理压力与解决心理困惑，为用户提供隐私、温暖、安全、及时、方便的对话环境，从而帮助用户克服各种困难和挑战，实现自我成长和发展。MindChat是一个基于Qwen作为基础预训练模型，并在此基础上进行指令微调得到的心理垂域大模型。
+
 ##### 法律
 
 [![](src/Legal.png)](src/Legal.png)
