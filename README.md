@@ -290,7 +290,7 @@
   * 地址：https://github.com/scutcyr/BianQue
   ![](https://img.shields.io/github/stars/scutcyr/BianQue.svg)
   * 简介：一个经过指令与多轮问询对话联合微调的医疗对话大模型，基于ClueAI/ChatYuan-large-v2作为底座，使用中文医疗问答指令与多轮问询对话混合数据集进行微调。
-  
+
 * HuatuoGPT：
   * 地址：https://github.com/FreedomIntelligence/HuatuoGPT
   ![](https://img.shields.io/github/stars/FreedomIntelligence/HuatuoGPT.svg)
@@ -817,6 +817,11 @@
   ![](https://img.shields.io/github/stars/lyogavin/Anima.svg)
   * 简介：该项目开源了一个优化inference内存的推理框架，可实现4GB单卡GPU可以运行70B大语言模型推理。不需要任何损失模型性能的量化和蒸馏，剪枝等模型压缩，该项目采用了分层推理的技术以在较低的内存下实现大模型推理。
 
+* LMDeploy:
+  * 地址：https://github.com/InternLM/lmdeploy
+  ![](https://img.shields.io/github/stars/InternLM/lmdeploy.svg)
+  * 简介：该项目支持 LLM（大语言模型）和 VL（视觉语言模型）任务在 NVIDIA 设备上量化、推理和服务。LMDeploy 支持有状态的推理，可以缓存对话，记住历史。它实现了 Persistent Batch(即 Continuous Batch)，Blocked K/V Cache，动态拆分和融合，张量并行，高效的计算 kernel等重要特性。推理性能是 vLLM 的 1.8 倍以上。其 4bit 量化模型推理性能达 FP16 的 2.4 倍以上。
+
 ###  6. <a name='LLM评测'></a>LLM评测
 
 * FlagEval （天秤）大模型评测体系及开放平台
@@ -829,7 +834,7 @@
   ![](https://img.shields.io/github/stars/SJTU-LIT/ceval.svg)
   * 简介：构造了一个覆盖人文，社科，理工，其他专业四个大方向，52 个学科（微积分，线代 …），从中学到大学研究生以及职业考试，一共 13948 道题目的中文知识和推理型测试集。此外还给出了当前主流中文LLM的评测结果。
 
-* OpenCompass: 
+* OpenCompass:
   * 地址：https://github.com/InternLM/opencompass
   ![](https://img.shields.io/github/stars/InternLM/opencompass.svg)
   * 简介：由上海AI实验室发布的面向大模型评测的一站式平台。主要特点包括：开源可复现；全面的能力维度：五大维度设计，提供 50+ 个数据集约 30 万题的的模型评测方案；丰富的模型支持：已支持 20+ HuggingFace 及 API 模型；分布式高效评测：一行命令实现任务分割和分布式评测，数小时即可完成千亿模型全量评测；多样化评测范式：支持零样本、小样本及思维链评测，结合标准型或对话型提示词模板；灵活化拓展。
@@ -839,17 +844,17 @@
   ![](https://img.shields.io/github/stars/CLUEbenchmark/SuperCLUElyb.svg)
   * 简介：中文通用大模型匿名对战评价基准，这是一个中文通用大模型对战评价基准，它以众包的方式提供匿名、随机的对战。他们发布了初步的结果和基于Elo评级系统的排行榜。
 
-* GAOKAO-Bench: 
+* GAOKAO-Bench:
   * 地址：https://github.com/OpenLMLab/GAOKAO-Bench
   ![](https://img.shields.io/github/stars/OpenLMLab/GAOKAO-Bench.svg)
   * 简介：GAOKAO-bench是一个以中国高考题目为数据集，测评大模型语言理解能力、逻辑推理能力的测评框架，收集了2010-2022年全国高考卷的题目，其中包括1781道客观题和1030道主观题，构建起GAOKAO-bench的数据部分。
 
-* AGIEval: 
+* AGIEval:
   * 地址：https://github.com/microsoft/AGIEval
   ![](https://img.shields.io/github/stars/microsoft/AGIEval.svg)
   * 简介：由微软发布的一项新型基准测试，这项基准选取20种面向普通人类考生的官方、公开、高标准往常和资格考试，包括普通大学入学考试（中国高考和美国 SAT 考试）、法学入学考试、数学竞赛、律师资格考试、国家公务员考试等等。
 
-* Xiezhi: 
+* Xiezhi:
   * 地址：https://github.com/mikegu721/xiezhibenchmark
   ![](https://img.shields.io/github/stars/mikegu721/xiezhibenchmark.svg)
   * 简介：由复旦大学发布的一个综合的、多学科的、能够自动更新的领域知识评估Benchmark，包含了哲学、经济学、法学、教育学、文学、历史学、自然科学、工学、农学、医学、军事学、管理学、艺术学这13个学科门类，24万道学科题目，516个具体学科，249587道题目。
@@ -950,6 +955,12 @@
 * llm大模型训练专栏：
   * 地址：https://www.zhihu.com/column/c_1252604770952642560
   * 简介：该项目提供了一系列LLM前言理论和实战实验，包括论文解读与洞察分析。
+
+
+* 书生·浦语大模型实战营
+  * 地址：https://github.com/InternLM/tutorial
+  * 简介：该课程由上海人工智能实验室重磅推出。课程包括大模型微调、部署与评测全链路，目的是为广大开发者搭建大模型学习和实践开发的平台。
+
  ###  8. <a name='相关仓库'></a>相关仓库
 
 * FindTheChatGPTer：
