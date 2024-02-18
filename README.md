@@ -41,6 +41,7 @@
 | Qwen     | 7B/14B/72B Base&Chat      | 2.2T/3T      | 8k/32k     | 可商用   |
 | Aquila   | 7B/Chat-7B      | -         | 2k     | 可商用   |
 | InternLM | 7B/20B Base&Chat | - | 200k | 可商用 |
+| Mixtral | 8x7B Base&Chat | - | 32k | 可商用 |
 
 ## 目录
 - [目录](#目录)
@@ -235,6 +236,10 @@
   * 地址：https://github.com/IEIT-Yuan/Yuan-2.0
   ![](https://img.shields.io/github/stars/IEIT-Yuan/Yuan-2.0.svg)
   * 简介：该项目开源了由浪潮信息发布的新一代基础语言大模型，具体开源了全部的3个模型源2.0-102B，源2.0-51B和源2.0-2B。并且提供了预训练，微调，推理服务的相关脚本。源2.0是在源1.0的基础上，利用更多样的高质量预训练数据和指令微调数据集，令模型在语义、数学、推理、代码、知识等不同方面具备更强的理解能力。
+* Chinese-Mixtral-8x7B
+  * 地址：https://github.com/HIT-SCIR/Chinese-Mixtral-8x7B
+  ![](https://img.shields.io/github/stars/HIT-SCIR/Chinese-Mixtral-8x7B)
+  * 简介：该项目基于Mixtral-8x7B稀疏混合专家模型进行了中文扩词表增量预训练，开源了Chinese-Mixtral-8x7B扩词表模型以及训练代码。该模型的的中文编解码效率较原模型显著提高。同时通过在大规模开源语料上进行的增量预训练，该模型具备了强大的中文生成和理解能力。
 
 #### 1.2 多模态LLM模型
 
