@@ -58,6 +58,7 @@
       - [自媒体](#自媒体)
       - [电商](#电商)
       - [网络安全](#网络安全)
+      - [农业](#农业)
     - [2.2 LangChain应用](#22-langchain应用)
     - [2.3 其他应用](#23-其他应用)
   - [3. 数据集](#3-数据集)
@@ -528,6 +529,13 @@
   * 地址：https://github.com/Clouditera/secgpt
   ![](https://img.shields.io/github/stars/Clouditera/secgpt.svg)
   * 简介：开项目开源了网络安全大模型，该模型基于Baichuan-13B采用Lora做预训练和SFT训练，此外该项目还开源了相关预训练和指令微调数据集等资源。
+
+##### 农业
+
+* 后稷（AgriMa）：
+  * 地址：https://github.com/zhiweihu1103/AgriMa
+  ![](https://img.shields.io/github/stars/zhiweihu1103/AgriMa.svg)
+  * 简介：首个中文开源农业大模型是由山西大学、山西农业大学与The Fin AI联合研发，以Baichuan为底座，基于海量有监督农业领域相关数据微调，具备广泛的农业知识和智能分析能力，该模型旨在为农业领域提供全面而高效的信息处理和决策支持。
 
 #### 2.2 LangChain应用
 
