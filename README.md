@@ -55,7 +55,6 @@
       - [金融](#金融)
       - [教育](#教育)
       - [科技](#科技)
-      - [自媒体](#自媒体)
       - [电商](#电商)
       - [网络安全](#网络安全)
       - [农业](#农业)
@@ -509,13 +508,6 @@
   * 简介：该项目开源了基于LLaMA和Baichuan的科技论文大模型，可以用于科技文献的问答和情感支持。
 
 
-##### 自媒体
-
-* MediaGPT：
-  * 地址：https://github.com/IMOSR/MediaGPT
-  ![](https://img.shields.io/github/stars/IMOSR/MediaGPT.svg)
-  * 简介：一个针对自媒体领域进行特殊训练的模型，首先在大规模自媒体语料上进行连续预训练，然后ChatGPT收集了一批关于抖音运营、短视频创作、巨量千川投放、直播运营和直播话术技巧等领域知识问题的分析和回答，并利用这些数据对模型进行指令微调，开源一系列自媒体领域的指令微调数据和基于LLaMA训练的中文自媒体大模型的参数。
-
 ##### 电商
 
 * EcomGPT
@@ -863,8 +855,8 @@
   * 简介：GAOKAO-bench是一个以中国高考题目为数据集，测评大模型语言理解能力、逻辑推理能力的测评框架，收集了2010-2022年全国高考卷的题目，其中包括1781道客观题和1030道主观题，构建起GAOKAO-bench的数据部分。
 
 * AGIEval:
-  * 地址：https://github.com/microsoft/AGIEval
-  ![](https://img.shields.io/github/stars/microsoft/AGIEval.svg)
+  * 地址：https://github.com/ruixiangcui/AGIEval
+  ![](https://img.shields.io/github/stars/ruixiangcui/AGIEval.svg)
   * 简介：由微软发布的一项新型基准测试，这项基准选取20种面向普通人类考生的官方、公开、高标准往常和资格考试，包括普通大学入学考试（中国高考和美国 SAT 考试）、法学入学考试、数学竞赛、律师资格考试、国家公务员考试等等。
 
 * Xiezhi:
