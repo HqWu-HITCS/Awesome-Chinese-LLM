@@ -29,19 +29,18 @@
 ![Awesome-Chinese-LLM](src/LLM.png)
 
 常见底座模型细节概览：
-| 底座名称     | 模型参数大小          | 训练token数  | 训练最大长度 | 是否可商用 |
-|----------|-----------------|-----------|--------|-------|
-| ChatGLM  | 6B              | 1T        | 2K     | 可商用   |
-| ChatGLM2 | 6B              | 1.4T      | 32K    | 可商用   |
-| LLaMA    | 7B/13B/33B/65B  | 1T        | 2k     | 不可商用  |
-| LLaMA2   | 7B/13B/33B/65B  | 2T        | 4k     | 可商用   |
-| BLOOM    | 1B7/7B1/176B-MT | 1.5T      | 2k     | 可商用   |
-| Baichuan | 7B/13B          | 1.2T/1.4T | 4k     | 可商用   |
-| Falcon   | 7B/40B          | 1.5T      | 2k     | 可商用   |
-| Qwen     | 7B/14B/72B Base&Chat      | 2.2T/3T      | 8k/32k     | 可商用   |
-| Aquila   | 7B/Chat-7B      | -         | 2k     | 可商用   |
-| InternLM | 7B/20B Base&Chat | - | 200k | 可商用 |
-| Mixtral | 8x7B Base&Chat | - | 32k | 可商用 |
+| 底座     | 包含模型                    | 模型参数大小      | 训练token数  | 训练最大长度 | 是否可商用 |
+|----------|---------------------------|-----------------|-------------|------------|-------   |
+| ChatGLM  | ChatGLM/2/3 Base&Chat     | 6B              | 1T/1.4      | 2K/32K     | 可商用   |
+| LLaMA    | LLaMA/2 Base&Chat         | 7B/13B/33B/65B  | 1T/2T       | 2k/4k      | 部分可商用  |
+| Baichuan | Baichuan/2 Base&Chat      | 7B/13B          | 1.2T/1.4T | 4k     | 可商用   |
+| Qwen     | Qwen/1.5 Base&Chat        | 7B/14B/72B      | 2.2T/3T      | 8k/32k     | 可商用   |
+| BLOOM    | BLOOM                     | 1B/7B/176B-MT   | 1.5T      | 2k     | 可商用   |
+| Aquila   | Aquila/2 Base/Chat        | 7B/34B          | -         | 2k     | 可商用   |
+| InternLM | InternLM/2 Base/Chat/Code | 7B/20B          | -         | 200k | 可商用 |
+| Mixtral  | Base&Chat                 | 8x7B            | -         | 32k | 可商用 |
+| Yi       | Base&Chat                 | 6B/9B/34B       | 3T        | 200k | 可商用 |
+| DeepSeek | Base&Chat                 | 1.3B/7B/33B/67B | -         | 4k | 可商用 |
 
 ## 目录
 - [目录](#目录)
