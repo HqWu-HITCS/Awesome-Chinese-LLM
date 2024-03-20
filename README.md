@@ -179,6 +179,10 @@
   * 地址：https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila
   ![](https://img.shields.io/github/stars/FlagAI-Open/FlagAI.svg)
   * 简介：由智源研究院发布，Aquila语言大模型在技术上继承了GPT-3、LLaMA等的架构设计优点，替换了一批更高效的底层算子实现、重新设计实现了中英双语的tokenizer，升级了BMTrain并行训练方法，是在中英文高质量语料基础上从０开始训练的，通过数据质量的控制、多种训练的优化方法，实现在更小的数据集、更短的训练时间，获得比其它开源模型更优的性能。也是首个支持中英双语知识、支持商用许可协议、符合国内数据合规需要的大规模开源语言模型。
+* Aquila2
+  * 地址：https://github.com/FlagAI-Open/Aquila2
+  ![](https://img.shields.io/github/stars/FlagAI-Open/Aquila2.svg)
+  * 简介：由智源研究院发布，Aquila2 系列，包括基础语言模型 Aquila2-7B，Aquila2-34B 和 Aquila2-70B-Expr ，对话模型 AquilaChat2-7B ，AquilaChat2-34B 和 AquilaChat2-70B-Expr，长文本对话模型AquilaChat2-7B-16k 和 AquilaChat2-34B-16。
 * Baichuan-7B
   * 地址：https://github.com/baichuan-inc/baichuan-7B
   ![](https://img.shields.io/github/stars/baichuan-inc/baichuan-7B.svg)
