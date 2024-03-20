@@ -243,6 +243,11 @@
   * 地址：https://github.com/HIT-SCIR/Chinese-Mixtral-8x7B
   ![](https://img.shields.io/github/stars/HIT-SCIR/Chinese-Mixtral-8x7B)
   * 简介：该项目基于Mixtral-8x7B稀疏混合专家模型进行了中文扩词表增量预训练，开源了Chinese-Mixtral-8x7B扩词表模型以及训练代码。该模型的的中文编解码效率较原模型显著提高。同时通过在大规模开源语料上进行的增量预训练，该模型具备了强大的中文生成和理解能力。
+* BlueLM
+  * 地址：https://github.com/vivo-ai-lab/BlueLM
+  ![](https://img.shields.io/github/stars/vivo-ai-lab/BlueLM.svg)
+  * 簡介：BlueLM 是由 vivo AI 全球研究院自主研发的大规模预训练语言模型，本次发布包含 7B 基础 (base) 模型和 7B 对话 (chat) 模型，同时我们开源了支持 32K 的长文本基础 (base) 模型和对话 (chat) 模型。
+
 
 #### 1.2 多模态LLM模型
 
