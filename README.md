@@ -179,6 +179,10 @@
   * 地址：https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila
   ![](https://img.shields.io/github/stars/FlagAI-Open/FlagAI.svg)
   * 简介：由智源研究院发布，Aquila语言大模型在技术上继承了GPT-3、LLaMA等的架构设计优点，替换了一批更高效的底层算子实现、重新设计实现了中英双语的tokenizer，升级了BMTrain并行训练方法，是在中英文高质量语料基础上从０开始训练的，通过数据质量的控制、多种训练的优化方法，实现在更小的数据集、更短的训练时间，获得比其它开源模型更优的性能。也是首个支持中英双语知识、支持商用许可协议、符合国内数据合规需要的大规模开源语言模型。
+* Aquila2
+  * 地址：https://github.com/FlagAI-Open/Aquila2
+  ![](https://img.shields.io/github/stars/FlagAI-Open/Aquila2.svg)
+  * 简介：由智源研究院发布，Aquila2 系列，包括基础语言模型 Aquila2-7B，Aquila2-34B 和 Aquila2-70B-Expr ，对话模型 AquilaChat2-7B ，AquilaChat2-34B 和 AquilaChat2-70B-Expr，长文本对话模型AquilaChat2-7B-16k 和 AquilaChat2-34B-16。
 * Baichuan-7B
   * 地址：https://github.com/baichuan-inc/baichuan-7B
   ![](https://img.shields.io/github/stars/baichuan-inc/baichuan-7B.svg)
@@ -239,6 +243,11 @@
   * 地址：https://github.com/HIT-SCIR/Chinese-Mixtral-8x7B
   ![](https://img.shields.io/github/stars/HIT-SCIR/Chinese-Mixtral-8x7B)
   * 简介：该项目基于Mixtral-8x7B稀疏混合专家模型进行了中文扩词表增量预训练，开源了Chinese-Mixtral-8x7B扩词表模型以及训练代码。该模型的的中文编解码效率较原模型显著提高。同时通过在大规模开源语料上进行的增量预训练，该模型具备了强大的中文生成和理解能力。
+* BlueLM
+  * 地址：https://github.com/vivo-ai-lab/BlueLM
+  ![](https://img.shields.io/github/stars/vivo-ai-lab/BlueLM.svg)
+  * 簡介：BlueLM 是由 vivo AI 全球研究院自主研发的大规模预训练语言模型，本次发布包含 7B 基础 (base) 模型和 7B 对话 (chat) 模型，同时我们开源了支持 32K 的长文本基础 (base) 模型和对话 (chat) 模型。
+
 
 #### 1.2 多模态LLM模型
 
