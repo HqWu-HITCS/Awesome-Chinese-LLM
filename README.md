@@ -247,6 +247,10 @@
   * 地址：https://github.com/vivo-ai-lab/BlueLM
   ![](https://img.shields.io/github/stars/vivo-ai-lab/BlueLM.svg)
   * 簡介：BlueLM 是由 vivo AI 全球研究院自主研发的大规模预训练语言模型，本次发布包含 7B 基础 (base) 模型和 7B 对话 (chat) 模型，同时我们开源了支持 32K 的长文本基础 (base) 模型和对话 (chat) 模型。
+* TuringMM
+  * 地址：https://github.com/lightyear-turing/TuringMM-34B-Chat
+  ![](https://img.shields.io/github/stars/lightyear-turing/TuringMM-34B-Chat.svg)
+  * 簡介：TuringMM-34B-Chat是一款开源的中英文Chat模型，由北京光年无限科技有限公司基于Yi-34B开源模型、基于14w的精标教育数据进行sft微调以及15W对齐数据进行DPO偏好学习得到的一个微调模型。
 
 
 #### 1.2 多模态LLM模型
