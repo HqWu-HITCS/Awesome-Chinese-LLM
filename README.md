@@ -251,6 +251,14 @@
   * 地址：https://github.com/lightyear-turing/TuringMM-34B-Chat
   ![](https://img.shields.io/github/stars/lightyear-turing/TuringMM-34B-Chat.svg)
   * 簡介：TuringMM-34B-Chat是一款开源的中英文Chat模型，由北京光年无限科技有限公司基于Yi-34B开源模型、基于14w的精标教育数据进行sft微调以及15W对齐数据进行DPO偏好学习得到的一个微调模型。
+* Orion
+  * 地址：https://github.com/OrionStarAI/Orion
+  ![](https://img.shields.io/github/stars/OrionStarAI/Orion.svg)
+  * 簡介：Orion-14B-Base是一个具有140亿参数的多语种大模型，该模型在一个包含2.5万亿token的多样化数据集上进行了训练，涵盖了中文、英语、日语、韩语等多种语言。
+* OrionStar-Yi-34B-Chat
+  * 地址：https://github.com/OrionStarAI/OrionStar-Yi-34B-Chat
+  ![](https://img.shields.io/github/stars/OrionStarAI/OrionStar-Yi-34B-Chat.svg)
+  * 簡介：OrionStar-Yi-34B-Chat 是猎户星空基于零一万物开源的Yi-34B模型，使用 15W+ 的高质量语料训练而来微调大模型，旨在为大模型社区用户提供卓越的交互体验。
 
 
 #### 1.2 多模态LLM模型
