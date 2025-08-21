@@ -741,7 +741,13 @@
   
   * 地址：https://github.com/ypwhs/CreativeChatGLM
     ![](https://img.shields.io/github/stars/ypwhs/CreativeChatGLM.svg)
-  * 简介：可以使用修订和续写的功能来生成创意内容，可以使用“续写”按钮帮 ChatGLM 想一个开头，并让它继续生成更多的内容，你可以使用“修订”按钮修改最后一句 ChatGLM 的回复。
+  * 简介：可以使用修订和续写的功能来生成创意内容，可以使用"续写"按钮帮 ChatGLM 想一个开头，并让它继续生成更多的内容，你可以使用"修订"按钮修改最后一句 ChatGLM 的回复。
+
+* QueryGPT：
+  
+  * 地址：https://github.com/MKY508/QueryGPT
+    ![](https://img.shields.io/github/stars/MKY508/QueryGPT.svg)
+  * 简介：基于 OpenInterpreter 的数据查询工具，让非技术人员也能用中文查询数据库。用中文问"上个月销售最好的产品"这种问题，系统会自动查询并生成图表。基于OpenInterpreter 做的，比较稳定。已被中国独立开发者项目列表收录。
 
 * docker-llama2-chat：
   
