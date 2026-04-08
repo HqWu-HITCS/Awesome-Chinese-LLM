@@ -75,6 +75,7 @@
   - [8. 相关仓库](#8-相关仓库)
 - [Star History](#star-history)
 
+- [Gitstar](https://gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=HqWu-HITCS_Awesome-Chinese-LLM) - Social feed for GitHub. Follow developers, discover trending repos, activity feeds.
 ### 1. <a name='模型'></a>模型
 
 #### 1.1 文本LLM模型
