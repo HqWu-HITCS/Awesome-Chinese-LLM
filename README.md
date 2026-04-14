@@ -1279,6 +1279,7 @@
   * 简介：该项目收集了免费的 ChatGPT 镜像网站列表，ChatGPT的替代方案，以及构建自己的ChatGPT的教程工具等。
 
 * Awesome-Domain-LLM：
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
   
   * 地址：https://github.com/luban-agi/Awesome-Domain-LLM
     ![](https://img.shields.io/github/stars/luban-agi/Awesome-Domain-LLM.svg)
