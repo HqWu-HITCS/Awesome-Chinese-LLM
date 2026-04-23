@@ -1124,6 +1124,12 @@
     ![](https://img.shields.io/github/stars/jeinlee1991/chinese-llm-benchmark.svg)
   * 简介：中文大模型能力评测榜单：覆盖百度文心一言、chatgpt、阿里通义千问、讯飞星火、belle / chatglm6b 等开源大模型，多维度能力评测。不仅提供能力评分排行榜，也提供所有模型的原始输出结果！
 
+* awesome-ai-api：中文 AI API 中转站每日评测榜
+
+  * 地址：https://github.com/MackDing/awesome-ai-api
+    ![](https://img.shields.io/github/stars/MackDing/awesome-ai-api.svg)
+  * 简介：每日自动刷新的 AI API 中转站（OpenAI 兼容 Relay）公开排行榜，覆盖国内外 200+ 中转站。通过每天探测 `/v1/models` 端点、识别底层 OSS 引擎（one-api / new-api / dify / litellm / portkey 等）、累计 30 天可用率、测量延迟，综合打分并输出榜单。数据 CC0 开源，代码 MIT 协议，在线榜单：https://mackding.github.io/awesome-ai-api/ 。
+
 * Safety-Prompts：
   
   * 地址：https://github.com/thu-coai/Safety-Prompts
