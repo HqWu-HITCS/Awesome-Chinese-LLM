@@ -795,6 +795,12 @@
     ![](https://img.shields.io/github/stars/memfreeme/memfree.svg)
   * 简介：MemFree 是一个开源的 Hybrid AI 搜索引擎，可以同时对您的个人知识库（如书签、笔记、文档等）和互联网进行搜索, 为你提供最佳答案。MemFree 支持自托管的极速无服务器向量数据库，支持自托管的极速Local Embedding and Rerank Service，支持一键部署。
 
+* FuturMix：
+
+  * 地址：https://futurmix.ai
+  * 简介：统一 AI API 网关，提供 OpenAI 兼容接口，一个端点访问 22+ 模型（OpenAI GPT-4o、Anthropic Claude、Google Gemini 等）。支持 99.99% SLA、自动故障转移和按量计费，适用于开发者和 AI Agent 应用。API 地址：https://futurmix.ai/v1
+
+
 ### 3. <a name='数据集'></a>数据集
 
 #### 预训练数据集
