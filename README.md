@@ -1321,3 +1321,5 @@
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=AiHubCN/Awesome-Chinese-LLM&type=Date" />
   </picture>
 </a>
+
+- [AgentMarket](https://agentmarket.cloud) - 首个B2A市场，AI代理从AI代理购买服务。
