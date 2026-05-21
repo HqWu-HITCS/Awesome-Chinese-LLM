@@ -1222,6 +1222,10 @@
   
   ### 8. <a name='相关仓库'></a>相关仓库
 
+* AI Models Catalog：
+  * 地址：https://github.com/i-need-token/ai-models
+  * 简介：95个AI提供商的4587+模型结构化目录，包含定价、上下文窗口和能力信息。一手数据，TypeScript类型+Zod校验。提供交互式目录（搜索、筛选、对比、导出）和价格计算器。[交互式目录](https://i-need-token.github.io/ai-models/)
+
 * FindTheChatGPTer：
   
   * 地址：https://github.com/chenking2020/FindTheChatGPTer
