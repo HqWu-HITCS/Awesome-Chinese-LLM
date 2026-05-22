@@ -1321,3 +1321,20 @@
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=AiHubCN/Awesome-Chinese-LLM&type=Date" />
   </picture>
 </a>
+
+
+## OpenClaw Monitor
+
+⭐ **OpenClaw AI 智能体实时监控平台**
+
+![Dashboard](https://raw.githubusercontent.com/flik2002/openclaw-monitor/main/Openclaw%20Monitor.jpg)
+
+### 特性
+- **实时监控**：WebSocket 连接，实时展示 Gateway 和会话状态
+- **Token 统计**：追踪 prompt/completion tokens，支持可视化图表
+- **多智能体支持**：同时监控多个 OpenClaw 智能体
+- **7 天趋势**：消息量和 token 使用历史
+- **开源免费**：Vue 3 + ECharts，无需注册
+
+### 链接
+- GitHub: https://github.com/flik2002/openclaw-monitor
