@@ -1158,6 +1158,12 @@
     ![](https://img.shields.io/github/stars/Mooler0410/LLMsPracticalGuide.svg)
   * 简介：该项目提供了关于LLM的一系列指南与资源精选列表，包括LLM发展历程、原理、示例、论文等。
 
+* LLM Infra 工程实战：
+  
+  * 地址：https://github.com/diguike/book-llm-infra
+    ![](https://img.shields.io/github/stars/diguike/book-llm-infra.svg)
+  * 简介：面向应用层工程师的 LLM 基础设施学习路径，从 Transformer 推理、vLLM 内核到量化、微调、分布式训练，每章带可运行代码。免费在线阅读 https://inferloop.dev/llm-infra。
+
 #### 提示工程教程
 
 * 面向开发者的 LLM 入门课程：
@@ -1196,6 +1202,12 @@
     ![](https://img.shields.io/github/stars/phodal/aigc.svg)
   * 简介：该项目开源了一本关于 LLM 在真实世界应用的开源电子书，介绍了大语言模型的基础知识和应用，以及如何构建自己的模型。其中包括Prompt的编写、开发和管理，探索最好的大语言模型能带来什么，以及LLM应用开发的模式和架构设计。
 
+* AI Token 中转站实战：
+  
+  * 地址：https://github.com/diguike/book-llm-gateway
+    ![](https://img.shields.io/github/stars/diguike/book-llm-gateway.svg)
+  * 简介：用 TypeScript + Hono 从零搭企业级 LLM 网关（AI Gateway），覆盖多上游路由、协议转换、鉴权、两阶段计费、限流、渠道故障转移、SSE 流式与可观测性，配每章可独立运行的最小原型。免费在线阅读 https://inferloop.dev/llm-gateway。
+
 #### LLM实战教程
 
 * LLMs九层妖塔：
@@ -1219,6 +1231,12 @@
   
   * 地址：https://github.com/InternLM/tutorial
   * 简介：该课程由上海人工智能实验室重磅推出。课程包括大模型微调、部署与评测全链路，目的是为广大开发者搭建大模型学习和实践开发的平台。
+
+* 百万级 AI Agent 平台架构 — 智能客服 SaaS 实战：
+  
+  * 地址：https://github.com/diguike/book-enterprise-agent
+    ![](https://img.shields.io/github/stars/diguike/book-enterprise-agent.svg)
+  * 简介：以 AgentFlow MVP 为主线，从零搭建多租户企业级 AI Agent 平台，覆盖 Agent 引擎、Skill 沙箱、知识库 RAG、多租户隔离、高并发与可观测性。配 docker-compose 可跑的完整 TypeScript 项目。免费在线阅读 https://inferloop.dev/enterprise-agent。
   
   ### 8. <a name='相关仓库'></a>相关仓库
 
