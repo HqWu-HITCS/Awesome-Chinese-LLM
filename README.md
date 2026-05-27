@@ -1321,3 +1321,4 @@
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=AiHubCN/Awesome-Chinese-LLM&type=Date" />
   </picture>
 </a>
+- [BenchGecko](https://benchgecko.ai/zh/) - AI模型基准评测排行榜和跨供应商定价平台。覆盖数千个模型、128个评估基准、数百个供应商。提供AI经济仪表盘、计算供应链追踪和开发者心智份额分析。支持中文界面，提供免费API。
