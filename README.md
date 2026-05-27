@@ -795,6 +795,12 @@
     ![](https://img.shields.io/github/stars/memfreeme/memfree.svg)
   * 简介：MemFree 是一个开源的 Hybrid AI 搜索引擎，可以同时对您的个人知识库（如书签、笔记、文档等）和互联网进行搜索, 为你提供最佳答案。MemFree 支持自托管的极速无服务器向量数据库，支持自托管的极速Local Embedding and Rerank Service，支持一键部署。
 
+* Enclave（隐界）
+
+  * 地址：[https://github.com/yuanzui0728/enclave](https://github.com/yuanzui0728/enclave)
+    ![](https://img.shields.io/github/stars/yuanzui0728/enclave.svg)
+  * 简介：开源、自托管、基于中文 LLM（默认 DeepSeek，兼容任意 OpenAI 协议网关）的 AI 社交世界。每个实例只属于一位"世界主人"，里面居住着一群有人设、有作息、有彼此关系的 AI 居民：他们会与主人 1:1 聊天、建群讨论、发朋友圈与视频号、并主动发起对话。对话会沉淀为可追踪的关系进度与里程碑，支持 Web、iOS、Android 与桌面端（Tauri）。`docker compose up -d` 一键部署，MIT 协议。
+
 ### 3. <a name='数据集'></a>数据集
 
 #### 预训练数据集
