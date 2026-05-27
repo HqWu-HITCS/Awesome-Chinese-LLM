@@ -1057,6 +1057,11 @@
     ![](https://img.shields.io/github/stars/InternLM/lmdeploy.svg)
   * 简介：该项目支持 LLM（大语言模型）和 VL（视觉语言模型）任务在 NVIDIA 设备上量化、推理和服务。LMDeploy 支持有状态的推理，可以缓存对话，记住历史。它实现了 Persistent Batch(即 Continuous Batch)，Blocked K/V Cache，动态拆分和融合，张量并行，高效的计算 kernel等重要特性。推理性能是 vLLM 的 1.8 倍以上。其 4bit 量化模型推理性能达 FP16 的 2.4 倍以上。
 
+* A3M Router：
+  
+  * 地址：https://github.com/Das-rebel/a3m-router
+    ![](https://img.shields.io/github/stars/Das-rebel/a3m-router.svg)
+  * 简介：开源LLM路由器和AI网关，支持47+模型提供商的并行多LLM执行。通过置信度评分进行智能路由，无需顺序回退。成本降低62%，路由准确率99.5%，独立基准验证。仅19.5 KB，零ML依赖，MIT许可证。
 ### 6. <a name='LLM评测'></a>LLM评测
 
 * FlagEval （天秤）大模型评测体系及开放平台
