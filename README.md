@@ -1196,6 +1196,12 @@
     ![](https://img.shields.io/github/stars/phodal/aigc.svg)
   * 简介：该项目开源了一本关于 LLM 在真实世界应用的开源电子书，介绍了大语言模型的基础知识和应用，以及如何构建自己的模型。其中包括Prompt的编写、开发和管理，探索最好的大语言模型能带来什么，以及LLM应用开发的模式和架构设计。
 
+* langchain-langgraph-langsmith-tutorial（LangChain Tutorial Zero）：
+
+  * 地址：https://github.com/estelledc/langchain-langgraph-langsmith-tutorial
+    ![](https://img.shields.io/github/stars/estelledc/langchain-langgraph-langsmith-tutorial.svg)
+  * 简介：给编程零基础选手的 LangChain 1.3.x 中文教程，4 周 14 篇 learning-by-doing。包含 AI 辅助学习元教程（7 条 prompt 心法 + 任务卡结构）、LangChain / LangGraph / LangSmith 三件套覆盖、6 处 1.3.x 破坏性变更修法实测，所有 final/.py 可直接跑通。
+
 #### LLM实战教程
 
 * LLMs九层妖塔：
