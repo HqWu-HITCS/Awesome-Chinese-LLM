@@ -358,6 +358,18 @@
     ![](https://img.shields.io/github/stars/MiniMax-AI/MiniMax-01.svg)
   * 简介：MiniMax-VL-01 是 MiniMax 推出的多模态视觉语言模型，基于 MiniMax-Text-01 构建，采用 "ViT-MLP-LLM" 架构，结合 3.03 亿参数的 Vision Transformer（ViT）进行视觉编码。支持动态分辨率机制，输入图像分辨率范围从 336×336 到 2016×2016，适用于细粒度图文理解任务。在多模态评测排行榜上取得了领先水平的表现，展现了在复杂多模态任务上的优势。
 
+
+* SenseVoice
+
+  * 地址：https://github.com/FunAudioLLM/SenseVoice
+    ![](https://img.shields.io/github/stars/FunAudioLLM/SenseVoice.svg)
+  * 简介：超高效多语言语音理解模型，支持中、英、日、韩、粤语的语音识别、情感识别和音频事件检测。采用非自回归架构，推理速度达 Whisper-large-v3 的 13 倍以上（GPU 170 倍实时），CPU 上也能实时运行（17 倍实时）。MIT 开源，可通过 [FunASR](https://github.com/modelscope/FunASR) 一行代码调用。
+
+* Fun-ASR-Nano
+
+  * 地址：https://github.com/FunAudioLLM/Fun-ASR
+    ![](https://img.shields.io/github/stars/FunAudioLLM/Fun-ASR.svg)
+  * 简介：基于 LLM 的端到端语音识别模型，采用 SenseVoice 编码器 + Qwen3-0.6B 解码器架构，支持 31 种语言（含中文方言），具备原生标点恢复、时间戳和说话人分离能力。支持 vLLM 加速推理，批量处理快 16 倍。MIT 开源，可通过 [FunASR](https://github.com/modelscope/FunASR) 框架或独立使用。
 ### 2. <a name='应用'></a>应用
 
 #### 2.1 垂直领域微调
