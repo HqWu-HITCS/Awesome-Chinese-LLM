@@ -1312,6 +1312,12 @@
     ![](https://img.shields.io/github/stars/nowork-studio/awesome-ai-startups.svg)
   * 简介：独立开发者创建的 AI 创业产品精选列表，涵盖自筹资金、种子轮前和天使轮融资的产品。
 
+* 开源模型导航站 (Open Source Model Navigator)：
+
+  * 地址：https://github.com/duola15/open-source-model-nav
+    ![](https://img.shields.io/github/stars/duola15/open-source-model-nav.svg)
+  * 简介：中文世界最全面的开源模型地图，覆盖 219 个模型、6 大类别、60+ 机构。支持按任务类型/硬件要求/商用许可三维筛选，每日自动同步 HuggingFace 趋势榜，DeepSeek V4 Flash 自动翻译中文简介。提供一键复制部署命令（Ollama/硅基流动/Transformers/vLLM），适配国内网络环境。
+
 ## Star History
 
 <a href="https://star-history.com/#AiHubCN/Awesome-Chinese-LLM&Date">
