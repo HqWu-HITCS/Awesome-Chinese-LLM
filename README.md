@@ -1312,6 +1312,12 @@
     ![](https://img.shields.io/github/stars/nowork-studio/awesome-ai-startups.svg)
   * 简介：独立开发者创建的 AI 创业产品精选列表，涵盖自筹资金、种子轮前和天使轮融资的产品。
 
+* Awesome AI Gateway：
+
+  * 地址：https://github.com/cuihuan/awesome-ai-gateway
+    ![](https://img.shields.io/github/stars/cuihuan/awesome-ai-gateway.svg)
+  * 简介：AI 网关 / LLM 代理 / LLM 路由的中英双语精选列表，含选型决策树、可复现的成本基准（同一任务换不同模型，成本可差约 100 倍）、四维安全评分卡（合规 / 价格 / 安全 / 稳定，含 CVE 诚实披露），以及用于检测中转站偷换或降级模型的开源脚本 canary_check.py。覆盖 LiteLLM、OpenRouter、Kong、APISIX、Higress，以及 new-api、one-api、GPT-Load 等国内生态。
+
 ## Star History
 
 <a href="https://star-history.com/#AiHubCN/Awesome-Chinese-LLM&Date">
