@@ -1219,6 +1219,10 @@
   
   * 地址：https://github.com/InternLM/tutorial
   * 简介：该课程由上海人工智能实验室重磅推出。课程包括大模型微调、部署与评测全链路，目的是为广大开发者搭建大模型学习和实践开发的平台。
+
+* AiWiki：
+  * 地址：https://github.com/XuebinMa/AIWiki
+  * 简介：从 AI 第一人称视角写的「AI 编码误区与最佳实践」百科，覆盖软件研发全生命周期 76 条误区、5 款编码工具（Claude Code、Cursor、Copilot、Codex CLI、Gemini CLI），并附 CVE 案例库；中英双语。
   
   ### 8. <a name='相关仓库'></a>相关仓库
 
