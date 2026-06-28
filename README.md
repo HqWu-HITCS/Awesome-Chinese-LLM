@@ -1196,6 +1196,11 @@
     ![](https://img.shields.io/github/stars/phodal/aigc.svg)
   * 简介：该项目开源了一本关于 LLM 在真实世界应用的开源电子书，介绍了大语言模型的基础知识和应用，以及如何构建自己的模型。其中包括Prompt的编写、开发和管理，探索最好的大语言模型能带来什么，以及LLM应用开发的模式和架构设计。
 
+* AI全书：
+  
+  * 地址：https://aibook.ren/reading-guidance
+  * 简介：中文 AI 系统学习知识库，覆盖大模型、RAG、Agent/MCP、AI 编程和 Prompt 等应用开发主题，适合作为 LLM 应用学习路线入口。
+
 #### LLM实战教程
 
 * LLMs九层妖塔：
