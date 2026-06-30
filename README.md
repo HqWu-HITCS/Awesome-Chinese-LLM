@@ -795,6 +795,13 @@
     ![](https://img.shields.io/github/stars/memfreeme/memfree.svg)
   * 简介：MemFree 是一个开源的 Hybrid AI 搜索引擎，可以同时对您的个人知识库（如书签、笔记、文档等）和互联网进行搜索, 为你提供最佳答案。MemFree 支持自托管的极速无服务器向量数据库，支持自托管的极速Local Embedding and Rerank Service，支持一键部署。
 
+* llm-box：
+
+  * 地址：https://github.com/alib8b8/llm-box
+    ![](https://img.shields.io/github/stars/alib8b8/llm-box.svg)
+  * 简介：基于终端的 AI 工作流引擎，使用 YAML 驱动的流水线，支持 20+ 大模型提供商（DeepSeek、Qwen、GLM、Mistral、Kimi、InternLM 等），具有 TUI 界面用于工作流管理，本地优先执行，工作流结果可复现。
+
+
 ### 3. <a name='数据集'></a>数据集
 
 #### 预训练数据集
