@@ -360,6 +360,7 @@
 
 ### 2. <a name='应用'></a>应用
 
+- [llm-box](https://github.com/alib8b8/llm-box) - 终端优先的 AI 工作流引擎，支持 TUI、多模型（DeepSeek/GLM/Kimi/Qwen/InternLM 等）和 YAML 工作流编排。
 #### 2.1 垂直领域微调
 
 ##### 医疗
