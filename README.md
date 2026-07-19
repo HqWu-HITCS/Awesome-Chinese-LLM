@@ -795,6 +795,12 @@
     ![](https://img.shields.io/github/stars/memfreeme/memfree.svg)
   * 简介：MemFree 是一个开源的 Hybrid AI 搜索引擎，可以同时对您的个人知识库（如书签、笔记、文档等）和互联网进行搜索, 为你提供最佳答案。MemFree 支持自托管的极速无服务器向量数据库，支持自托管的极速Local Embedding and Rerank Service，支持一键部署。
 
+* TraderHarness
+
+  * 地址：https://github.com/HephaestLab/TraderHarness
+    ![](https://img.shields.io/github/stars/HephaestLab/TraderHarness.svg)
+  * 简介：抗数据污染的 A 股 LLM 交易 Agent 回测环境：全出口时点掩码、日期/公司确定性匿名化、分钟级渐进撮合、指纹回放与全保真轨迹导出（SFT 数据合成），并配套开源五年 A 股数据集。
+
 ### 3. <a name='数据集'></a>数据集
 
 #### 预训练数据集
