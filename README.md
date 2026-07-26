@@ -1142,6 +1142,12 @@
     ![](https://img.shields.io/github/stars/xiami2019/HalluQA.svg)
   * 简介：该项目提出了一个名为HalluQA的基准测试，用于衡量中文大型语言模型中的幻觉现象。HalluQA包含450个精心设计的对抗性问题，涵盖多个领域，并考虑了中国历史文化、风俗和社会现象。在构建HalluQA时，考虑了两种类型的幻觉：模仿性虚假和事实错误，并基于GLM-130B和ChatGPT构建对抗性样本。为了评估，设计了一种使用GPT-4进行自动评估的方法，判断模型输出是否是幻觉。
 
+* China AI Visibility Benchmark: 中文AI引擎品牌可见度评测
+  
+  * 地址：https://github.com/David88666/china-ai-visibility-benchmark
+    ![](https://img.shields.io/github/stars/David88666/china-ai-visibility-benchmark.svg)
+  * 简介：评测国内六个大模型（DeepSeek、豆包、通义千问、文心一言、Kimi、GLM）在真实买家问题下如何描述、引用或替换品牌的开放数据基准。包含42题中英双语提问面板、4032条回答的聚合统计（开放类目问题中品牌提及率、竞品替代率、同题重问一致性等维度），CC BY 4.0开源，方法可复现于任意行业类目。
+
 ### 7. <a name='LLM教程'></a>LLM教程
 
 #### LLM基础知识
