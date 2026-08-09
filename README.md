@@ -1198,6 +1198,12 @@
 
 #### LLM实战教程
 
+* AMD Strix Halo 本地 LLM 配置与基准指南：
+
+  * 地址：https://github.com/hogeheer499-commits/strix-halo-guide
+    ![](https://img.shields.io/github/stars/hogeheer499-commits/strix-halo-guide.svg)
+  * 简介：该项目提供 AMD Ryzen AI MAX+ 395 / Radeon 8060S 统一内存系统上的可复现本地 LLM 配置与基准，涵盖 Ubuntu、Ollama、llama.cpp、Vulkan/RADV、ROCm、模型与量化选择、原始日志以及失败路线。
+
 * LLMs九层妖塔：
   
   * 地址：https://github.com/km1994/LLMsNineStoryDemonTower
