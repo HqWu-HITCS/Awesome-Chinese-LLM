@@ -1196,6 +1196,12 @@
     ![](https://img.shields.io/github/stars/phodal/aigc.svg)
   * 简介：该项目开源了一本关于 LLM 在真实世界应用的开源电子书，介绍了大语言模型的基础知识和应用，以及如何构建自己的模型。其中包括Prompt的编写、开发和管理，探索最好的大语言模型能带来什么，以及LLM应用开发的模式和架构设计。
 
+* ai-agent-playbook（AI Agent 工程 × 量化金融知识库）：
+  
+  * 地址：https://github.com/Electricitysheep/ai-agent-playbook
+    ![](https://img.shields.io/github/stars/Electricitysheep/ai-agent-playbook.svg)
+  * 简介：AI Agent 工程 × 量化金融开源知识库，106 篇原创深度笔记（Agent 源码级拆解、A2A 协议调研、AI 量化全链路）+ 16 个可运行代码实验，每篇标注证据来源分级，Obsidian 克隆即用。
+
 #### LLM实战教程
 
 * LLMs九层妖塔：
