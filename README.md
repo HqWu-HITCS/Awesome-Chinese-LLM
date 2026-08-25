@@ -995,6 +995,11 @@
     ![](https://img.shields.io/github/stars/Tongjilibo/bert4torch.svg)
   * 简介：该项目提供了一个大模型的训练和部署框架，包含了目前主要的开源大模型，llama系列，chatglm，bloom系列等等，同时还给出了预训练和微调的示例。
 
+* QSELM（CPU Native LM Train）：
+  
+  * 地址：https://github.com/shyringo/cpu-native-lm-train
+    ![](https://img.shields.io/github/stars/shyringo/cpu-native-lm-train.svg)
+  * 简介：面向普通 CPU 与系统内存、无需独立显卡的原创稀疏语言模型与训练框架，发布了 3408.7 万参数的 QSELM v0.1 模型包、训练与生成 CLI 以及可复现实验。在 Intel Core i5-1340P、32 GB 内存上的完整训练吞吐为 215,771 token/s，是本机官方 Qwen 计算图最快实测的 8529 倍；还提供从约 2000 token 长文档中检索和组合事实、以及让 Agent 跨轮次保存并调用事实的封存评测。项目明确限定这些是窄任务结果，尚不代表通用 Agent 或自由文本生成优于 Transformer。
 ### 5. LLM推理部署框架
 
 * vLLM：
