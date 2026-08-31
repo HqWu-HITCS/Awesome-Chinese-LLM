@@ -1312,6 +1312,12 @@
     ![](https://img.shields.io/github/stars/nowork-studio/awesome-ai-startups.svg)
   * 简介：独立开发者创建的 AI 创业产品精选列表，涵盖自筹资金、种子轮前和天使轮融资的产品。
 
+* China AI Model Index：
+  
+  * 地址：https://github.com/jasoncrinews-del/china-ai-model-index
+    ![](https://img.shields.io/github/stars/jasoncrinews-del/china-ai-model-index.svg)
+  * 简介：该项目整理了 21 家中国大模型厂商的 69 个模型发布记录，包含发布日期、参数量与激活参数、上下文窗口、开放方式、许可证与已公开的 API 价格。每个字段都附一手来源 URL 与核验日期，厂商未公开的字段留空而不估算；提供 CSV 与 JSON 两种格式，每日自动同步，数据以 CC-BY-4.0 发布。
+
 ## Star History
 
 <a href="https://star-history.com/#AiHubCN/Awesome-Chinese-LLM&Date">
