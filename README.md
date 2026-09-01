@@ -1219,6 +1219,12 @@
   
   * 地址：https://github.com/InternLM/tutorial
   * 简介：该课程由上海人工智能实验室重磅推出。课程包括大模型微调、部署与评测全链路，目的是为广大开发者搭建大模型学习和实践开发的平台。
+
+* 鱼皮的 Vibe Coding 零基础教程：
+  
+  * 地址：https://github.com/liyupi/ai-guide
+    ![](https://img.shields.io/github/stars/liyupi/ai-guide.svg)
+  * 简介：面向零基础的中文 AI 编程教程，讲解如何借助大模型从 0 做出一个可上线的项目。内容包括 AI 编程工具选型（AI IDE、命令行 Agent、IDE 插件、智能体平台）、对话工程与上下文管理、几十个可跟做的项目实战，以及部署、SEO 等上线环节；另设模型动态板块，用同一套真实项目横评 DeepSeek、GPT、Claude、Gemini、GLM 等主流大模型的编程能力。
   
   ### 8. <a name='相关仓库'></a>相关仓库
 
