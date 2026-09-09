@@ -799,6 +799,12 @@
 
 #### 预训练数据集
 
+* chinese-law-corpus
+  
+  * 地址：https://github.com/lttxzmj/chinese-law-corpus
+    ![](https://img.shields.io/github/stars/lttxzmj/chinese-law-corpus.svg)
+  * 数据集说明：中国法律法规与案例结构化语料库（CC0）：412部现行有效法律与司法解释逐条结构化JSON（2.6万+条，带效力状态与公布/施行日期，官方来源逐部人工核对），278件最高法指导性案例（裁判要点/案情/理由分字段）与445件《最高人民法院公报》案例文书。条文使用稳定ID（如civil-code-0577），适合法律RAG、检索基准与引用溯源生成，数据持续维护更新。
+
 * MNBVC
   
   * 地址：https://github.com/esbatmop/MNBVC
